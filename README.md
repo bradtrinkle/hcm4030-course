@@ -17,7 +17,7 @@ Student-facing course site (Iowa State cardinal and gold), hosted with GitHub Pa
 | --- | --- |
 | `index.html` | Course home and journey |
 | `start-here.html` | Week 1 setup: welcome video, syllabus and Canvas, Microsoft 365 plan, AI coach, automatic saving |
-| `module-1.html` to `module-12.html` | Module walkthroughs (Modules 1 to 6 built so far) |
+| `module-1.html` to `module-12.html` | Module walkthroughs (Modules 1 to 7 built so far) |
 | `assets/config.js` | **Edit this:** video links and Canvas submission links per module (the Canvas integration) |
 | `assets/common.js` | Shared behavior: quick-check hashing, auto-save, backup, copy buttons, reviewer mode |
 | `assets/module.js` | Shared module engine: steps, gating, saving, and the Word submission builder |
