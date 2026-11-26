@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Module 1: Healthcare IS Foundations</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-module="1" data-steps="Problem|Try|Learn|Copilot|Build|Coach|Ethics|Reflect" data-title="Healthcare IS Foundations">
+<header class="topbar"><div class="wrap">
+  <a class="brand" href="index.html">HCM/MIS 4030</a>
+  <nav aria-label="Main"><a href="index.html">Home</a><a href="start-here.html">Start Here</a><a href="module-1.html" aria-current="page">Module 1</a></nav>
+</div></header>
+
+<div class="progress-wrap"><div class="wrap">
+  <div class="track" aria-hidden="true"><div class="fill" id="fill"></div>
+    <svg class="car" id="marker" viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#C8102E" stroke="#fff" stroke-width="2"/><path d="M11 7h6v4h4v6h-4v4h-6v-4H7v-6h4z" fill="#fff"/></svg>
+  </div>
+  <div class="steps-dots" id="dots"></div>
+</div></div>
+
+<main><div class="wrap">
+<span class="pill">Module 1 · Week 1 (Jan 19 to 24) · Kestrel Falls Community Hospital</span>
+<h1 style="margin:10px 0 4px">Healthcare IS Foundations</h1>
+<p class="hint">You will be able to explain the role of information systems in healthcare operations, strategy, finance, quality, patient experience, and organizational performance (course learning objective 1). Plan for about 5 hours 10 minutes; with the Start Here page, Week 1 is about 6 hours. Your progress saves in this browser; keep automatic saving on.</p>
+
+<!-- STEP 1 -->
+<section class="step" data-step="1" aria-labelledby="h1s">
+  <h2 id="h1s">Step 1 · The problem lands <span class="time">· 20 min</span></h2>
+  <div class="cfo"><b>From Laura Hemmingsen, Chief of Staff</b><br>Welcome to Kestrel Falls. I am glad you are here. This year we will make some big technology decisions, and I need someone at my side who understands what we actually run and why it matters. Doug Thielen, our CIO, sent the list of our main systems below. By the end of the week, please give me a <b>systems inventory and value map</b>: for each system, how it creates value for the hospital (operations, strategy, finance, quality, patient experience, and overall performance) and what happens to us if it goes down for a day. Then write me a short memo: <b>which three systems would we most need to protect during a major technology change, and why?</b> Use Copilot, but check everything it tells you. I would rather have your honest reasoning than a polished guess.</div>
+  <div class="jordan"><div class="face" aria-hidden="true">LH</div><div class="bubble"><b class="who">Laura</b>One habit I want you to build from day one: for every system, ask <i>"Who depends on this, and what breaks for them if it stops?"</i></div></div>
+  <p class="hint">Laura Hemmingsen is a fictional character. In videos she appears as an AI-generated avatar.</p>
+  <div class="card">
+    <h3>Kestrel Falls: main information systems (fictional)</h3>
+    <table class="t"><tr><th>System</th><th>What it does</th><th>Who relies on it</th><th>Annual cost (fictional)</th></tr><tr><td><b>Plexmoor EHR</b></td><td>Electronic health record: clinical notes, orders, results, medication lists, and problem lists for the hospital and all 10 clinics. Includes order entry and clinical decision support (alerts).</td><td>Physicians, nurses, therapists, clinic staff</td><td>$3.4 million</td></tr><tr><td><b>Plexmoor patient portal</b></td><td>Website and app where patients see test results, message their care team, request refills, and schedule clinic visits.</td><td>Patients and family members with proxy access; clinic staff answer messages</td><td>$180,000</td></tr><tr><td><b>Imaging archive (PACS)</b></td><td>Stores and displays X-rays, CT, MRI, and ultrasound images; radiologists read images and send reports to the EHR.</td><td>Radiologists, ED physicians, surgeons</td><td>$420,000</td></tr><tr><td><b>Laboratory information system (LIS)</b></td><td>Receives lab orders from the EHR, tracks specimens, connects to lab analyzers, and sends results back to the EHR.</td><td>Lab technologists, physicians, nurses</td><td>$310,000</td></tr><tr><td><b>Pharmacy system</b></td><td>Pharmacists verify medication orders; connects to automated dispensing cabinets on each unit.</td><td>Pharmacists, nurses</td><td>$260,000</td></tr><tr><td><b>Revenue cycle and billing</b></td><td>Patient registration, insurance checks, coding, claims to insurers, payments, and patient statements.</td><td>Registration, coders, billing staff, CFO</td><td>$950,000</td></tr><tr><td><b>ERP: finance, HR, payroll, supply chain</b></td><td>General ledger, budgeting, payroll, staff scheduling, purchasing, and supply inventory.</td><td>Finance, HR, managers, supply staff</td><td>$540,000</td></tr><tr><td><b>Telehealth platform</b></td><td>Video visits for the 10 clinics, mostly follow-ups and behavioral health.</td><td>Clinic providers, patients at home</td><td>$95,000</td></tr><tr><td><b>Ambulance electronic patient care record</b></td><td>Crews document care on tablets in the ambulance and send the record to the ED on arrival.</td><td>Paramedics, EMTs, ED staff</td><td>$70,000</td></tr><tr><td><b>Data warehouse and dashboards</b></td><td>Pulls data from the other systems into dashboards on quality, finances, volumes, and staffing.</td><td>Executives, managers, quality team, board</td><td>$150,000</td></tr></table>
+    <p><button class="btn btn-ghost btn-sm" type="button" data-copy="#systxt">Copy the system list</button></p>
+    <details><summary>See what will be copied</summary><div class="copybox" id="systxt">Kestrel Falls Community Hospital: main information systems (fictional)
+- Plexmoor EHR: Electronic health record: clinical notes, orders, results, medication lists, and problem lists for the hospital and all 10 clinics. Includes order entry and clinical decision support (alerts). Used by: Physicians, nurses, therapists, clinic staff. Annual cost (fictional): $3.4 million.
+- Plexmoor patient portal: Website and app where patients see test results, message their care team, request refills, and schedule clinic visits. Used by: Patients and family members with proxy access; clinic staff answer messages. Annual cost (fictional): $180,000.
+- Imaging archive (PACS): Stores and displays X-rays, CT, MRI, and ultrasound images; radiologists read images and send reports to the EHR. Used by: Radiologists, ED physicians, surgeons. Annual cost (fictional): $420,000.
+- Laboratory information system (LIS): Receives lab orders from the EHR, tracks specimens, connects to lab analyzers, and sends results back to the EHR. Used by: Lab technologists, physicians, nurses. Annual cost (fictional): $310,000.
+- Pharmacy system: Pharmacists verify medication orders; connects to automated dispensing cabinets on each unit. Used by: Pharmacists, nurses. Annual cost (fictional): $260,000.
+- Revenue cycle and billing: Patient registration, insurance checks, coding, claims to insurers, payments, and patient statements. Used by: Registration, coders, billing staff, CFO. Annual cost (fictional): $950,000.
+- ERP: finance, HR, payroll, supply chain: General ledger, budgeting, payroll, staff scheduling, purchasing, and supply inventory. Used by: Finance, HR, managers, supply staff. Annual cost (fictional): $540,000.
+- Telehealth platform: Video visits for the 10 clinics, mostly follow-ups and behavioral health. Used by: Clinic providers, patients at home. Annual cost (fictional): $95,000.
+- Ambulance electronic patient care record: Crews document care on tablets in the ambulance and send the record to the ED on arrival. Used by: Paramedics, EMTs, ED staff. Annual cost (fictional): $70,000.
+- Data warehouse and dashboards: Pulls data from the other systems into dashboards on quality, finances, volumes, and staffing. Used by: Executives, managers, quality team, board. Annual cost (fictional): $150,000.</div></details>
+  </div>
+  <div class="card">
+    <h3>Module 1 at a glance</h3>
+    <p><b>What you will produce:</b> one Word file (it builds itself from what you type on this page) that you upload to Canvas: your first attempt, your Copilot practice, the systems inventory and value map, a memo to Laura, your coach feedback record, an ethics exercise, a reflection, and your AI-use disclosure.</p>
+    <p><b>The 8 steps:</b> 1 Problem lands (20 min) · 2 Try it first, without AI (45) · 3 Learn (45) · 4 Copilot practice (45) · 5 Build (60) · 6 Coach feedback and revision (40) · 7 Ethics (40) · 8 Reflection (15). Total: 310 minutes, about 5 hours 10 minutes.</p>
+    <p class="dl-row"><a class="btn btn-ghost btn-sm" href="downloads/module-1-rubric.html" target="_blank" rel="noopener">Open the Module 1 rubric</a></p>
+  </div>
+  <label class="check"><input type="checkbox" data-save="s1.ready" data-req> <span>I read Laura's message and the system list.</span></label>
+</section>
+
+<!-- STEP 2 -->
+<section class="step" data-step="2" aria-labelledby="h2s">
+  <h2 id="h2s">Step 2 · Try it first, without AI <span class="time">· 45 min</span></h2>
+  <div class="jordan"><div class="face" aria-hidden="true">LH</div><div class="bubble"><b class="who">Laura</b>Before you learn anything or open Copilot, tell me what you think. <b>Do not use AI for this step.</b> There are no wrong answers here; this is your starting point, and you will compare it with your final work in Step 8.</div></div>
+  <div class="turn"><span class="tag">Your turn · no AI</span>
+    <label class="lbl" for="a1">1. Pick <b>three systems</b> from the list. For each, say in your own words what it does and which area it helps most (operations, strategy, finance, quality, patient experience, or organizational performance).</label>
+    <textarea id="a1" data-save="a1" data-min="80" data-req data-doc="A. First attempt (without AI)" data-label="1. Pick three systems from the list. For each, say in your own words what it does and which area it helps most (operations, strategy, finance, quality, patient experience, or organizational performance)." ></textarea>
+    <label class="lbl" for="a2">2. Which <b>one system</b> would hurt Kestrel Falls most if it went down for a full day? Why?</label>
+    <textarea id="a2" data-save="a2" data-min="40" data-req data-doc="A. First attempt (without AI)" data-label="2. Which one system would hurt Kestrel Falls most if it went down for a full day? Why?" ></textarea>
+    <label class="lbl" for="a3">3. What is one thing about hospital information systems you are not sure about yet?</label>
+    <textarea id="a3" data-save="a3" data-min="15" data-req data-doc="A. First attempt (without AI)" data-label="3. What is one thing about hospital information systems you are not sure about yet?" ></textarea>
+  </div>
+  <label class="check"><input type="checkbox" data-save="s2.noai" data-req> <span>I did this step without using AI.</span></label>
+</section>
+
+<!-- STEP 3 -->
+<section class="step" data-step="3" aria-labelledby="h3s">
+  <h2 id="h3s">Step 3 · Learn <span class="time">· 45 min</span></h2>
+  <div class="video" id="videoBox"><div><b>Module 1 lecture video</b><br><span class="hint" style="color:#ddd">The video will appear here. If it does not, tell your instructor and keep going; the reading below covers the key points.</span></div></div>
+  <p class="hint">Lecture videos are presented by your instructor or by an AI-generated avatar of your instructor, and are labeled.</p>
+
+  <h3>3a. What a healthcare information system is</h3>
+  <p>A healthcare information system is more than software. It is <b>people, processes, technology, and data</b> working together so the right information reaches the right person at the right time. When a system fails, the cause is often a process or a person, not the code.</p>
+
+  <h3>3b. Clinical systems</h3>
+  <p>The <b>electronic health record (EHR)</b> is the center: notes, orders, results, medications, and problem lists. Two parts matter most to leaders: <b>order entry</b> (clinicians enter orders for tests and medicines directly) and <b>clinical decision support</b> (alerts and reminders, such as a drug-allergy warning). Around the EHR sit specialty systems: the <b>imaging archive (PACS)</b>, the <b>laboratory information system</b>, and the <b>pharmacy system</b>. Each sends information to and from the EHR through <b>interfaces</b>.</p>
+  <div class="turn"><span class="tag">Practice question (not graded)</span>
+    <p>A nurse orders a medicine in the EHR, and a warning pops up about the patient's drug allergy. Which part of the EHR is doing that?</p>
+    <div class="qc" data-id="q3a" data-h="03ab468588e533088221149ef1fa26bdf4248c2404b3a5d4b4d92b7494dabbc3" data-req>
+      <div class="choices"><button class="choice" data-i="0">Revenue cycle</button><button class="choice" data-i="1">Clinical decision support</button><button class="choice" data-i="2">The imaging archive</button><button class="choice" data-i="3">The ERP system</button></div>
+      <div class="fb" data-ok="Right. Clinical decision support gives alerts and reminders at the moment of care." data-no="Not quite. Which part of the EHR gives alerts and reminders while clinicians work?"></div>
+    </div></div>
+
+  <h3>3c. Administrative and financial systems</h3>
+  <p><b>Revenue cycle</b> systems turn care into payment: registration, insurance checks, coding, claims, and collections. <b>ERP</b> (enterprise resource planning) systems run finance, HR, payroll, scheduling, and supplies. These systems rarely make headlines, but if they stop, a hospital can run out of cash or supplies.</p>
+
+  <h3>3d. E-Health, the Internet, and connecting systems</h3>
+  <p><b>E-Health</b> means care and health information delivered over the Internet: <b>patient portals</b>, <b>telehealth</b> video visits, and remote monitoring. <b>Interoperability</b> is the ability of different systems, often from different vendors, to exchange and use information. It depends on shared standards; a widely used modern one is <b>HL7 FHIR</b>. A <b>health information exchange</b> lets organizations in a region share patient records.</p>
+  <div class="turn"><span class="tag">Practice question (not graded)</span>
+    <p>Which of these is an E-Health tool?</p>
+    <div class="qc" data-id="q3d" data-h="353c2051628f5ffc3df8a8a280b85de6dc860ae539d8a01aa86da44be9b35d62" data-req>
+      <div class="choices"><button class="choice" data-i="0">The payroll system</button><button class="choice" data-i="1">A lab analyzer</button><button class="choice" data-i="2">The patient portal</button><button class="choice" data-i="3">The supply closet inventory</button></div>
+      <div class="fb" data-ok="Yes. The portal delivers health information to patients over the Internet." data-no="Think about which tool reaches patients over the Internet."></div>
+    </div></div>
+
+  <h3>3e. Hardware, networks, and security</h3>
+  <p>Every system runs on <b>hardware</b> (servers, workstations, tablets, medical devices) and <b>networks</b> (wired, Wi-Fi, and Internet links), either in the hospital's own data center or in the <b>cloud</b>. In the United States, HIPAA requires hospitals to protect the privacy and security of patients' health information. Downtime plans matter: when systems go down, staff fall back on paper.</p>
+
+  <h3>3f. AI in healthcare information systems</h3>
+  <p>AI already appears inside many systems: tools that draft a visit note from the conversation (often called <b>ambient documentation</b> or an ambient scribe), models that flag patients at risk, and chat assistants. AI can save time, but it can be wrong. A person stays responsible: the clinician who signs the note owns what it says.</p>
+  <div class="turn"><span class="tag">Practice question (not graded)</span>
+    <p>An AI tool drafts a doctor's visit note from the conversation in the exam room. Who is responsible for the note being accurate?</p>
+    <div class="qc" data-id="q3f" data-h="25e479188fb03dd7b20275c3ab0511bfaa231d8c68982b05d8473c09580287cc" data-req>
+      <div class="choices"><button class="choice" data-i="0">The AI vendor</button><button class="choice" data-i="1">The doctor who signs the note</button><button class="choice" data-i="2">The IT department</button><button class="choice" data-i="3">No one, because AI wrote it</button></div>
+      <div class="fb" data-ok="Right. The person who signs the record is accountable for it, however it was drafted." data-no="Not quite. Who signs the note and puts their name on it?"></div>
+    </div></div>
+
+  <h3>3g. Planning, project management, and the future</h3>
+  <p>Big system changes are projects: they need a sponsor, a team, a budget, a timeline, and a plan for people, not just technology. That is what the rest of this course is about. Looking ahead, expect more AI, more care at home, and more data shared across organizations.</p>
+
+  <h3>3h. The value lens you will use all term</h3>
+  <table class="t"><tr><th>Area</th><th>Question to ask about a system</th></tr>
+  <tr><td>Operations</td><td>Does it help daily work run faster or with fewer errors?</td></tr>
+  <tr><td>Strategy</td><td>Does it help the hospital reach its long-term goals or compete?</td></tr>
+  <tr><td>Finance</td><td>Does it bring in revenue, cut costs, or protect cash?</td></tr>
+  <tr><td>Quality</td><td>Does it make care safer or more effective?</td></tr>
+  <tr><td>Patient experience</td><td>Does it make care easier or better for patients and families?</td></tr>
+  <tr><td>Organizational performance</td><td>Does it help leaders measure and improve results?</td></tr></table>
+  <p class="hint">Sources for this module are listed on the rubric page. Course content was written for this course; check facts against the original source when you use them outside class.</p>
+</section>
+
+<!-- STEP 4 -->
+<section class="step" data-step="4" aria-labelledby="h4s">
+  <h2 id="h4s">Step 4 · Copilot practice <span class="time">· 45 min</span></h2>
+  <div class="card">
+    <h3>This week's technique: Goal, Context, Source, Expectations</h3>
+    <p>Microsoft's prompting guidance for Copilot suggests four parts for a good prompt:</p>
+    <ul>
+      <li><b>Goal:</b> what you want Copilot to do.</li>
+      <li><b>Context:</b> why you need it and who it is for.</li>
+      <li><b>Source:</b> the information Copilot should use (here, the Kestrel Falls system list).</li>
+      <li><b>Expectations:</b> how the answer should look: length, format, tone.</li>
+    </ul>
+    <p class="hint">Source: Microsoft Support, Copilot prompting guidance (see the course Technique Map for the dated source). You write your own prompts in this course; none are provided to copy.</p>
+  </div>
+  <div class="jordan"><div class="face" aria-hidden="true">LH</div><div class="bubble"><b class="who">Laura</b>A new board member asked me what our <b>imaging archive (PACS)</b> and <b>laboratory information system</b> actually do and why they cost what they do. Use Copilot to draft a short explanation for her, then tell me what you had to check or fix.</div></div>
+  <div class="card">
+    <h3>How to do this</h3>
+    <ol class="steps-list">
+      <li>Open <b>Copilot</b> in your Microsoft 365 plan and start a new chat.</li>
+      <li>Write your own prompt using all four parts. Paste the system list (Step 1 has a Copy button) as your source.</li>
+      <li>Read the answer. Compare it with the system list and Step 3. Did Copilot add facts that are not in your source?</li>
+      <li>Improve your prompt once, and run it again.</li>
+    </ol>
+  </div>
+  <div class="turn"><span class="tag">Your turn</span>
+    <label class="lbl" for="c1">1. Your <b>first prompt</b> (paste it). Label the Goal, Context, Source, and Expectations parts.</label>
+    <textarea id="c1" data-save="c1" data-min="40" data-req data-doc="B. Copilot practice" data-label="1. Your first prompt (paste it). Label the Goal, Context, Source, and Expectations parts." data-coach ></textarea>
+    <label class="lbl" for="c2">2. What did Copilot give you? (summary)</label>
+    <textarea id="c2" data-save="c2" data-min="20" data-req data-doc="B. Copilot practice" data-label="2. What did Copilot give you? (summary)" data-coach ></textarea>
+    <label class="lbl" for="c3">3. What did you <b>check</b>, and how? Name one thing Copilot assumed, added, or got wrong.</label>
+    <textarea id="c3" data-save="c3" data-min="30" data-req data-doc="B. Copilot practice" data-label="3. What did you check, and how? Name one thing Copilot assumed, added, or got wrong." data-coach ></textarea>
+    <label class="lbl" for="c4">4. Your <b>improved prompt</b> (paste it), and what changed in the answer.</label>
+    <textarea id="c4" data-save="c4" data-min="40" data-req data-doc="B. Copilot practice" data-label="4. Your improved prompt (paste it), and what changed in the answer." data-coach ></textarea>
+  </div>
+</section>
+
+<!-- STEP 5 -->
+<section class="step" data-step="5" aria-labelledby="h5s">
+  <h2 id="h5s">Step 5 · Build the deliverable <span class="time">· 60 min</span></h2>
+  <div class="jordan"><div class="face" aria-hidden="true">LH</div><div class="bubble"><b class="who">Laura</b>Now the real thing. For each system, tell me how it creates value and what happens if it goes down for a day. Be specific to a 300-bed hospital with 10 clinics and an ambulance service. You may use Copilot; if you do, check its work and say so in your disclosure.</div></div>
+  <div class="card" style="overflow-x:auto">
+    <h3>Part 1 · Systems inventory and value map</h3>
+    <table class="t"><tr><th>System</th><th>How it creates value (name the areas, and say how)</th><th>What happens if it goes down for a day</th></tr><tr><td><b>Plexmoor EHR</b></td>
+<td><textarea id="v1" data-save="inv.1.value" data-min="20" data-req data-doc="C. Systems inventory and value map" data-row="Plexmoor EHR" data-col="How it creates value (which areas, and how)" data-coach style="min-height:80px"></textarea></td>
+<td><textarea id="r1" data-save="inv.1.risk" data-min="15" data-req data-doc="C. Systems inventory and value map" data-row="Plexmoor EHR" data-col="What happens if it goes down for a day" data-coach style="min-height:80px"></textarea></td></tr><tr><td><b>Plexmoor patient portal</b></td>
+<td><textarea id="v2" data-save="inv.2.value" data-min="20" data-req data-doc="C. Systems inventory and value map" data-row="Plexmoor patient portal" data-col="How it creates value (which areas, and how)" data-coach style="min-height:80px"></textarea></td>
+<td><textarea id="r2" data-save="inv.2.risk" data-min="15" data-req data-doc="C. Systems inventory and value map" data-row="Plexmoor patient portal" data-col="What happens if it goes down for a day" data-coach style="min-height:80px"></textarea></td></tr><tr><td><b>Imaging archive (PACS)</b></td>
+<td><textarea id="v3" data-save="inv.3.value" data-min="20" data-req data-doc="C. Systems inventory and value map" data-row="Imaging archive (PACS)" data-col="How it creates value (which areas, and how)" data-coach style="min-height:80px"></textarea></td>
+<td><textarea id="r3" data-save="inv.3.risk" data-min="15" data-req data-doc="C. Systems inventory and value map" data-row="Imaging archive (PACS)" data-col="What happens if it goes down for a day" data-coach style="min-height:80px"></textarea></td></tr><tr><td><b>Laboratory information system (LIS)</b></td>
+<td><textarea id="v4" data-save="inv.4.value" data-min="20" data-req data-doc="C. Systems inventory and value map" data-row="Laboratory information system (LIS)" data-col="How it creates value (which areas, and how)" data-coach style="min-height:80px"></textarea></td>
+<td><textarea id="r4" data-save="inv.4.risk" data-min="15" data-req data-doc="C. Systems inventory and value map" data-row="Laboratory information system (LIS)" data-col="What happens if it goes down for a day" data-coach style="min-height:80px"></textarea></td></tr><tr><td><b>Pharmacy system</b></td>
+<td><textarea id="v5" data-save="inv.5.value" data-min="20" data-req data-doc="C. Systems inventory and value map" data-row="Pharmacy system" data-col="How it creates value (which areas, and how)" data-coach style="min-height:80px"></textarea></td>
+<td><textarea id="r5" data-save="inv.5.risk" data-min="15" data-req data-doc="C. Systems inventory and value map" data-row="Pharmacy system" data-col="What happens if it goes down for a day" data-coach style="min-height:80px"></textarea></td></tr><tr><td><b>Revenue cycle and billing</b></td>
+<td><textarea id="v6" data-save="inv.6.value" data-min="20" data-req data-doc="C. Systems inventory and value map" data-row="Revenue cycle and billing" data-col="How it creates value (which areas, and how)" data-coach style="min-height:80px"></textarea></td>
+<td><textarea id="r6" data-save="inv.6.risk" data-min="15" data-req data-doc="C. Systems inventory and value map" data-row="Revenue cycle and billing" data-col="What happens if it goes down for a day" data-coach style="min-height:80px"></textarea></td></tr><tr><td><b>ERP: finance, HR, payroll, supply chain</b></td>
+<td><textarea id="v7" data-save="inv.7.value" data-min="20" data-req data-doc="C. Systems inventory and value map" data-row="ERP: finance, HR, payroll, supply chain" data-col="How it creates value (which areas, and how)" data-coach style="min-height:80px"></textarea></td>
+<td><textarea id="r7" data-save="inv.7.risk" data-min="15" data-req data-doc="C. Systems inventory and value map" data-row="ERP: finance, HR, payroll, supply chain" data-col="What happens if it goes down for a day" data-coach style="min-height:80px"></textarea></td></tr><tr><td><b>Telehealth platform</b></td>
+<td><textarea id="v8" data-save="inv.8.value" data-min="20" data-req data-doc="C. Systems inventory and value map" data-row="Telehealth platform" data-col="How it creates value (which areas, and how)" data-coach style="min-height:80px"></textarea></td>
+<td><textarea id="r8" data-save="inv.8.risk" data-min="15" data-req data-doc="C. Systems inventory and value map" data-row="Telehealth platform" data-col="What happens if it goes down for a day" data-coach style="min-height:80px"></textarea></td></tr><tr><td><b>Ambulance electronic patient care record</b></td>
+<td><textarea id="v9" data-save="inv.9.value" data-min="20" data-req data-doc="C. Systems inventory and value map" data-row="Ambulance electronic patient care record" data-col="How it creates value (which areas, and how)" data-coach style="min-height:80px"></textarea></td>
+<td><textarea id="r9" data-save="inv.9.risk" data-min="15" data-req data-doc="C. Systems inventory and value map" data-row="Ambulance electronic patient care record" data-col="What happens if it goes down for a day" data-coach style="min-height:80px"></textarea></td></tr><tr><td><b>Data warehouse and dashboards</b></td>
+<td><textarea id="v10" data-save="inv.10.value" data-min="20" data-req data-doc="C. Systems inventory and value map" data-row="Data warehouse and dashboards" data-col="How it creates value (which areas, and how)" data-coach style="min-height:80px"></textarea></td>
+<td><textarea id="r10" data-save="inv.10.risk" data-min="15" data-req data-doc="C. Systems inventory and value map" data-row="Data warehouse and dashboards" data-col="What happens if it goes down for a day" data-coach style="min-height:80px"></textarea></td></tr></table>
+  </div>
+  <div class="turn"><span class="tag">Part 2 · Memo to Laura</span>
+    <label class="lbl" for="memo">Which <b>three systems</b> would Kestrel Falls most need to protect during a major technology change, and why? Write 150 to 250 words. Give reasons, trade-offs, and who would be affected.</label>
+    <textarea id="memo" data-save="memo" data-min="150" data-minwords="120" data-req data-doc="C. Systems inventory and value map" data-label="Which three systems would Kestrel Falls most need to protect during a major technology change, and why? Write 150 to 250 words. Give reasons, trade-offs, and who would be affected." data-coach ></textarea>
+    <p class="hint" data-wc="memo" data-aim="150 to 250"></p>
+  </div>
+</section>
+
+<!-- STEP 6 -->
+<section class="step" data-step="6" aria-labelledby="h6s">
+  <h2 id="h6s">Step 6 · Coach feedback and revision <span class="time">· 40 min</span></h2>
+  <div class="card">
+    <ol class="steps-list">
+      <li>Open Copilot and start a <b>new chat</b>. Paste your <b>coach instructions</b> (from the Start Here page) and send.</li>
+      <li>Open the <a href="downloads/module-1-rubric.html" target="_blank" rel="noopener">Module 1 rubric</a>, copy it, and paste it into the chat.</li>
+      <li>Click <b>Copy my draft for the coach</b>, paste it into the chat, and ask for feedback.<br><button class="btn btn-gold btn-sm" type="button" data-copy-draft>Copy my draft for the coach</button></li>
+      <li><b>Revise your work in Steps 4 and 5</b> on this page (use Back). You may send the revision to the coach again.</li>
+      <li>Copy the <b>whole coach conversation</b> and paste it below. You may delete repeated copies of your own draft, but keep all of the coach's feedback and your replies.</li>
+    </ol>
+  </div>
+  <div class="turn"><span class="tag">Your feedback record (15 points)</span>
+    <label class="lbl" for="fb1">1. The full coach conversation (paste it).</label>
+    <textarea id="fb1" data-save="fb1" data-min="200" data-req data-doc="D. Coach feedback record" data-label="1. The full coach conversation (paste it)." ></textarea>
+    <label class="lbl" for="fb2">2. What did you <b>change</b> after the feedback, and why?</label>
+    <textarea id="fb2" data-save="fb2" data-min="40" data-req data-doc="D. Coach feedback record" data-label="2. What did you change after the feedback, and why?" ></textarea>
+    <label class="lbl" for="fb3">3. What feedback did you <b>keep as is</b> or reject, and why? (Write none if there was none.)</label>
+    <textarea id="fb3" data-save="fb3" data-min="4" data-req data-doc="D. Coach feedback record" data-label="3. What feedback did you keep as is or reject, and why? (Write none if there was none.)" ></textarea>
+  </div>
+</section>
+
+<!-- STEP 7 -->
+<section class="step" data-step="7" aria-labelledby="h7s">
+  <h2 id="h7s">Step 7 · Ethics exercise <span class="time">· 40 min</span></h2>
+  <div class="card">
+    <h3>ACHE Code of Ethics, Section V: The Healthcare Executive's Responsibilities to Community and Society</h3>
+    <p>Read Section V of the <a href="https://www.ache.org/About-Us/Our-Commitments/Ethics/Code-of-Ethics" target="_blank" rel="noopener">ACHE Code of Ethics</a> (as amended Dec. 8, 2025). Two items matter most here: <b>item 5</b>, about giving patients adequate, accurate information to make informed decisions, and <b>item 6</b>, about supporting access to healthcare for all people, especially the underserved.</p>
+  </div>
+  <div class="cfo"><b>The case</b><br>To cut costs, a manager proposes that Kestrel Falls stop mailing paper test results and move most clinic follow-up visits to telehealth. Results would be available only in the patient portal. <b>Walter Engstrom</b>, 81, lives on a farm outside town with unreliable Internet and does not use the portal. His daughter <b>Beth</b> helps him when she can, but she lives two hours away. Many of the clinics' older and rural patients are in a similar spot.</div>
+  <div class="turn"><span class="tag">Your turn (15 points)</span>
+    <label class="lbl" for="e1">1. Who could be <b>left out</b> by this plan, and how? Name at least two groups.</label>
+    <textarea id="e1" data-save="e1" data-min="40" data-req data-doc="E. Ethics exercise (ACHE Code, Section V)" data-label="1. Who could be left out by this plan, and how? Name at least two groups." data-coach ></textarea>
+    <label class="lbl" for="e2">2. Give <b>two options</b> that keep most of the savings but protect access. For each, name one trade-off (cost, staff time, or patient effort).</label>
+    <textarea id="e2" data-save="e2" data-min="60" data-req data-doc="E. Ethics exercise (ACHE Code, Section V)" data-label="2. Give two options that keep most of the savings but protect access. For each, name one trade-off (cost, staff time, or patient effort)." data-coach ></textarea>
+    <label class="lbl" for="e3">3. Your <b>recommendation</b> to Laura, and how it reflects items 5 and 6 of Section V.</label>
+    <textarea id="e3" data-save="e3" data-min="60" data-req data-doc="E. Ethics exercise (ACHE Code, Section V)" data-label="3. Your recommendation to Laura, and how it reflects items 5 and 6 of Section V." data-coach ></textarea>
+  </div>
+</section>
+
+<!-- STEP 8 -->
+<section class="step" data-step="8" aria-labelledby="h8s">
+  <h2 id="h8s">Step 8 · Reflection and submission <span class="time">· 15 min</span></h2>
+  <div class="turn"><span class="tag">Reflection (10 points)</span>
+    <label class="lbl" for="rf1">Compare your Step 2 first attempt with your final work. What changed in how you see hospital information systems? What would you do differently next time? (4 to 6 sentences)</label>
+    <textarea id="rf1" data-save="rf1" data-min="120" data-req data-doc="F. Reflection" data-label="Compare your Step 2 first attempt with your final work. What changed in how you see hospital information systems? What would you do differently next time? (4 to 6 sentences)" ></textarea>
+  </div>
+  <div class="turn"><span class="tag">AI-use disclosure (5 points)</span>
+    <label class="lbl" for="disc">Which AI tools did you use in this module, for which parts, and how did you check the output? Include Copilot and your coach.</label>
+    <textarea id="disc" data-save="disc" data-min="40" data-req data-doc="G. AI-use disclosure" data-label="Which AI tools did you use in this module, for which parts, and how did you check the output? Include Copilot and your coach." ></textarea>
+  </div>
+  <div class="card">
+    <label class="lbl" for="stuName">Your name (as in Canvas)</label>
+    <input id="stuName" data-save="name" data-req data-min="3" style="width:100%">
+    <label class="lbl" for="attempt">Which attempt is this?</label>
+    <select id="attempt" data-save="attempt" data-req><option value="">Choose one…</option><option>First submission</option><option>Redo 1</option><option>Redo 2</option><option>Redo 3</option></select>
+    <p class="hint">Redos: up to 3, each within 14 days after this assignment's grade posts, and all by Thursday, May 13. A redo needs a new coach conversation. Your highest attempt counts.</p>
+    <p><button class="btn btn-red" type="button" data-download="8">Download my submission (.doc)</button>
+    <a class="btn btn-gold submitLink" href="#" target="_blank" rel="noopener" style="display:none">Submit in Canvas</a></p>
+  </div>
+  <div id="finishBox"></div>
+</section>
+
+<div class="nav">
+  <button class="btn btn-ghost" type="button" id="prev">Back</button>
+  <div class="gate" id="gate" role="status" aria-live="polite"></div>
+  <button class="btn btn-red" type="button" id="next">Next</button>
+</div>
+
+</div></main>
+<footer><div class="wrap">HCM/MIS 4030 · Iowa State University · All people, organizations, and data in this course are fictional. What you type stays in your browser until you upload your submission in Canvas.</div></footer>
+
+<script src="assets/config.js"></script>
+<script src="assets/common.js"></script>
+<script src="assets/module.js"></script>
+</body>
+</html>

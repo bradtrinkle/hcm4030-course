@@ -1,0 +1,11 @@
+System,What it does,Who relies on it,Annual cost (fictional)
+"Plexmoor EHR","Electronic health record: clinical notes, orders, results, medication lists, and problem lists for the hospital and all 10 clinics. Includes order entry and clinical decision support (alerts).","Physicians, nurses, therapists, clinic staff","$3.4 million"
+"Plexmoor patient portal","Website and app where patients see test results, message their care team, request refills, and schedule clinic visits.","Patients and family members with proxy access; clinic staff answer messages","$180,000"
+"Imaging archive (PACS)","Stores and displays X-rays, CT, MRI, and ultrasound images; radiologists read images and send reports to the EHR.","Radiologists, ED physicians, surgeons","$420,000"
+"Laboratory information system (LIS)","Receives lab orders from the EHR, tracks specimens, connects to lab analyzers, and sends results back to the EHR.","Lab technologists, physicians, nurses","$310,000"
+"Pharmacy system","Pharmacists verify medication orders; connects to automated dispensing cabinets on each unit.","Pharmacists, nurses","$260,000"
+"Revenue cycle and billing","Patient registration, insurance checks, coding, claims to insurers, payments, and patient statements.","Registration, coders, billing staff, CFO","$950,000"
+"ERP: finance, HR, payroll, supply chain","General ledger, budgeting, payroll, staff scheduling, purchasing, and supply inventory.","Finance, HR, managers, supply staff","$540,000"
+"Telehealth platform","Video visits for the 10 clinics, mostly follow-ups and behavioral health.","Clinic providers, patients at home","$95,000"
+"Ambulance electronic patient care record","Crews document care on tablets in the ambulance and send the record to the ED on arrival.","Paramedics, EMTs, ED staff","$70,000"
+"Data warehouse and dashboards","Pulls data from the other systems into dashboards on quality, finances, volumes, and staffing.","Executives, managers, quality team, board","$150,000"
