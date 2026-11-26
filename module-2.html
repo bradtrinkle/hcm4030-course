@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Module 2: The Sunset Notice</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-module="2" data-steps="Problem|Try|Learn|Copilot|Build|Coach|Ethics|Reflect" data-title="The Sunset Notice">
+<header class="topbar"><div class="wrap">
+  <a class="brand" href="index.html">HCM/MIS 4030</a>
+  <nav aria-label="Main"><a href="index.html">Home</a><a href="start-here.html">Start Here</a><a href="module-1.html">Module 1</a><a href="module-2.html" aria-current="page">Module 2</a></nav>
+</div></header>
+
+<div class="progress-wrap"><div class="wrap">
+  <div class="track" aria-hidden="true"><div class="fill" id="fill"></div>
+    <svg class="car" id="marker" viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#C8102E" stroke="#fff" stroke-width="2"/><path d="M11 7h6v4h4v6h-4v4h-6v-4H7v-6h4z" fill="#fff"/></svg>
+  </div>
+  <div class="steps-dots" id="dots"></div>
+</div></div>
+
+<main><div class="wrap">
+<span class="pill">Module 2 · Week 2 (Jan 25 to 31) · Kestrel Falls Community Hospital</span>
+<h1 style="margin:10px 0 4px">The Sunset Notice</h1>
+<p class="hint">You will be able to explain the role of information systems in healthcare operations, strategy, finance, quality, patient experience, and organizational performance (course learning objective 1), here by explaining what losing vendor support for the EHR means for the whole hospital. Plan for about 6 hours. Your progress saves in this browser; keep automatic saving on.</p>
+
+<!-- STEP 1 -->
+<section class="step" data-step="1" aria-labelledby="h1s">
+  <h2 id="h1s">Step 1 · The problem lands <span class="time">· 20 min</span></h2>
+  <div class="cfo"><b>From Laura Hemmingsen, Chief of Staff</b><br>This letter arrived on Doug's desk this morning. Plexmoor, the company behind our EHR, is leaving the hospital market and will stop supporting our system. Doug sees it as an IT problem. It is not. It touches every patient, every clinician, and our budget, and the board will ask me about it on February 16. By the end of the week, please give me a <b>one-page executive brief</b>: what the notice says, what it means for Kestrel Falls, what our options are, and what we should do in the next 30 days. Be accurate to the letter. If you are not sure about something, say so.</div>
+  <div class="jordan"><div class="face" aria-hidden="true">LH</div><div class="bubble"><b class="who">Laura</b>When news like this lands, ask three questions: <i>What exactly did they say? What does it mean for us? What do we do now?</i></div></div>
+  <p class="hint">Laura Hemmingsen, Doug Thielen, Greg Oltmanns, and Plexmoor Clinical Systems are fictional. In videos, characters appear as AI-generated avatars.</p>
+  <div class="card">
+    <h3>The notice (fictional)</h3>
+    <div class="copybox" id="notice" style="white-space:pre-wrap">PLEXMOOR CLINICAL SYSTEMS
+Notice of End of Support: Plexmoor Clinical Suite 9
+
+Date: January 15, 2027
+To: Kestrel Falls Community Hospital, Kestrel Falls, Iowa
+Attention: Doug Thielen, Chief Information Officer
+Customer number: KFCH-0412
+
+Plexmoor Clinical Systems is leaving the hospital EHR market. This letter is formal notice, under Section 14.2 of your license and support agreement (which requires at least 18 months&#x27; notice), that Plexmoor will end support for Plexmoor Clinical Suite 9. Clinical Suite 9 includes your EHR, patient portal, order entry, and clinical decision support modules.
+
+1. Standard support ends December 31, 2028. Until then, Plexmoor will provide 24/7 help desk service, bug fixes, and security patches.
+2. Regulatory and certification updates (changes needed to meet new federal reporting and certification requirements) will be provided only through June 30, 2028.
+3. Optional Extended Support is available from January 1 to December 31, 2029. It covers critical security patches and critical fixes only: no help desk for routine issues, no new features, and no regulatory updates. The price is 150% of your current annual support fee. You must sign up by March 31, 2028.
+4. After support ends, the software will keep running, but Plexmoor will not fix problems, release security patches, or answer help desk calls.
+5. Your data: Plexmoor will provide one standard data extract, in Plexmoor&#x27;s export format, at no charge if you request it by September 30, 2028. Custom extracts are billed at $225 per hour. A read-only archive license for viewing old records is available at extra cost.
+6. Plexmoor will not release a new version and does not offer a migration product.
+
+Questions: contact your Plexmoor account manager.
+</div>
+    <p class="dl-row"><button class="btn btn-ghost btn-sm" type="button" data-copy="#notice">Copy the notice</button>
+    <a class="btn btn-ghost btn-sm" href="data/module-2/plexmoor-notice.txt" download>Download the notice (.txt)</a></p>
+  </div>
+  <div class="card">
+    <h3>EHR fact sheet from Doug and Greg (fictional)</h3>
+    <table class="t"><tr><td><b>In use since</b></td><td>2012 (15 years)</td></tr><tr><td><b>Users</b></td><td>About 1,900 staff and providers in the hospital, 10 clinics, and the ambulance service</td></tr><tr><td><b>Patient records</b></td><td>About 410,000</td></tr><tr><td><b>Interfaces to other systems</b></td><td>38 (lab, imaging, pharmacy, revenue cycle, ambulance, state immunization registry, regional health information exchange, and others)</td></tr><tr><td><b>Total annual EHR cost</b></td><td>$3.4 million (license, support, hosting, and the EHR team)</td></tr><tr><td><b>Annual Plexmoor support fee (part of the $3.4 million)</b></td><td>$1.1 million</td></tr><tr><td><b>EHR analyst team</b></td><td>9 people</td></tr><tr><td><b>Doug's estimate: time to replace an EHR at a hospital our size</b></td><td>18 to 30 months from choosing a vendor to go-live (an estimate, not a promise)</td></tr><tr><td><b>Next board meeting</b></td><td>Tuesday, February 16, 2027</td></tr></table>
+    <p class="dl-row"><button class="btn btn-ghost btn-sm" type="button" data-copy="#facttxt">Copy the fact sheet</button></p>
+    <details><summary>See what will be copied</summary><div class="copybox" id="facttxt">Kestrel Falls EHR fact sheet (fictional, from Doug Thielen, CIO, and Greg Oltmanns, CFO)
+- In use since: 2012 (15 years)
+- Users: About 1,900 staff and providers in the hospital, 10 clinics, and the ambulance service
+- Patient records: About 410,000
+- Interfaces to other systems: 38 (lab, imaging, pharmacy, revenue cycle, ambulance, state immunization registry, regional health information exchange, and others)
+- Total annual EHR cost: $3.4 million (license, support, hosting, and the EHR team)
+- Annual Plexmoor support fee (part of the $3.4 million): $1.1 million
+- EHR analyst team: 9 people
+- Doug&#x27;s estimate: time to replace an EHR at a hospital our size: 18 to 30 months from choosing a vendor to go-live (an estimate, not a promise)
+- Next board meeting: Tuesday, February 16, 2027</div></details>
+  </div>
+  <div class="card">
+    <h3>Module 2 at a glance</h3>
+    <p><b>What you will produce:</b> one Word file (it builds itself from what you type on this page) that you upload to Canvas: your first attempt, your Copilot practice, the executive brief, your coach feedback record, an ethics exercise, a reflection, and your AI-use disclosure.</p>
+    <p><b>The 8 steps:</b> 1 Problem lands (20 min) · 2 Try it first, without AI (45) · 3 Learn (60) · 4 Copilot practice (60) · 5 Build (75) · 6 Coach feedback and revision (40) · 7 Ethics (40) · 8 Reflection (15). Total: 355 minutes, just under 6 hours.</p>
+    <p class="dl-row"><a class="btn btn-ghost btn-sm" href="downloads/module-2-rubric.html" target="_blank" rel="noopener">Open the Module 2 rubric</a></p>
+  </div>
+  <label class="check"><input type="checkbox" data-save="s1.ready" data-req> <span>I read Laura's message, the notice, and the fact sheet.</span></label>
+</section>
+
+<!-- STEP 2 -->
+<section class="step" data-step="2" aria-labelledby="h2s">
+  <h2 id="h2s">Step 2 · Try it first, without AI <span class="time">· 45 min</span></h2>
+  <div class="jordan"><div class="face" aria-hidden="true">LH</div><div class="bubble"><b class="who">Laura</b>Before you learn anything or open Copilot, tell me how you read this. <b>Do not use AI for this step.</b> This is your starting point; you will compare it with your final brief in Step 8.</div></div>
+  <div class="turn"><span class="tag">Your turn · no AI</span>
+    <label class="lbl" for="a1">1. In your own words, what does the notice say? List the <b>dates</b> that matter most.</label>
+    <textarea id="a1" data-save="a1" data-min="60" data-req data-doc="A. First attempt (without AI)" data-label="1. In your own words, what does the notice say? List the dates that matter most." ></textarea>
+    <label class="lbl" for="a2">2. What worries you most about this for the hospital, and why?</label>
+    <textarea id="a2" data-save="a2" data-min="40" data-req data-doc="A. First attempt (without AI)" data-label="2. What worries you most about this for the hospital, and why?" ></textarea>
+    <label class="lbl" for="a3">3. If you had to brief Laura in two sentences right now, what would you say?</label>
+    <textarea id="a3" data-save="a3" data-min="30" data-req data-doc="A. First attempt (without AI)" data-label="3. If you had to brief Laura in two sentences right now, what would you say?" ></textarea>
+  </div>
+  <label class="check"><input type="checkbox" data-save="s2.noai" data-req> <span>I did this step without using AI.</span></label>
+</section>
+
+<!-- STEP 3 -->
+<section class="step" data-step="3" aria-labelledby="h3s">
+  <h2 id="h3s">Step 3 · Learn <span class="time">· 60 min</span></h2>
+  <div class="video" id="videoBox"><div><b>Module 2 lecture video</b><br><span class="hint" style="color:#ddd">The video will appear here. If it does not, tell your instructor and keep going; the reading below covers the key points.</span></div></div>
+  <p class="hint">Lecture videos are presented by your instructor or by an AI-generated avatar of your instructor, and are labeled.</p>
+
+  <h3>3a. What "end of support" means</h3>
+  <p>Software does not stop working the day support ends. What stops is the vendor's help: no more <b>bug fixes</b>, no more <b>security patches</b>, no <b>help desk</b>, and no <b>updates</b> when laws or federal requirements change. Every month after that, the hospital carries more of the risk on its own.</p>
+  <div class="turn"><span class="tag">Practice question (not graded)</span>
+    <p>According to the notice, what happens to Clinical Suite 9 on January 1, 2029, if Kestrel Falls does nothing?</p>
+    <div class="qc" data-id="q3a" data-h="dcc69bd391108735e25ec2cb0a8f824875f79891368569a8c76c74e249b68e5b" data-req>
+      <div class="choices"><button class="choice" data-i="0">It shuts off and nobody can log in</button><button class="choice" data-i="1">It keeps running, but Plexmoor no longer fixes, patches, or supports it</button><button class="choice" data-i="2">Plexmoor moves the hospital to a new version for free</button><button class="choice" data-i="3">The data is deleted</button></div>
+      <div class="fb" data-ok="Right. Item 4 of the notice: the software keeps running, but without fixes, patches, or help." data-no="Not quite. Reread item 4 of the notice."></div>
+    </div></div>
+
+  <h3>3b. Why unsupported clinical software is a leadership risk</h3>
+  <ul>
+    <li><b>Security:</b> attackers look for systems that no longer get patches. HIPAA's Security Rule requires hospitals to protect electronic health information; running software that can no longer be patched makes that harder to show.</li>
+    <li><b>Regulation and payment:</b> federal programs expect hospitals to use certified EHR technology and to report on time. When regulatory updates stop, the hospital can fall out of step. Notice that Plexmoor's regulatory updates stop <b>six months before</b> the rest of its support.</li>
+    <li><b>Patient safety and quality:</b> a bug in order entry or an alert that no one can fix can harm patients.</li>
+    <li><b>Operations and finance:</b> slow fixes mean downtime; downtime means paper, delays, and lost revenue.</li>
+  </ul>
+  <div class="turn"><span class="tag">Practice question (not graded)</span>
+    <p>Which date in the notice comes first and could catch the hospital off guard?</p>
+    <div class="qc" data-id="q3b" data-h="b56dcfeadeddac7756600fa4893a616c9f84248616facae7502519e29c7e3b77" data-req>
+      <div class="choices"><button class="choice" data-i="0">June 30, 2028: last regulatory and certification updates</button><button class="choice" data-i="1">December 31, 2028: end of standard support</button><button class="choice" data-i="2">December 31, 2029: end of Extended Support</button><button class="choice" data-i="3">January 15, 2027: date of the letter</button></div>
+      <div class="fb" data-ok="Yes. Regulatory updates end June 30, 2028, six months before standard support ends." data-no="Look again at item 2 of the notice and compare its date with item 1."></div>
+    </div></div>
+
+  <h3>3c. Why leaders, not just IT, own this</h3>
+  <p>Replacing an EHR changes how nearly every person in the hospital works. The American Medical Association's guide <i>EHR Transitions: Best Practices</i> (2024) treats an EHR change as a step-by-step organizational project, starting with a transition team, buy-in from the people who use the system, and a plan for how to roll it out. You will follow those steps for the rest of the term. Executives own the budget, the timeline, and the people side; IT owns the technical work.</p>
+
+  <h3>3d. The usual options</h3>
+  <table class="t"><tr><th>Option</th><th>What it means</th><th>Watch out for</th></tr>
+  <tr><td>Replace the EHR</td><td>Choose a new vendor and move to a new system.</td><td>Cost, staff time, training, and the risk of a rushed go-live.</td></tr>
+  <tr><td>Buy time (bridge)</td><td>Pay for extended support while the replacement is built.</td><td>Extended support covers less and costs more.</td></tr>
+  <tr><td>Third-party support</td><td>Pay another company to keep the old system running.</td><td>It cannot provide certified regulatory updates from the vendor; quality varies.</td></tr>
+  <tr><td>Archive the old data</td><td>Keep old records readable after the switch.</td><td>Extra cost; legal rules on how long records must be kept.</td></tr></table>
+  <p>These options are not either-or. Most hospitals combine them: replace, bridge if needed, and archive.</p>
+
+  <h3>3e. Writing an executive brief</h3>
+  <p>An executive brief puts the <b>bottom line up front</b>: the first two or three sentences say what happened, why it matters, and what you recommend. Then it follows a simple order: <b>what</b> (the facts), <b>so what</b> (what it means for us), and <b>now what</b> (options and next steps). Keep facts and estimates separate, and say what you do not know yet. One page means one page.</p>
+  <div class="turn"><span class="tag">Practice question (not graded)</span>
+    <p>Which sentence belongs at the very top of Laura's brief?</p>
+    <div class="qc" data-id="q3e" data-h="d9ddaf44ae43c2f93acad2cbf1345f9e2914cfb2605844345290dbf9730ad07a" data-req>
+      <div class="choices"><button class="choice" data-i="0">Plexmoor Clinical Systems was founded in 1998.</button><button class="choice" data-i="1">EHRs have many modules, including order entry.</button><button class="choice" data-i="2">Our EHR vendor will end support on Dec. 31, 2028; we must choose a replacement this spring to avoid running unsupported software.</button><button class="choice" data-i="3">I have attached the notice for your reference.</button></div>
+      <div class="fb" data-ok="Right. It states what happened, why it matters, and what to do." data-no="Not quite. Which sentence gives the bottom line: what happened, why it matters, and what to do?"></div>
+    </div></div>
+  <p class="hint">Sources for this module are listed on the rubric page.</p>
+</section>
+
+<!-- STEP 4 -->
+<section class="step" data-step="4" aria-labelledby="h4s">
+  <h2 id="h4s">Step 4 · Copilot practice <span class="time">· 60 min</span></h2>
+  <div class="card">
+    <h3>This week's technique: Goal, Context, Source, Expectations</h3>
+    <p>In Module 1 you asked Copilot plainly and saw how much it had to guess. Microsoft's prompting guidance for Copilot closes those gaps with four parts. Pay special attention to the <b>Source</b>: give Copilot the actual document, then check every date and number it gives you against that document.</p>
+    <ul>
+      <li><b>Goal:</b> what you want Copilot to do.</li>
+      <li><b>Context:</b> why you need it and who it is for.</li>
+      <li><b>Source:</b> the document Copilot must use. Attach the file or paste the text, and tell Copilot to use only that source.</li>
+      <li><b>Expectations:</b> length, format, and tone.</li>
+    </ul>
+    <p class="hint">Source: Microsoft Support, "Get started writing prompts in Microsoft Copilot" (last updated September 2026). You write your own prompts in this course; none are provided to copy.</p>
+  </div>
+  <div class="card">
+    <h3>Worked example, on a different made-up case</h3>
+    <p>A clinic manager received a notice that the company behind the clinic's door-badge system will end support. Her prompt, part by part:</p>
+    <ul>
+      <li><i>Goal:</i> Summarize the attached notice in plain English.</li>
+      <li><i>Context:</i> It is for the clinic's office staff, who are not technical, so they know what will change for them.</li>
+      <li><i>Source:</i> Use only the attached notice. If something is not in the notice, say so.</li>
+      <li><i>Expectations:</i> Five bullet points or fewer, with every date exactly as written in the notice.</li>
+    </ul>
+    <p>Then she checked each date in Copilot's answer against the notice and found one date that Copilot had rounded to the end of the month. She fixed it. That check is the skill.</p>
+  </div>
+  <div class="jordan"><div class="face" aria-hidden="true">LH</div><div class="bubble"><b class="who">Laura</b>Use Copilot to turn the Plexmoor notice into a plain-English summary I can forward to the department directors. Then show me what you checked.</div></div>
+  <div class="card">
+    <h3>How to do this</h3>
+    <ol class="steps-list">
+      <li>Open <b>Copilot</b> in your Microsoft 365 plan and start a new chat.</li>
+      <li>Attach the notice (download it in Step 1) or paste it. Write your own prompt using all four parts.</li>
+      <li>Check <b>every date and dollar figure</b> in the answer against the notice. Did Copilot add anything that is not in the notice?</li>
+      <li>Improve your prompt once, and run it again.</li>
+    </ol>
+  </div>
+  <div class="turn"><span class="tag">Your turn</span>
+    <label class="lbl" for="c1">1. Your <b>first prompt</b> (paste it). Label the Goal, Context, Source, and Expectations parts.</label>
+    <textarea id="c1" data-save="c1" data-min="40" data-req data-doc="B. Copilot practice" data-label="1. Your first prompt (paste it). Label the Goal, Context, Source, and Expectations parts." data-coach ></textarea>
+    <label class="lbl" for="c2">2. What did Copilot give you? (paste or summarize)</label>
+    <textarea id="c2" data-save="c2" data-min="20" data-req data-doc="B. Copilot practice" data-label="2. What did Copilot give you? (paste or summarize)" data-coach ></textarea>
+    <label class="lbl" for="c3">3. Your <b>check</b>: list each date or dollar figure in Copilot's answer and whether it matches the notice. Name anything Copilot added, left out, or got wrong.</label>
+    <textarea id="c3" data-save="c3" data-min="40" data-req data-doc="B. Copilot practice" data-label="3. Your check: list each date or dollar figure in Copilot&#x27;s answer and whether it matches the notice. Name anything Copilot added, left out, or got wrong." data-coach ></textarea>
+    <label class="lbl" for="c4">4. Your <b>improved prompt</b> (paste it), and what changed in the answer.</label>
+    <textarea id="c4" data-save="c4" data-min="40" data-req data-doc="B. Copilot practice" data-label="4. Your improved prompt (paste it), and what changed in the answer." data-coach ></textarea>
+  </div>
+</section>
+
+<!-- STEP 5 -->
+<section class="step" data-step="5" aria-labelledby="h5s">
+  <h2 id="h5s">Step 5 · Build the deliverable <span class="time">· 75 min</span></h2>
+  <div class="jordan"><div class="face" aria-hidden="true">LH</div><div class="bubble"><b class="who">Laura</b>Now the brief. Pick who it is for. Either way, it must fit on one page, about 350 to 500 words in all. You may use Copilot; if you do, check its work and say so in your disclosure.</div></div>
+  <div class="card">
+    <label class="lbl" for="aud">Who is your brief for? (Both choices take the same work and are graded the same way.)</label>
+    <select id="aud" data-save="aud" data-req data-doc="C. Executive brief" data-label="Audience" data-coach><option value="">Choose one…</option><option>Choice A: Laura and the executive team (CEO, CFO, CIO, CNO, CMO)</option><option>Choice B: the chair of the Kestrel Falls board, before the February 16 meeting</option></select>
+    <p class="hint">Choice A readers know the hospital well and want options and next steps. Choice B is a volunteer community leader who is not a healthcare expert and wants to know what the board must decide and when.</p>
+  </div>
+  <div class="turn"><span class="tag">Your executive brief</span>
+    <label class="lbl" for="b1">1. <b>Bottom line up front</b> (2 to 3 sentences): what happened, why it matters, and what you recommend.</label>
+    <textarea id="b1" data-save="b1" data-min="60" data-req data-doc="C. Executive brief" data-label="1. Bottom line up front (2 to 3 sentences): what happened, why it matters, and what you recommend." data-coach ></textarea>
+    <label class="lbl" for="b2">2. <b>What the notice says</b>: the key dates and costs, exactly as in the notice. Use the fact sheet to put a dollar figure on Extended Support.</label>
+    <textarea id="b2" data-save="b2" data-min="60" data-req data-doc="C. Executive brief" data-label="2. What the notice says: the key dates and costs, exactly as in the notice. Use the fact sheet to put a dollar figure on Extended Support." data-coach ></textarea>
+    <label class="lbl" for="b3">3. <b>What it means for Kestrel Falls</b>: the risks to patients, staff, security, regulation, and finances. Use Doug's 18-to-30-month estimate to say whether we can finish before support ends.</label>
+    <textarea id="b3" data-save="b3" data-min="80" data-req data-doc="C. Executive brief" data-label="3. What it means for Kestrel Falls: the risks to patients, staff, security, regulation, and finances. Use Doug&#x27;s 18-to-30-month estimate to say whether we can finish before support ends." data-coach ></textarea>
+    <label class="lbl" for="b4">4. <b>Options</b>: at least two, with one trade-off each.</label>
+    <textarea id="b4" data-save="b4" data-min="60" data-req data-doc="C. Executive brief" data-label="4. Options: at least two, with one trade-off each." data-coach ></textarea>
+    <label class="lbl" for="b5">5. <b>Next 30 days</b>: three concrete steps, each with an owner (by role).</label>
+    <textarea id="b5" data-save="b5" data-min="40" data-req data-doc="C. Executive brief" data-label="5. Next 30 days: three concrete steps, each with an owner (by role)." data-coach ></textarea>
+    <label class="lbl" for="b6">6. <b>What we do not know yet</b>: at least two open questions.</label>
+    <textarea id="b6" data-save="b6" data-min="25" data-req data-doc="C. Executive brief" data-label="6. What we do not know yet: at least two open questions." data-coach ></textarea>
+    <p class="hint">Aim for 350 to 500 words across parts 1 to 6.</p>
+  </div>
+</section>
+
+<!-- STEP 6 -->
+<section class="step" data-step="6" aria-labelledby="h6s">
+  <h2 id="h6s">Step 6 · Coach feedback and revision <span class="time">· 40 min</span></h2>
+  <div class="card">
+    <ol class="steps-list">
+      <li>Open Copilot and start a <b>new chat</b>. Paste your <b>coach instructions</b> (from the Start Here page) and send.</li>
+      <li>Open the <a href="downloads/module-2-rubric.html" target="_blank" rel="noopener">Module 2 rubric</a>, copy it, and paste it into the chat.</li>
+      <li>Click <b>Copy my draft for the coach</b>, paste it into the chat, and ask for feedback.<br><button class="btn btn-gold btn-sm" type="button" data-copy-draft>Copy my draft for the coach</button></li>
+      <li><b>Revise your work in Steps 4 and 5</b> on this page (use Back). You may send the revision to the coach again.</li>
+      <li>Copy the <b>whole coach conversation</b> and paste it below. You may delete repeated copies of your own draft, but keep all of the coach's feedback and your replies.</li>
+    </ol>
+  </div>
+  <div class="turn"><span class="tag">Your feedback record (15 points)</span>
+    <label class="lbl" for="fb1">1. The full coach conversation (paste it).</label>
+    <textarea id="fb1" data-save="fb1" data-min="200" data-req data-doc="D. Coach feedback record" data-label="1. The full coach conversation (paste it)." ></textarea>
+    <label class="lbl" for="fb2">2. What did you <b>change</b> after the feedback, and why?</label>
+    <textarea id="fb2" data-save="fb2" data-min="40" data-req data-doc="D. Coach feedback record" data-label="2. What did you change after the feedback, and why?" ></textarea>
+    <label class="lbl" for="fb3">3. What feedback did you <b>keep as is</b> or reject, and why? (Write none if there was none.)</label>
+    <textarea id="fb3" data-save="fb3" data-min="4" data-req data-doc="D. Coach feedback record" data-label="3. What feedback did you keep as is or reject, and why? (Write none if there was none.)" ></textarea>
+  </div>
+</section>
+
+<!-- STEP 7 -->
+<section class="step" data-step="7" aria-labelledby="h7s">
+  <h2 id="h7s">Step 7 · Ethics exercise <span class="time">· 40 min</span></h2>
+  <div class="card">
+    <h3>ACHE Code of Ethics, Section I: The Healthcare Executive's Responsibilities to the Profession of Healthcare Leadership</h3>
+    <p>Read Section I of the <a href="https://www.ache.org/About-Us/Our-Commitments/Ethics/Code-of-Ethics" target="_blank" rel="noopener">ACHE Code of Ethics</a> (as amended Dec. 8, 2025). Two items matter most here: <b>item 2</b>, about acting with honesty, integrity, and good faith, and <b>item 10</b>, about avoiding conduct that undermines the credibility of healthcare leadership.</p>
+  </div>
+  <div class="cfo"><b>The case</b><br>Greg Oltmanns, the CFO, worries that news of the notice will spread and staff will panic. He asked an AI tool to "draft a short all-staff email about the Plexmoor letter that keeps people calm." Here is the AI draft he wants to send tomorrow:
+  <ol><li>Plexmoor has let us know it is updating the support schedule for our EHR.</li><li>Nothing will change for staff or patients.</li><li>Plexmoor support continues through December 31, 2028.</li><li>Our IT team has already chosen a replacement system.</li><li>There will be no extra cost to the hospital.</li><li>We will share updates as decisions are made; please send questions to the Chief of Staff's office.</li></ol></div>
+  <div class="turn"><span class="tag">Your turn (15 points)</span>
+    <div class="card" style="overflow-x:auto"><table class="t"><tr><th>Sentence in the AI draft</th><th>Keep, fix, or cut, and why (check it against the notice and fact sheet)</th></tr><tr><td><b>1.</b> Plexmoor has let us know it is updating the support schedule for our EHR.</td>
+<td><textarea id="d1" data-save="eth.1" data-min="15" data-req data-doc="E. Ethics exercise (ACHE Code, Section I)" data-row="Sentence 1: Plexmoor has let us know it is updating the support schedule for our EHR." data-col="Keep, fix, or cut, and why" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>2.</b> Nothing will change for staff or patients.</td>
+<td><textarea id="d2" data-save="eth.2" data-min="15" data-req data-doc="E. Ethics exercise (ACHE Code, Section I)" data-row="Sentence 2: Nothing will change for staff or patients." data-col="Keep, fix, or cut, and why" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>3.</b> Plexmoor support continues through December 31, 2028.</td>
+<td><textarea id="d3" data-save="eth.3" data-min="15" data-req data-doc="E. Ethics exercise (ACHE Code, Section I)" data-row="Sentence 3: Plexmoor support continues through December 31, 2028." data-col="Keep, fix, or cut, and why" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>4.</b> Our IT team has already chosen a replacement system.</td>
+<td><textarea id="d4" data-save="eth.4" data-min="15" data-req data-doc="E. Ethics exercise (ACHE Code, Section I)" data-row="Sentence 4: Our IT team has already chosen a replacement system." data-col="Keep, fix, or cut, and why" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>5.</b> There will be no extra cost to the hospital.</td>
+<td><textarea id="d5" data-save="eth.5" data-min="15" data-req data-doc="E. Ethics exercise (ACHE Code, Section I)" data-row="Sentence 5: There will be no extra cost to the hospital." data-col="Keep, fix, or cut, and why" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>6.</b> We will share updates as decisions are made; please send questions to the Chief of Staff's office.</td>
+<td><textarea id="d6" data-save="eth.6" data-min="15" data-req data-doc="E. Ethics exercise (ACHE Code, Section I)" data-row="Sentence 6: We will share updates as decisions are made; please send questions to the Chief of Staff&#x27;s office." data-col="Keep, fix, or cut, and why" data-coach style="min-height:70px"></textarea></td></tr></table></div>
+    <label class="lbl" for="e2">2. Write the <b>honest version</b> of the email (100 to 150 words): calm, accurate, and clear about what is not decided yet.</label>
+    <textarea id="e2" data-save="e2" data-min="100" data-req data-doc="E. Ethics exercise (ACHE Code, Section I)" data-label="2. Write the honest version of the email (100 to 150 words): calm, accurate, and clear about what is not decided yet." data-coach ></textarea>
+    <label class="lbl" for="e3">3. What would you say to Greg about why you changed it? Tie your answer to items 2 and 10 of Section I.</label>
+    <textarea id="e3" data-save="e3" data-min="50" data-req data-doc="E. Ethics exercise (ACHE Code, Section I)" data-label="3. What would you say to Greg about why you changed it? Tie your answer to items 2 and 10 of Section I." data-coach ></textarea>
+  </div>
+</section>
+
+<!-- STEP 8 -->
+<section class="step" data-step="8" aria-labelledby="h8s">
+  <h2 id="h8s">Step 8 · Reflection and submission <span class="time">· 15 min</span></h2>
+  <div class="turn"><span class="tag">Reflection (10 points)</span>
+    <label class="lbl" for="rf1">Compare your Step 2 first attempt with your final brief. What changed in how you see this notice? When might you, as a healthcare manager, need to brief leaders on bad news like this? (4 to 6 sentences)</label>
+    <textarea id="rf1" data-save="rf1" data-min="120" data-req data-doc="F. Reflection" data-label="Compare your Step 2 first attempt with your final brief. What changed in how you see this notice? When might you, as a healthcare manager, need to brief leaders on bad news like this? (4 to 6 sentences)" ></textarea>
+  </div>
+  <div class="turn"><span class="tag">AI-use disclosure (5 points)</span>
+    <label class="lbl" for="disc">Which AI tools did you use in this module, for which parts, and how did you check the output? Include Copilot and your coach.</label>
+    <textarea id="disc" data-save="disc" data-min="40" data-req data-doc="G. AI-use disclosure" data-label="Which AI tools did you use in this module, for which parts, and how did you check the output? Include Copilot and your coach." ></textarea>
+  </div>
+  <div class="card">
+    <label class="lbl" for="stuName">Your name (as in Canvas)</label>
+    <input id="stuName" data-save="name" data-req data-min="3" style="width:100%">
+    <label class="lbl" for="attempt">Which attempt is this?</label>
+    <select id="attempt" data-save="attempt" data-req><option value="">Choose one…</option><option>First submission</option><option>Redo 1</option><option>Redo 2</option><option>Redo 3</option></select>
+    <p class="hint">Redos: up to 3, each within 14 days after this assignment's grade posts, and all by Thursday, May 13. A redo needs a new coach conversation. Your highest attempt counts.</p>
+    <p><button class="btn btn-red" type="button" data-download="8">Download my submission (.doc)</button>
+    <a class="btn btn-gold submitLink" href="#" target="_blank" rel="noopener" style="display:none">Submit in Canvas</a></p>
+  </div>
+  <div id="finishBox"></div>
+</section>
+
+<div class="nav">
+  <button class="btn btn-ghost" type="button" id="prev">Back</button>
+  <div class="gate" id="gate" role="status" aria-live="polite"></div>
+  <button class="btn btn-red" type="button" id="next">Next</button>
+</div>
+
+</div></main>
+<footer><div class="wrap">HCM/MIS 4030 · Iowa State University · All people, organizations, and data in this course are fictional. What you type stays in your browser until you upload your submission in Canvas.</div></footer>
+
+<script src="assets/config.js"></script>
+<script src="assets/common.js"></script>
+<script src="assets/module.js"></script>
+</body>
+</html>
