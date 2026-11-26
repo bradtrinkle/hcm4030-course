@@ -6,5 +6,5 @@ Kestrel Falls EHR fact sheet (fictional, from Doug Thielen, CIO, and Greg Oltman
 - Total annual EHR cost: $10.2 million (license, support, hosting, and the EHR team)
 - Annual Plexmoor support fee (part of the $10.2 million): $3.3 million
 - EHR analyst team: 9 people
-- Doug's estimate: time to replace an EHR at a hospital our size: 18 to 30 months from choosing a vendor to go-live (an estimate, not a promise)
+- Doug's estimate: time to replace an EHR at a hospital our size: 12 to 24 months from signing a contract to go-live (an estimate, not a promise)
 - Next board meeting: Tuesday, February 16, 2027

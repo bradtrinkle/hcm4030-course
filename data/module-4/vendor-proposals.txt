@@ -2,7 +2,7 @@ Kestrel Falls EHR replacement: vendor proposal summaries (fictional). Dollar fig
 
 Orivane Health
 Hosting: Cloud software as a service (Orivane runs it in its cloud)
-Time from signing to go-live: 20 months
+Time from signing to go-live: 18 months
 Clinician usability score (fictional survey): 4.0 out of 5
 Reference sites: 3 hospitals of 250 to 400 beds
 Price quote, 5 years:
@@ -25,7 +25,7 @@ Contract excerpts:
 
 Tessarow EHR
 Hosting: Hosted in Tessarow's own data center (private cloud)
-Time from signing to go-live: 26 months
+Time from signing to go-live: 22 months
 Clinician usability score (fictional survey): 4.4 out of 5
 Reference sites: 2 hospitals of similar size and 4 larger systems
 Price quote, 5 years:
@@ -47,7 +47,7 @@ Contract excerpts:
 
 Meridune Health Systems
 Hosting: Installed on the hospital's own servers (on premises)
-Time from signing to go-live: 18 months
+Time from signing to go-live: 15 months
 Clinician usability score (fictional survey): 3.6 out of 5
 Reference sites: 5 hospitals, all under 150 beds
 Price quote, 5 years:
