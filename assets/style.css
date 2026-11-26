@@ -35,6 +35,7 @@ h3{font-size:20px;margin:0 0 8px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:22px 24px;margin:18px 0}
 .grid{display:grid;gap:16px}
 .grid.g3{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.grid.g2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
 .pill{display:inline-block;font-size:13px;font-weight:700;border-radius:999px;padding:3px 10px;background:var(--gold-soft);color:#5a4200}
 .path{list-style:none;margin:0;padding:0;display:grid;gap:12px}
 .path li{display:flex;gap:14px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
