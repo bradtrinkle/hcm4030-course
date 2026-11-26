@@ -1,0 +1,45 @@
+KESTREL FALLS COMMUNITY HOSPITAL: ROLLOUT OPTIONS FOR THE NEW EHR
+(fictional, from Doug Thielen, CIO, and Marcus Schaefer, IT Architect; for the transition team)
+
+The hospital at a glance
+- About 300 beds, an emergency department (ED), operating rooms, 10 clinics, and a hospital-run ambulance service.
+- About 1,900 people use the EHR. Hospital operating budget: about $375 million a year.
+- See clinics-and-services.csv for each clinic and the ambulance service.
+
+Fixed dates
+- Contract signing: about April 1, 2027.
+- Plexmoor regulatory updates end: June 30, 2028.
+- Plexmoor standard support ends: December 31, 2028. Running Plexmoor in 2029 requires Extended Support: $3.3 million for the year.
+- Doug's planning date for the first go-live: Saturday, October 14, 2028. This assumes the vendor's timeline is 18 months or less from signing; a longer timeline moves every date below.
+
+What any go-live day needs
+- Training for every user in the 8 weeks before their go-live.
+- "At-the-elbow" support: trained helpers on every unit and in every clinic for the first two weeks.
+- Fewer appointments and cases at first. Doug's plan: schedule 20% fewer clinic appointments and surgical cases for the first two weeks after each go-live.
+- Downtime: on cutover night the old system becomes read-only for about 6 hours while records move. Staff use paper downtime forms.
+
+Option A: Big bang (everything at once)
+- Saturday, October 14, 2028: hospital, ED, operating rooms, all 10 clinics, the patient portal, and the ambulance link to the ED go live on the same day.
+- Plexmoor becomes read-only afterward. No Extended Support needed.
+- Support: Doug estimates about 150 at-the-elbow helpers for two weeks, most from the vendor and outside firms.
+- No temporary interfaces: everyone switches at once.
+
+Option B: Phased by site (three waves)
+- Wave 1, Saturday, October 14, 2028: hospital, ED, operating rooms, Walk-in Care, the patient portal, and the ambulance link.
+- Wave 2, Saturday, December 9, 2028: West Family Medicine, North Family Medicine, Riverside Pediatrics, Women's Health, Orthopedics and Sports Medicine.
+- Wave 3, Saturday, February 10, 2029: Heart and Vascular, Behavioral Health, Prairie Bend, Cedar Hollow.
+- Plexmoor must keep running for Wave 3 clinics into 2029, so the hospital must buy Extended Support ($3.3 million).
+- Between waves, clinics on Plexmoor and the hospital on the new EHR must share data. Marcus estimates 6 temporary interfaces (orders, results, appointments, referrals, medication lists, and documents), each about 6 weeks of build and testing for his team.
+- Staff who work in both a clinic and the hospital (for example, orthopedic surgeons and heart doctors) would use two systems for up to four months.
+- Support: about 60 helpers per wave, three times.
+
+Option C: Pilot, then big bang
+- Saturday, August 12, 2028: North Family Medicine and Women's Health go live first as a pilot.
+- Saturday, October 14, 2028: everything else.
+- Needs 2 temporary interfaces for about 9 weeks (orders and results). No Extended Support.
+- Problems found in the pilot can be fixed before the big day; the pilot clinics get extra attention.
+- Support: about 20 helpers for the pilot, then about 140 for the big day.
+
+You may recommend a different plan if you explain it with the same facts.
+
+All names, sites, numbers, and dates are fictional.

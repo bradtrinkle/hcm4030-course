@@ -1,0 +1,12 @@
+Site,Type,Distance from hospital (miles),Providers,Visits per year (fictional),Open,Notes (fictional)
+West Family Medicine,Primary care clinic,2,8,24000,Mon-Fri,Heavy telehealth use (Dr. Megan Vosberg). Many patients are admitted to the hospital each month.
+North Family Medicine,Primary care clinic,3,6,18000,Mon-Fri,Staff volunteered to go first in any pilot.
+Riverside Pediatrics,Pediatric clinic,2,5,15000,Mon-Fri,Busiest in fall and winter (flu and RSV season).
+Women's Health,Obstetrics and gynecology clinic,1,4,11000,Mon-Fri,Prenatal records must reach Labor and Delivery in the hospital.
+Orthopedics and Sports Medicine,Specialty clinic,1,5,13000,Mon-Fri,Surgeons operate in the hospital's operating rooms.
+Heart and Vascular,Specialty clinic,1,4,10000,Mon-Fri,Patients often go straight to the hospital for tests or admission.
+Behavioral Health,Specialty clinic,2,6,12000,Mon-Fri,About half of visits are telehealth. Notes are sensitive.
+Walk-in Care,Urgent care,2,5,21000,7 days a week 8 a.m. to 8 p.m.,Only urgent care in the county; the next nearest is about 45 miles away.
+Prairie Bend Rural Health Clinic,Rural primary care clinic,35,2,6000,Mon-Fri,Slow internet (one DSL line; no backup connection).
+Cedar Hollow Rural Health Clinic,Rural primary care clinic,28,2,5500,Mon-Fri,Shares a building with the ambulance base in Cedar Hollow.
+Kestrel Falls Ambulance Service,Hospital-run ambulance service,0 (main base) plus bases in Prairie Bend and Cedar Hollow,48 paramedics and EMTs,4200 calls,24/7,Crews chart on tablets in a separate system that sends reports to the ED; some rural routes have no cell signal.
