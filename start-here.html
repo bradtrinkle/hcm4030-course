@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Start Here · HCM/MIS 4030</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topbar"><div class="wrap">
+  <a class="brand" href="index.html">HCM/MIS 4030</a>
+  <nav aria-label="Main"><a href="index.html">Home</a><a href="start-here.html" aria-current="page">Start Here</a><a href="module-1.html">Module 1</a></nav>
+</div></header>
+<main><div class="wrap">
+<span class="pill">Start Here · Week 1 · About 50 minutes</span>
+<h1 style="margin:10px 0 4px">Start Here</h1>
+<p class="hint">Do these five things before you open Module 1. They take about 50 minutes, and that time is part of Week 1's 6 hours. Tick each box as you finish it; your ticks save in this browser.</p>
+
+<div class="card">
+  <h2 style="margin-top:0">1 · Watch the welcome video <span class="time">· 5 min</span></h2>
+  <div class="video" data-video="welcome"><div><b>Welcome video from your instructor</b><br><span class="hint" style="color:#ddd">The video will appear here. If it does not, tell your instructor and keep going.</span></div></div>
+  <p class="hint">The lecture videos in this course are presented by your instructor or by an AI-generated avatar of your instructor; each video is labeled.</p>
+  <label class="check"><input type="checkbox" data-sh="video"> <span>I watched the welcome video.</span></label>
+</div>
+
+<div class="card">
+  <h2 style="margin-top:0">2 · Read the syllabus and tour Canvas <span class="time">· 15 min</span></h2>
+  <ol class="steps-list">
+    <li>Open the course in <b>Canvas</b> and read the <b>syllabus</b>. Pay special attention to: the required Microsoft 365 plan, the grading weights, <b>no late work</b>, and the redo rules.</li>
+    <li>Find where you <b>upload</b> each module's submission in Canvas. This site builds your Word file; Canvas is where you turn it in.</li>
+  </ol>
+  <div class="card" style="background:var(--gold-soft);border-color:#ecd48f;margin-bottom:0">
+    <b>Redos in one line.</b> You may redo any assignment up to 3 times, within 14 days after its grade posts, and all redos by Thursday, May 13. Your highest attempt counts. A redo is only for work you first turned in on time.
+  </div>
+  <label class="check"><input type="checkbox" data-sh="syllabus"> <span>I read the syllabus and found where to upload my work in Canvas.</span></label>
+</div>
+
+<div class="card">
+  <h2 style="margin-top:0">3 · Get Microsoft 365 Personal (student offer) <span class="time">· 15 min</span></h2>
+  <p>All AI work in this course uses <b>Microsoft Copilot</b> in a <b>Microsoft 365 Personal</b> plan, which includes Copilot in Word, Excel, and PowerPoint. Microsoft offers college students a discount (about $4.99 a month; check the current price on Microsoft's page). You do <b>not</b> use the university-provided Copilot Chat for course work.</p>
+  <ol class="steps-list">
+    <li>Go to Microsoft's <a href="https://www.microsoft.com/en-us/microsoft-365/college-student-pricing" target="_blank" rel="noopener">college student pricing page</a> and follow its steps. You will verify that you are a student.</li>
+    <li>If you already have Microsoft 365 Personal, you can skip the purchase. If you use a Microsoft 365 Family plan, you must be the plan's owner, because Microsoft says AI features are only for the owner.</li>
+    <li>The plan <b>renews every month until you cancel it</b>. You may cancel after final grades are posted.</li>
+    <li>Save your course files in <b>OneDrive</b> with <b>AutoSave</b> on. Copilot in Excel needs it.</li>
+  </ol>
+  <p class="hint"><b>Instructor note (draft):</b> exact sign-in and "where to find Copilot" steps will be added here after the tool test on the student plan.</p>
+  <label class="check"><input type="checkbox" data-sh="m365"> <span>I have Microsoft 365 Personal with Copilot, and I can open Copilot.</span></label>
+</div>
+
+<div class="card">
+  <h2 style="margin-top:0">4 · Set up your AI coach <span class="time">· 15 min</span></h2>
+  <p>Every module has a coach step. Your coach is Copilot following the instructions below. It gives you <b>feedback, never answers</b>. You will save the <b>full coach conversation</b> and turn it in: it is your feedback record and is worth 15 of 100 points in every module.</p>
+  <ol class="steps-list">
+    <li>Click <b>Copy the coach instructions</b>, or download them and keep the file in OneDrive.<br>
+      <button class="btn btn-gold btn-sm" type="button" id="copyCoach">Copy the coach instructions</button>
+      <a class="btn btn-ghost btn-sm" href="downloads/coach-instructions.txt" download>Download the coach instructions</a></li>
+    <li>Open Copilot, start a new chat, paste the instructions, and send. Then type: <i>"This is a test. Ask me one question about my goals for this course."</i></li>
+    <li>Check that the coach asks you a question instead of doing work for you.</li>
+  </ol>
+  <details><summary>See the coach instructions</summary><div class="copybox" id="coachText">HCM 4030 AI COACH INSTRUCTIONS
+(Paste this at the start of every new coach conversation in Microsoft Copilot. Then paste your draft.)
+
+You are my feedback coach for HCM 4030, Healthcare Information Systems, at Iowa State University. The course is set at Kestrel Falls Community Hospital, a fictional 300-bed independent, not-for-profit hospital in Iowa with 10 outpatient clinics and an ambulance service. All people, organizations, and data in the course are fictional.
+
+Your job is to give feedback, never answers.
+- Do not write, rewrite, or complete any part of my work. Do not give me sample answers, model paragraphs, or finished tables.
+- Ask me questions that help me see gaps in my reasoning. Point to the place in my draft where each issue is.
+- Score my draft against the rubric I paste, criterion by criterion, and explain each score in one or two sentences.
+- For each criterion that is not at full marks, tell me what is missing or weak, and ask one question that would help me improve it.
+- Check whether I explained why, not just what. Healthcare leaders need reasons, trade-offs, and who is affected.
+- Check whether I verified what AI (Copilot) told me, and whether my AI-use disclosure is complete.
+- If I ask you to just write it for me, remind me that you give feedback only.
+- If my draft contains anything that looks like real patient, employee, or organization data, stop and tell me to remove it.
+
+When I paste a revised draft, tell me what improved and what still needs work.
+Keep your feedback short and specific: a list, not an essay.
+</div></details>
+  <p class="hint"><b>Instructor note (draft):</b> if the tool test shows a better way to save the coach in Copilot (so you do not paste it each time), this step will change.</p>
+  <label class="check"><input type="checkbox" data-sh="coach"> <span>My coach asked me a question instead of doing the work.</span></label>
+</div>
+
+<div class="card">
+  <h2 style="margin-top:0">5 · Turn on automatic saving</h2>
+  <p>Your answers on this site are saved in this browser. Click <b>Turn on automatic saving</b> (bottom left of the page) and save the file in a folder you will not delete, such as OneDrive. Use the same browser all term, and do not clear your browser data until your work is uploaded to Canvas.</p>
+  <label class="check"><input type="checkbox" data-sh="auto"> <span>Automatic saving is on.</span></label>
+</div>
+
+<div class="card" style="text-align:center;padding:30px">
+  <h2 style="margin-top:0">Ready? Start your first week at Kestrel Falls.</h2>
+  <a class="btn btn-gold" href="module-1.html">Open Module 1</a>
+</div>
+</div></main>
+<footer><div class="wrap">HCM/MIS 4030 · Iowa State University · All people, organizations, and data in this course are fictional.</div></footer>
+<script src="assets/config.js"></script>
+<script src="assets/common.js"></script>
+<script>
+(function(){
+  const C = window.COURSE||{};
+  document.querySelectorAll("[data-video]").forEach(b=>{ const k=b.dataset.video; if(C.extraVideos && C.extraVideos[k]) b.innerHTML = videoHtml(C.extraVideos[k], k); });
+  document.querySelectorAll("[data-sh]").forEach(cb=>{
+    const k = "sh."+cb.dataset.sh; cb.checked = !!store.get(k,false);
+    const row = cb.closest(".check"); const f=()=>row.classList.toggle("done",cb.checked); f();
+    cb.addEventListener("change",()=>{ store.set(k,cb.checked); f(); });
+  });
+  document.getElementById("copyCoach").addEventListener("click",()=>copyText(document.getElementById("coachText").textContent));
+})();
+</script>
+</body>
+</html>
