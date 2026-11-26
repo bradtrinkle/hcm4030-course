@@ -1,0 +1,18 @@
+PLEXMOOR CLINICAL SYSTEMS
+Notice of End of Support: Plexmoor Clinical Suite 9
+
+Date: January 15, 2027
+To: Kestrel Falls Community Hospital, Kestrel Falls, Iowa
+Attention: Doug Thielen, Chief Information Officer
+Customer number: KFCH-0412
+
+Plexmoor Clinical Systems is leaving the hospital EHR market. This letter is formal notice, under Section 14.2 of your license and support agreement (which requires at least 18 months' notice), that Plexmoor will end support for Plexmoor Clinical Suite 9. Clinical Suite 9 includes your EHR, patient portal, order entry, and clinical decision support modules.
+
+1. Standard support ends December 31, 2028. Until then, Plexmoor will provide 24/7 help desk service, bug fixes, and security patches.
+2. Regulatory and certification updates (changes needed to meet new federal reporting and certification requirements) will be provided only through June 30, 2028.
+3. Optional Extended Support is available from January 1 to December 31, 2029. It covers critical security patches and critical fixes only: no help desk for routine issues, no new features, and no regulatory updates. The price is 150% of your current annual support fee. You must sign up by March 31, 2028.
+4. After support ends, the software will keep running, but Plexmoor will not fix problems, release security patches, or answer help desk calls.
+5. Your data: Plexmoor will provide one standard data extract, in Plexmoor's export format, at no charge if you request it by September 30, 2028. Custom extracts are billed at $225 per hour. A read-only archive license for viewing old records is available at extra cost.
+6. Plexmoor will not release a new version and does not offer a migration product.
+
+Questions: contact your Plexmoor account manager.
