@@ -130,35 +130,33 @@
 <section class="step" data-step="4" aria-labelledby="h4s">
   <h2 id="h4s">Step 4 · Copilot practice <span class="time">· 45 min</span></h2>
   <div class="card">
-    <h3>This week's technique: Goal, Context, Source, Expectations</h3>
-    <p>Microsoft's prompting guidance for Copilot suggests four parts for a good prompt:</p>
-    <ul>
-      <li><b>Goal:</b> what you want Copilot to do.</li>
-      <li><b>Context:</b> why you need it and who it is for.</li>
-      <li><b>Source:</b> the information Copilot should use (here, the Kestrel Falls system list).</li>
-      <li><b>Expectations:</b> how the answer should look: length, format, tone.</li>
-    </ul>
-    <p class="hint">Source: Microsoft Support, Copilot prompting guidance (see the course Technique Map for the dated source). You write your own prompts in this course; none are provided to copy.</p>
+    <h3>This week's technique: zero-shot prompting</h3>
+    <p>A <b>zero-shot prompt</b> is a plain request with no examples and no extra structure: you simply ask. It is how most people start with AI, and it often works for simple tasks. Its weakness is that the AI fills every gap you leave with its own guesses: who the answer is for, how long it should be, and which facts to use. This week you practice asking plainly and then <b>spotting the guesses</b>. In Module 2 you will learn a four-part prompt that closes those gaps.</p>
+    <p class="hint">Source: IBM, "The 2026 Guide to Prompt Engineering" (published July 23, 2025), which names zero-shot prompting. You write your own prompts in this course; none are provided to copy.</p>
   </div>
-  <div class="jordan"><div class="face" aria-hidden="true">LH</div><div class="bubble"><b class="who">Laura</b>A new board member asked me what our <b>imaging archive (PACS)</b> and <b>laboratory information system</b> actually do and why they cost what they do. Use Copilot to draft a short explanation for her, then tell me what you had to check or fix.</div></div>
+  <div class="card">
+    <h3>Worked example, on a different made-up case</h3>
+    <p>A new clinic manager asked Copilot, with no other detail, to explain what a nurse call system does. The answer was accurate but written for engineers, ran four paragraphs, and described features her clinic does not have. Nothing was "wrong", yet it did not fit her need. She listed what Copilot had guessed (the reader, the length, the features) and added those details to her second request.</p>
+  </div>
+  <div class="jordan"><div class="face" aria-hidden="true">LH</div><div class="bubble"><b class="who">Laura</b>A new board member asked me what our <b>imaging archive (PACS)</b> and <b>laboratory information system</b> actually do and why they cost what they do. Ask Copilot plainly first, then tell me what it guessed and what you had to check or fix.</div></div>
   <div class="card">
     <h3>How to do this</h3>
     <ol class="steps-list">
       <li>Open <b>Copilot</b> in your Microsoft 365 plan and start a new chat.</li>
-      <li>Write your own prompt using all four parts. Paste the system list (Step 1 has a Copy button) as your source.</li>
-      <li>Read the answer. Compare it with the system list and Step 3. Did Copilot add facts that are not in your source?</li>
-      <li>Improve your prompt once, and run it again.</li>
+      <li>Write a <b>plain, one- or two-sentence request</b> in your own words. Do not add the system list yet.</li>
+      <li>Read the answer. What did Copilot have to guess? Compare its facts with the system list in Step 1 and the reading in Step 3.</li>
+      <li>Write a second request that fills the gaps you found (for example, paste the system list and say who the reader is), and run it.</li>
     </ol>
   </div>
   <div class="turn"><span class="tag">Your turn</span>
-    <label class="lbl" for="c1">1. Your <b>first prompt</b> (paste it). Label the Goal, Context, Source, and Expectations parts.</label>
-    <textarea id="c1" data-save="c1" data-min="40" data-req data-doc="B. Copilot practice" data-label="1. Your first prompt (paste it). Label the Goal, Context, Source, and Expectations parts." data-coach ></textarea>
+    <label class="lbl" for="c1">1. Your <b>plain first prompt</b> (paste it).</label>
+    <textarea id="c1" data-save="c1" data-min="20" data-req data-doc="B. Copilot practice" data-label="1. Your plain first prompt (paste it)." data-coach ></textarea>
     <label class="lbl" for="c2">2. What did Copilot give you? (summary)</label>
     <textarea id="c2" data-save="c2" data-min="20" data-req data-doc="B. Copilot practice" data-label="2. What did Copilot give you? (summary)" data-coach ></textarea>
-    <label class="lbl" for="c3">3. What did you <b>check</b>, and how? Name one thing Copilot assumed, added, or got wrong.</label>
-    <textarea id="c3" data-save="c3" data-min="30" data-req data-doc="B. Copilot practice" data-label="3. What did you check, and how? Name one thing Copilot assumed, added, or got wrong." data-coach ></textarea>
-    <label class="lbl" for="c4">4. Your <b>improved prompt</b> (paste it), and what changed in the answer.</label>
-    <textarea id="c4" data-save="c4" data-min="40" data-req data-doc="B. Copilot practice" data-label="4. Your improved prompt (paste it), and what changed in the answer." data-coach ></textarea>
+    <label class="lbl" for="c3">3. What did Copilot <b>guess</b> (reader, length, facts)? What did you <b>check</b>, and how? Name one thing it assumed, added, or got wrong.</label>
+    <textarea id="c3" data-save="c3" data-min="40" data-req data-doc="B. Copilot practice" data-label="3. What did Copilot guess (reader, length, facts)? What did you check, and how? Name one thing it assumed, added, or got wrong." data-coach ></textarea>
+    <label class="lbl" for="c4">4. Your <b>second prompt</b> (paste it): which gaps did you fill, and what changed in the answer?</label>
+    <textarea id="c4" data-save="c4" data-min="40" data-req data-doc="B. Copilot practice" data-label="4. Your second prompt (paste it): which gaps did you fill, and what changed in the answer?" data-coach ></textarea>
   </div>
 </section>
 
