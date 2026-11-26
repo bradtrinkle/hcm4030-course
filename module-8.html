@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Module 8: Customization</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-module="8" data-steps="Problem|Try|Learn|Copilot|Build|Coach|Ethics|Reflect" data-title="Customization">
+<header class="topbar"><div class="wrap">
+  <a class="brand" href="index.html">HCM/MIS 4030</a>
+  <nav aria-label="Main"><a href="index.html">Home</a><a href="start-here.html">Start Here</a><a href="module-1.html">Module 1</a><a href="module-2.html">Module 2</a><a href="module-3.html">Module 3</a><a href="module-4.html">Module 4</a><a href="module-5.html">Module 5</a><a href="module-6.html">Module 6</a><a href="module-7.html">Module 7</a><a href="module-8.html" aria-current="page">Module 8</a></nav>
+</div></header>
+
+<div class="progress-wrap"><div class="wrap">
+  <div class="track" aria-hidden="true"><div class="fill" id="fill"></div>
+    <svg class="car" id="marker" viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#C8102E" stroke="#fff" stroke-width="2"/><path d="M11 7h6v4h4v6h-4v4h-6v-4H7v-6h4z" fill="#fff"/></svg>
+  </div>
+  <div class="steps-dots" id="dots"></div>
+</div></div>
+
+<main><div class="wrap">
+<span class="pill">Module 8 · Week 10 (Mar 29 to Apr 4) · Kestrel Falls Community Hospital</span>
+<h1 style="margin:10px 0 4px">Step 5: Customization</h1>
+<p class="hint">You will be able to assess technology investments using business, financial, operational, ethical, legal, and strategic criteria (course learning objective 5) and evaluate implementation and compliance risks (objective 3). Plan for about 6 hours. Your progress saves in this browser; keep automatic saving on.</p>
+
+<!-- STEP 1 -->
+<section class="step" data-step="1" aria-labelledby="h1s">
+  <h2 id="h1s">Step 1 · The problem lands <span class="time">· 20 min</span></h2>
+  <div class="cfo"><b>From Laura Hemmingsen, Chief of Staff</b><br>Word got out that we are choosing a new EHR, and now every department wants something. Step 5 in the AMA guide is deciding on <b>customization</b>: what we build or buy beyond the standard system, and what we leave alone. Sixteen requests came in, from a custom operative note for Dr. Halvorsen to three AI features. If we say yes to everything, we pay for it every year, every upgrade gets harder, and we copy old habits into a new system. If we say no to everything, we may miss what keeps patients safe.<br><br>The board set aside a <b>change reserve of $2.4 million over five years</b> for custom work and add-ons. By April 4, I need a <b>customization decision log</b>: a decision and a reason for every request, the five-year cost, and how we will govern the AI features.</div>
+  <div class="jordan"><div class="face" aria-hidden="true">LH</div><div class="bubble"><b class="who">Laura</b>Standard first. Every yes needs a reason a skeptic would accept, and every no needs a better way for that person to get what they need.</div></div>
+  <p class="hint">All requests, costs, and people here are fictional.</p>
+  <div class="card">
+    <h3>Your file</h3>
+    <p class="dl-row"><a class="btn btn-ghost btn-sm" href="data/module-8/customization-requests.csv" download>Download the 16 requests (.csv)</a></p>
+    <p>It opens in Excel. Each row is one request: who asked, what they want, its type, the one-time and yearly cost, what the new EHR offers as standard, and the reason given. <b>Five-year cost</b> = one-time cost + 5 × yearly cost.</p>
+  </div>
+  <div class="card">
+    <h3>Module 8 at a glance</h3>
+    <p><b>What you will produce:</b> one Word file that you upload to Canvas: your first attempt, your Copilot practice, the customization decision log, your coach feedback record, an ethics exercise, a reflection, and your AI-use disclosure.</p>
+    <p><b>The 8 steps:</b> 1 Problem lands (20 min) · 2 Try it first, without AI (45) · 3 Learn (60) · 4 Copilot practice (60) · 5 Build (75) · 6 Coach feedback and revision (40) · 7 Ethics (40) · 8 Reflection (15). Total: 355 minutes, about 6 hours.</p>
+    <p class="dl-row"><a class="btn btn-ghost btn-sm" href="downloads/module-8-rubric.html" target="_blank" rel="noopener">Open the Module 8 rubric</a></p>
+  </div>
+  <label class="check"><input type="checkbox" data-save="s1.ready" data-req> <span>I read Laura's message and the 16 requests.</span></label>
+</section>
+
+<!-- STEP 2 -->
+<section class="step" data-step="2" aria-labelledby="h2s">
+  <h2 id="h2s">Step 2 · Try it first, without AI <span class="time">· 45 min</span></h2>
+  <div class="jordan"><div class="face" aria-hidden="true">LH</div><div class="bubble"><b class="who">Laura</b>Decide three requests yourself, with reasons. <b>Do not use AI for this step.</b> You will use two of these decisions as examples for Copilot in Step 4, so make your reasons clear.</div></div>
+  <div class="turn"><span class="tag">Your turn · no AI</span>
+    <label class="lbl" for="a1">1. Request R01 (Dr. Halvorsen's operative note): your decision (standard, configure, custom build, buy add-on, defer, or decline) and why.</label>
+    <textarea id="a1" data-save="a1" data-min="40" data-req data-doc="A. First attempt (without AI)" data-label="1. Request R01 (Dr. Halvorsen&#x27;s operative note): your decision (standard, configure, custom build, buy add-on, defer, or decline) and why." ></textarea>
+    <label class="lbl" for="a2">2. Request R10 (bedside vitals on handheld devices): your decision and why.</label>
+    <textarea id="a2" data-save="a2" data-min="40" data-req data-doc="A. First attempt (without AI)" data-label="2. Request R10 (bedside vitals on handheld devices): your decision and why." ></textarea>
+    <label class="lbl" for="a3">3. Request R09 (animated portal logo): your decision and why.</label>
+    <textarea id="a3" data-save="a3" data-min="40" data-req data-doc="A. First attempt (without AI)" data-label="3. Request R09 (animated portal logo): your decision and why." ></textarea>
+    <label class="lbl" for="a4">4. Which request worries you most, and why?</label>
+    <textarea id="a4" data-save="a4" data-min="40" data-req data-doc="A. First attempt (without AI)" data-label="4. Which request worries you most, and why?" ></textarea>
+  </div>
+  <label class="check"><input type="checkbox" data-save="s2.noai" data-req> <span>I did this step without using AI.</span></label>
+</section>
+
+<!-- STEP 3 -->
+<section class="step" data-step="3" aria-labelledby="h3s">
+  <h2 id="h3s">Step 3 · Learn <span class="time">· 60 min</span></h2>
+  <div class="video" id="videoBox"><div><b>Module 8 lecture video</b><br><span class="hint" style="color:#ddd">The video will appear here. If it does not, tell your instructor and keep going; the reading below covers the key points.</span></div></div>
+  <p class="hint">Lecture videos are presented by your instructor or by an AI-generated avatar of your instructor, and are labeled.</p>
+
+  <h3>3a. Standard, configure, customize, or buy</h3>
+  <table class="t"><tr><th>Choice</th><th>What it means</th><th>Ongoing effect</th></tr>
+  <tr><td><b>Standard</b></td><td>Use the vendor's built-in workflow as is.</td><td>Easiest to upgrade and support; staff may need to change habits.</td></tr>
+  <tr><td><b>Configure</b></td><td>Change settings the vendor designed to be changed (templates, rules, banners, privacy limits).</td><td>Usually included in the price; survives upgrades.</td></tr>
+  <tr><td><b>Custom build</b></td><td>Build something the vendor doesn't offer, or change how the product works.</td><td>Costs money every year; must be retested and often rebuilt at each upgrade.</td></tr>
+  <tr><td><b>Add-on product</b></td><td>Buy an extra module or partner product.</td><td>A yearly fee, another contract, and another interface to support.</td></tr></table>
+  <p>Many health systems try to stay as close to the vendor's standard setup as they can. One chief medical information officer explained in 2026 that customization creates long-term maintenance burdens and makes it harder to adopt the vendor's future improvements (Becker's Hospital Review, July 7, 2026). A good rule: <b>configure before you customize</b>, and customize only for patient safety, legal requirements, or a clear, measured benefit.</p>
+  <div class="turn"><span class="tag">Practice question (not graded)</span>
+    <p>Request R04 asks for a custom pediatric dosing calculator ($60,000 one time, $9,000 a year). The new EHR has standard weight-based dosing with pediatric rules. What is the best first step?</p>
+    <div class="qc" data-id="q3a" data-h="4050fa93c29f64bae3c632ad01c87ade337c315ffff22d3addce9baea498ced6" data-req>
+      <div class="choices"><button class="choice" data-i="0">Build it; children's safety comes first</button><button class="choice" data-i="1">Test the standard pediatric dosing with pharmacy and Riverside Pediatrics, and configure it; build only if a real gap remains</button><button class="choice" data-i="2">Decline it; pharmacy should stop asking</button><button class="choice" data-i="3">Buy an add-on instead</button></div>
+      <div class="fb" data-ok="Right. Safety matters, so check whether the standard tool meets it before paying to build and maintain a custom one." data-no="Look at what the new EHR already offers as standard."></div>
+    </div>
+  </div>
+
+  <h3>3b. The five-year cost</h3>
+  <p>A request's price tag is not its cost. Add the yearly cost for every year you will use it: <b>five-year cost = one-time + 5 × yearly</b>. Small yearly fees add up, and AI add-ons are often priced per user per month. For example, reports in 2025 put ambient AI scribes at about $200 to $600 per physician per month (Becker's Hospital Review, May 27, 2025).</p>
+  <div class="turn"><span class="tag">Practice question (not graded)</span>
+    <p>Request R02: an ambient AI scribe for 40 physicians, $30,000 one time and $192,000 a year. What is its five-year cost?</p>
+    <div class="qc" data-id="q3b" data-h="11028df70573880ff2cd16c73d8064cbe15207c38edd67e1c198f66a06bf2b81" data-req>
+      <div class="choices"><button class="choice" data-i="0">$222,000</button><button class="choice" data-i="1">$960,000</button><button class="choice" data-i="2">$990,000</button><button class="choice" data-i="3">$1,152,000</button></div>
+      <div class="fb" data-ok="Right: $30,000 + 5 × $192,000 = $990,000, which is 41% of the $2.4 million reserve." data-no="Add the one-time cost to five years of the yearly cost."></div>
+    </div>
+  </div>
+
+  <h3>3c. AI features need local proof and oversight</h3>
+  <p>AI features are sold with accuracy numbers measured somewhere else. A well-known study tested a widely used vendor sepsis prediction model on about 40,000 hospital stays at one academic medical center and found it sorted patients correctly far less often than the vendor reported (63% versus 76% to 83%). It alerted on nearly 1 in 5 patients, and only about 1 in 8 alerted patients had sepsis (<i>JAMA Internal Medicine</i>, 2021; Michigan Medicine). The lesson for managers: <b>validate AI on your own patients before you rely on it</b>, watch for <b>alert fatigue</b>, keep a <b>human in charge</b> of every decision, and <b>monitor</b> performance and fairness after go-live. The ACHE Code (Section III, item 14) now asks leaders to set ethics frameworks for buying, implementing, and monitoring AI.</p>
+  <div class="turn"><span class="tag">Practice question (not graded)</span>
+    <p>A vendor says its AI alert is 80% accurate. What should Kestrel Falls do before turning it on for every unit?</p>
+    <div class="qc" data-id="q3c" data-h="a93483439fc8a65e83a3f4374f581ad8942e1cdbc0571ee057f4f2bf4783d7f4" data-req>
+      <div class="choices"><button class="choice" data-i="0">Trust the vendor's number; it was tested</button><button class="choice" data-i="1">Run it silently on Kestrel Falls patients first and compare its alerts with what actually happened</button><button class="choice" data-i="2">Turn it on and let nurses decide which alerts to ignore</button><button class="choice" data-i="3">Ask Copilot whether it is accurate</button></div>
+      <div class="fb" data-ok="Yes. A silent trial on your own patients shows real accuracy and alert volume before anyone relies on it." data-no="Think about where the vendor&#x27;s number came from."></div>
+    </div>
+  </div>
+
+  <h3>3d. Saying no well</h3>
+  <p>Most requests come from a real need. A "no" to a custom build should come with a <b>better way</b> to meet the need: a configured template, training, a later phase, or a measured trial. That is how you keep buy-in from Module 5 while protecting the budget and the upgrade path.</p>
+  <p class="hint">Sources for this module are listed on the rubric page.</p>
+</section>
+
+<!-- STEP 4 -->
+<section class="step" data-step="4" aria-labelledby="h4s">
+  <h2 id="h4s">Step 4 · Copilot practice <span class="time">· 60 min</span></h2>
+  <div class="card">
+    <h3>This week's technique: provide examples (few-shot prompting)</h3>
+    <p>When you want Copilot to sort many items the way you would, <b>show it a few worked examples first</b>: the item, your decision, and your reason. This is called <b>few-shot prompting</b> (asking with no examples is <i>zero-shot</i>, which you used in Module 1). Examples teach the pattern better than a description, but Copilot will copy them closely, so pick examples that show different decisions, and check every result.</p>
+    <p class="hint">Sources: Microsoft Learn, "Write prompts that get results" (updated October 2026); Anthropic, "Prompt engineering best practices for 2026" (published November 10, 2025); IBM, "The 2026 Guide to Prompt Engineering" (published July 23, 2025). You write your own prompts in this course; none are provided to copy.</p>
+  </div>
+  <div class="card">
+    <h3>Worked example, on a different made-up case</h3>
+    <p>A clinic operations manager had 30 requests for new appointment types. She wrote two examples into her prompt: "Annual wellness visit, 40 minutes: keep, because Medicare covers it and it needs a set length," and "Quick question, 5 minutes: merge into 'brief visit,' because it duplicates an existing type." Then she asked Copilot to sort the other 28 the same way, with a reason for each. Copilot sorted most of them sensibly but merged two that her examples didn't cover well, including a pediatric visit that needed its own length. She fixed those two and added a third example for next time.</p>
+  </div>
+  <div class="jordan"><div class="face" aria-hidden="true">LH</div><div class="bubble"><b class="who">Laura</b>Use two of your own Step 2 decisions as the examples, ideally two different decisions. Then have Copilot sort the rest, and check every row against the file.</div></div>
+  <div class="card">
+    <h3>How to do this</h3>
+    <ol class="steps-list">
+      <li>Open <b>Copilot</b>, start a new chat, and attach the requests file.</li>
+      <li>Write a prompt that gives your <b>two examples</b> (request, decision, reason), lists the decision choices, and asks Copilot to decide the other requests the same way, with the five-year cost for each.</li>
+      <li><b>Check every row</b>: is the five-year cost right? Does the reason fit the request and what the new EHR offers as standard? Mark each row you would change.</li>
+    </ol>
+  </div>
+  <div class="turn"><span class="tag">Your turn</span>
+    <label class="lbl" for="c1">1. Your <b>few-shot prompt</b> (paste it). Point out your two examples.</label>
+    <textarea id="c1" data-save="c1" data-min="80" data-req data-doc="B. Copilot practice" data-label="1. Your few-shot prompt (paste it). Point out your two examples." data-coach ></textarea>
+    <label class="lbl" for="c2">2. What did Copilot give you? (paste the table or summarize it)</label>
+    <textarea id="c2" data-save="c2" data-min="20" data-req data-doc="B. Copilot practice" data-label="2. What did Copilot give you? (paste the table or summarize it)" data-coach ></textarea>
+    <label class="lbl" for="c3">3. Your <b>check</b>: how many five-year costs were right? Which decisions would you change, and why? Did Copilot copy your examples too closely anywhere?</label>
+    <textarea id="c3" data-save="c3" data-min="60" data-req data-doc="B. Copilot practice" data-label="3. Your check: how many five-year costs were right? Which decisions would you change, and why? Did Copilot copy your examples too closely anywhere?" data-coach ></textarea>
+  </div>
+</section>
+
+<!-- STEP 5 -->
+<section class="step" data-step="5" aria-labelledby="h5s">
+  <h2 id="h5s">Step 5 · Build the deliverable <span class="time">· 75 min</span></h2>
+  <div class="jordan"><div class="face" aria-hidden="true">LH</div><div class="bubble"><b class="who">Laura</b>Now the log, for me and the transition team. A decision and a reason for every request, and the math against the $2.4 million reserve. You may use Copilot; if you do, check its work and say so in your disclosure.</div></div>
+  <div class="card" style="overflow-x:auto">
+    <h3>Part 1 · Decision log</h3>
+    <p class="hint">Decisions: standard, configure, custom build, buy add-on, defer to after go-live, or decline. Five-year cost counts only what you approve (configure and standard cost $0 here).</p>
+    <table class="t"><tr><th>Request</th><th>Decision and reason</th><th>Five-year cost if approved</th></tr><tr><td><b>R01</b> Rebuild the operative note screen to look exactly like Plexmoor's<br><span class="hint">Dr. Richard Halvorsen · Custom build · $85,000 one time, $12,000/year</span></td><td><textarea id="l_d_R01" data-save="log.d.R01" data-min="15" data-req data-doc="C. Customization decision log" data-row="R01 Dr. Richard Halvorsen: Rebuild the operative note screen to look exactly like Plexmoor&#x27;s" data-col="Decision and reason" data-coach style="min-height:70px"></textarea></td><td><textarea id="l_c_R01" data-save="log.c.R01" data-min="1" data-req data-doc="C. Customization decision log" data-row="R01 Dr. Richard Halvorsen: Rebuild the operative note screen to look exactly like Plexmoor&#x27;s" data-col="Five-year cost if approved" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>R02</b> Ambient AI scribe for 40 physicians in clinics and the hospital<br><span class="hint">Dr. Alan Rasmussen (CMO) · AI feature (add-on) · $30,000 one time, $192,000/year</span></td><td><textarea id="l_d_R02" data-save="log.d.R02" data-min="15" data-req data-doc="C. Customization decision log" data-row="R02 Dr. Alan Rasmussen (CMO): Ambient AI scribe for 40 physicians in clinics and the hospital" data-col="Decision and reason" data-coach style="min-height:70px"></textarea></td><td><textarea id="l_c_R02" data-save="log.c.R02" data-min="1" data-req data-doc="C. Customization decision log" data-row="R02 Dr. Alan Rasmussen (CMO): Ambient AI scribe for 40 physicians in clinics and the hospital" data-col="Five-year cost if approved" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>R03</b> Turn on the vendor's AI sepsis early-warning alerts<br><span class="hint">Joan Haverkamp (CNO) · AI feature (included) · $0 one time, $40,000/year</span></td><td><textarea id="l_d_R03" data-save="log.d.R03" data-min="15" data-req data-doc="C. Customization decision log" data-row="R03 Joan Haverkamp (CNO): Turn on the vendor&#x27;s AI sepsis early-warning alerts" data-col="Decision and reason" data-coach style="min-height:70px"></textarea></td><td><textarea id="l_c_R03" data-save="log.c.R03" data-min="1" data-req data-doc="C. Customization decision log" data-row="R03 Joan Haverkamp (CNO): Turn on the vendor&#x27;s AI sepsis early-warning alerts" data-col="Five-year cost if approved" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>R04</b> Custom dosing calculator for children's medicines<br><span class="hint">Riverside Pediatrics · Custom build · $60,000 one time, $9,000/year</span></td><td><textarea id="l_d_R04" data-save="log.d.R04" data-min="15" data-req data-doc="C. Customization decision log" data-row="R04 Riverside Pediatrics: Custom dosing calculator for children&#x27;s medicines" data-col="Decision and reason" data-coach style="min-height:70px"></textarea></td><td><textarea id="l_c_R04" data-save="log.c.R04" data-min="1" data-req data-doc="C. Customization decision log" data-row="R04 Riverside Pediatrics: Custom dosing calculator for children&#x27;s medicines" data-col="Five-year cost if approved" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>R05</b> Offline charting that syncs when crews get signal<br><span class="hint">Shawn Hoffmeyer · Add-on product · $120,000 one time, $36,000/year</span></td><td><textarea id="l_d_R05" data-save="log.d.R05" data-min="15" data-req data-doc="C. Customization decision log" data-row="R05 Shawn Hoffmeyer: Offline charting that syncs when crews get signal" data-col="Decision and reason" data-coach style="min-height:70px"></textarea></td><td><textarea id="l_c_R05" data-save="log.c.R05" data-min="1" data-req data-doc="C. Customization decision log" data-row="R05 Shawn Hoffmeyer: Offline charting that syncs when crews get signal" data-col="Five-year cost if approved" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>R06</b> Claim-checking rules for our top 5 payers<br><span class="hint">Ana Morales · Configuration · $0 one time, $0/year</span></td><td><textarea id="l_d_R06" data-save="log.d.R06" data-min="15" data-req data-doc="C. Customization decision log" data-row="R06 Ana Morales: Claim-checking rules for our top 5 payers" data-col="Decision and reason" data-coach style="min-height:70px"></textarea></td><td><textarea id="l_c_R06" data-save="log.c.R06" data-min="1" data-req data-doc="C. Customization decision log" data-row="R06 Ana Morales: Claim-checking rules for our top 5 payers" data-col="Five-year cost if approved" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>R07</b> Extra privacy limits on therapy notes<br><span class="hint">Behavioral Health clinic · Configuration · $0 one time, $0/year</span></td><td><textarea id="l_d_R07" data-save="log.d.R07" data-min="15" data-req data-doc="C. Customization decision log" data-row="R07 Behavioral Health clinic: Extra privacy limits on therapy notes" data-col="Decision and reason" data-coach style="min-height:70px"></textarea></td><td><textarea id="l_c_R07" data-save="log.c.R07" data-min="1" data-req data-doc="C. Customization decision log" data-row="R07 Behavioral Health clinic: Extra privacy limits on therapy notes" data-col="Five-year cost if approved" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>R08</b> A button in the EHR that opens a facilities work order<br><span class="hint">Randy Dietrich · Custom build · $40,000 one time, $8,000/year</span></td><td><textarea id="l_d_R08" data-save="log.d.R08" data-min="15" data-req data-doc="C. Customization decision log" data-row="R08 Randy Dietrich: A button in the EHR that opens a facilities work order" data-col="Decision and reason" data-coach style="min-height:70px"></textarea></td><td><textarea id="l_c_R08" data-save="log.c.R08" data-min="1" data-req data-doc="C. Customization decision log" data-row="R08 Randy Dietrich: A button in the EHR that opens a facilities work order" data-col="Five-year cost if approved" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>R09</b> Animated logo and custom colors on the patient portal<br><span class="hint">Marketing · Custom build · $25,000 one time, $4,000/year</span></td><td><textarea id="l_d_R09" data-save="log.d.R09" data-min="15" data-req data-doc="C. Customization decision log" data-row="R09 Marketing: Animated logo and custom colors on the patient portal" data-col="Decision and reason" data-coach style="min-height:70px"></textarea></td><td><textarea id="l_c_R09" data-save="log.c.R09" data-min="1" data-req data-doc="C. Customization decision log" data-row="R09 Marketing: Animated logo and custom colors on the patient portal" data-col="Five-year cost if approved" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>R10</b> Enter vital signs on handheld devices at the bedside<br><span class="hint">Darlene Kuehl and the CNAs · Add-on product · $90,000 one time, $30,000/year</span></td><td><textarea id="l_d_R10" data-save="log.d.R10" data-min="15" data-req data-doc="C. Customization decision log" data-row="R10 Darlene Kuehl and the CNAs: Enter vital signs on handheld devices at the bedside" data-col="Decision and reason" data-coach style="min-height:70px"></textarea></td><td><textarea id="l_c_R10" data-save="log.c.R10" data-min="1" data-req data-doc="C. Customization decision log" data-row="R10 Darlene Kuehl and the CNAs: Enter vital signs on handheld devices at the bedside" data-col="Five-year cost if approved" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>R11</b> Rebuild the paper prenatal form as a custom screen<br><span class="hint">Women's Health · Custom build · $50,000 one time, $7,500/year</span></td><td><textarea id="l_d_R11" data-save="log.d.R11" data-min="15" data-req data-doc="C. Customization decision log" data-row="R11 Women&#x27;s Health: Rebuild the paper prenatal form as a custom screen" data-col="Decision and reason" data-coach style="min-height:70px"></textarea></td><td><textarea id="l_c_R11" data-save="log.c.R11" data-min="1" data-req data-doc="C. Customization decision log" data-row="R11 Women&#x27;s Health: Rebuild the paper prenatal form as a custom screen" data-col="Five-year cost if approved" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>R12</b> Show preferred language and interpreter need at the top of every chart<br><span class="hint">Mai Vang · Configuration · $0 one time, $0/year</span></td><td><textarea id="l_d_R12" data-save="log.d.R12" data-min="15" data-req data-doc="C. Customization decision log" data-row="R12 Mai Vang: Show preferred language and interpreter need at the top of every chart" data-col="Decision and reason" data-coach style="min-height:70px"></textarea></td><td><textarea id="l_c_R12" data-save="log.c.R12" data-min="1" data-req data-doc="C. Customization decision log" data-row="R12 Mai Vang: Show preferred language and interpreter need at the top of every chart" data-col="Five-year cost if approved" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>R13</b> AI assistant that drafts replies to patient portal messages<br><span class="hint">Hannah Dvorak · AI feature (add-on) · $15,000 one time, $150,000/year</span></td><td><textarea id="l_d_R13" data-save="log.d.R13" data-min="15" data-req data-doc="C. Customization decision log" data-row="R13 Hannah Dvorak: AI assistant that drafts replies to patient portal messages" data-col="Decision and reason" data-coach style="min-height:70px"></textarea></td><td><textarea id="l_c_R13" data-save="log.c.R13" data-min="1" data-req data-doc="C. Customization decision log" data-row="R13 Hannah Dvorak: AI assistant that drafts replies to patient portal messages" data-col="Five-year cost if approved" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>R14</b> Training copy of the system with fake patients<br><span class="hint">Kayla Brandt · Included · $0 one time, $0/year</span></td><td><textarea id="l_d_R14" data-save="log.d.R14" data-min="15" data-req data-doc="C. Customization decision log" data-row="R14 Kayla Brandt: Training copy of the system with fake patients" data-col="Decision and reason" data-coach style="min-height:70px"></textarea></td><td><textarea id="l_c_R14" data-save="log.c.R14" data-min="1" data-req data-doc="C. Customization decision log" data-row="R14 Kayla Brandt: Training copy of the system with fake patients" data-col="Five-year cost if approved" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>R15</b> Custom executive dashboard built from scratch<br><span class="hint">Greg Oltmanns (CFO) · Custom build · $70,000 one time, $15,000/year</span></td><td><textarea id="l_d_R15" data-save="log.d.R15" data-min="15" data-req data-doc="C. Customization decision log" data-row="R15 Greg Oltmanns (CFO): Custom executive dashboard built from scratch" data-col="Decision and reason" data-coach style="min-height:70px"></textarea></td><td><textarea id="l_c_R15" data-save="log.c.R15" data-min="1" data-req data-doc="C. Customization decision log" data-row="R15 Greg Oltmanns (CFO): Custom executive dashboard built from scratch" data-col="Five-year cost if approved" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>R16</b> Keep the current telehealth platform linked to the new EHR<br><span class="hint">Dr. Megan Vosberg · Custom build · $55,000 one time, $10,000/year</span></td><td><textarea id="l_d_R16" data-save="log.d.R16" data-min="15" data-req data-doc="C. Customization decision log" data-row="R16 Dr. Megan Vosberg: Keep the current telehealth platform linked to the new EHR" data-col="Decision and reason" data-coach style="min-height:70px"></textarea></td><td><textarea id="l_c_R16" data-save="log.c.R16" data-min="1" data-req data-doc="C. Customization decision log" data-row="R16 Dr. Megan Vosberg: Keep the current telehealth platform linked to the new EHR" data-col="Five-year cost if approved" data-coach style="min-height:70px"></textarea></td></tr></table></div>
+  <div class="turn"><span class="tag">Part 2 · Summary for Laura</span>
+    <label class="lbl" for="s1">1. <b>Total five-year cost</b> of what you approved, compared with the $2.4 million reserve (show the arithmetic). What did you leave out or defer to stay within it?</label>
+    <textarea id="s1" data-save="s1" data-min="80" data-req data-doc="C. Customization decision log" data-label="1. Total five-year cost of what you approved, compared with the $2.4 million reserve (show the arithmetic). What did you leave out or defer to stay within it?" data-coach ></textarea>
+    <label class="lbl" for="s2">2. <b>The three AI features</b> (R02, R03, R13): your decision on each and the conditions you would set before and after go-live.</label>
+    <textarea id="s2" data-save="s2" data-min="100" data-req data-doc="C. Customization decision log" data-label="2. The three AI features (R02, R03, R13): your decision on each and the conditions you would set before and after go-live." data-coach ></textarea>
+  </div>
+  <div class="card">
+    <label class="lbl" for="aud">Part 3 · Reply to one person whose request you did not approve as asked. (All three choices take the same work and are graded the same way.)</label>
+    <select id="aud" data-save="aud" data-req data-doc="C. Customization decision log" data-label="Reply to" data-coach><option value="">Choose one…</option><option>Choice A: Dr. Richard Halvorsen (R01, operative note)</option><option>Choice B: Randy Dietrich (R08, facilities work-order button)</option><option>Choice C: Dr. Megan Vosberg (R16, current telehealth platform)</option></select>
+  </div>
+  <div class="turn">
+    <label class="lbl" for="s3">3. <b>Your reply</b> (120 to 200 words): the decision, the honest reason, and a better way to meet their need.</label>
+    <textarea id="s3" data-save="s3" data-min="400" data-req data-doc="C. Customization decision log" data-label="3. Your reply (120 to 200 words): the decision, the honest reason, and a better way to meet their need." data-coach ></textarea>
+  </div>
+</section>
+
+<!-- STEP 6 -->
+<section class="step" data-step="6" aria-labelledby="h6s">
+  <h2 id="h6s">Step 6 · Coach feedback and revision <span class="time">· 40 min</span></h2>
+  <div class="card">
+    <ol class="steps-list">
+      <li>Open Copilot and start a <b>new chat</b>. Paste your <b>coach instructions</b> (from the Start Here page) and send.</li>
+      <li>Open the <a href="downloads/module-8-rubric.html" target="_blank" rel="noopener">Module 8 rubric</a>, copy it, and paste it into the chat.</li>
+      <li>Click <b>Copy my draft for the coach</b>, paste it into the chat, and ask for feedback.<br><button class="btn btn-gold btn-sm" type="button" data-copy-draft>Copy my draft for the coach</button></li>
+      <li><b>Revise your work in Steps 4 and 5</b> on this page (use Back). You may send the revision to the coach again.</li>
+      <li>Copy the <b>whole coach conversation</b> and paste it below. You may delete repeated copies of your own draft, but keep all of the coach's feedback and your replies.</li>
+    </ol>
+  </div>
+  <div class="turn"><span class="tag">Your feedback record (15 points)</span>
+    <label class="lbl" for="fb1">1. The full coach conversation (paste it).</label>
+    <textarea id="fb1" data-save="fb1" data-min="200" data-req data-doc="D. Coach feedback record" data-label="1. The full coach conversation (paste it)." ></textarea>
+    <label class="lbl" for="fb2">2. What did you <b>change</b> after the feedback, and why?</label>
+    <textarea id="fb2" data-save="fb2" data-min="40" data-req data-doc="D. Coach feedback record" data-label="2. What did you change after the feedback, and why?" ></textarea>
+    <label class="lbl" for="fb3">3. What feedback did you <b>keep as is</b> or reject, and why? (Write none if there was none.)</label>
+    <textarea id="fb3" data-save="fb3" data-min="4" data-req data-doc="D. Coach feedback record" data-label="3. What feedback did you keep as is or reject, and why? (Write none if there was none.)" ></textarea>
+  </div>
+</section>
+
+<!-- STEP 7 -->
+<section class="step" data-step="7" aria-labelledby="h7s">
+  <h2 id="h7s">Step 7 · Ethics exercise <span class="time">· 40 min</span></h2>
+  <div class="card">
+    <h3>ACHE Code of Ethics, Section III: The Healthcare Executive's Responsibilities to the Organization</h3>
+    <p>Read Section III of the <a href="https://www.ache.org/About-Us/Our-Commitments/Ethics/Code-of-Ethics" target="_blank" rel="noopener">ACHE Code of Ethics</a> (as amended Dec. 8, 2025), especially <b>item 14</b>, added in the 2025 update: establish ethics frameworks for the development, procurement, implementation, and ongoing monitoring of artificial intelligence, machine learning, and automated decision-making systems. Section II, <b>item 13</b> (technology in patient care decision-making tools should be transparent and equitable) also applies.</p>
+  </div>
+  <div class="cfo"><b>The case</b><br>Doug asked an AI tool to draft the hospital's first "AI use policy" for the new EHR's AI features. Here are six of its rules:
+  <div style="overflow-x:auto"><table class="t"><tr><th>Topic</th><th>AI draft</th></tr><tr><td><b>1.</b> Sepsis alerts (R03)</td><td><i>Turn the alerts on for every unit on go-live day. The vendor's accuracy numbers are good enough.</i></td></tr><tr><td><b>2.</b> Ambient scribe notes (R02)</td><td><i>If a physician does not edit a scribe note within 24 hours, sign it automatically.</i></td></tr><tr><td><b>3.</b> Portal message assistant (R13)</td><td><i>Send AI-drafted replies straight to patients when the AI is confident, to save staff time.</i></td></tr><tr><td><b>4.</b> Telling patients</td><td><i>There is no need to tell patients when AI drafts their messages or listens to their visits.</i></td></tr><tr><td><b>5.</b> Oversight</td><td><i>The vendor monitors its own AI, so the hospital does not need its own committee.</i></td></tr><tr><td><b>6.</b> Patient data</td><td><i>Let the vendor use five years of Kestrel Falls patient records to train its AI, in exchange for a 10% discount.</i></td></tr></table></div></div>
+  <div class="turn"><span class="tag">Your turn (15 points)</span>
+    <div class="card" style="overflow-x:auto"><table class="t"><tr><th>Topic and AI draft</th><th>Your call (keep, fix, or replace) and why</th></tr><tr><td><b>1.</b> Sepsis alerts (R03)<br><span class="hint">AI draft: Turn the alerts on for every unit on go-live day. The vendor's accuracy numbers are good enough.</span></td>
+<td><textarea id="d1" data-save="eth.1" data-min="15" data-req data-doc="E. Ethics exercise (ACHE Code, Section III)" data-row="Topic 1: Sepsis alerts (R03)" data-col="Your call (keep, fix, or replace) and why" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>2.</b> Ambient scribe notes (R02)<br><span class="hint">AI draft: If a physician does not edit a scribe note within 24 hours, sign it automatically.</span></td>
+<td><textarea id="d2" data-save="eth.2" data-min="15" data-req data-doc="E. Ethics exercise (ACHE Code, Section III)" data-row="Topic 2: Ambient scribe notes (R02)" data-col="Your call (keep, fix, or replace) and why" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>3.</b> Portal message assistant (R13)<br><span class="hint">AI draft: Send AI-drafted replies straight to patients when the AI is confident, to save staff time.</span></td>
+<td><textarea id="d3" data-save="eth.3" data-min="15" data-req data-doc="E. Ethics exercise (ACHE Code, Section III)" data-row="Topic 3: Portal message assistant (R13)" data-col="Your call (keep, fix, or replace) and why" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>4.</b> Telling patients<br><span class="hint">AI draft: There is no need to tell patients when AI drafts their messages or listens to their visits.</span></td>
+<td><textarea id="d4" data-save="eth.4" data-min="15" data-req data-doc="E. Ethics exercise (ACHE Code, Section III)" data-row="Topic 4: Telling patients" data-col="Your call (keep, fix, or replace) and why" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>5.</b> Oversight<br><span class="hint">AI draft: The vendor monitors its own AI, so the hospital does not need its own committee.</span></td>
+<td><textarea id="d5" data-save="eth.5" data-min="15" data-req data-doc="E. Ethics exercise (ACHE Code, Section III)" data-row="Topic 5: Oversight" data-col="Your call (keep, fix, or replace) and why" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>6.</b> Patient data<br><span class="hint">AI draft: Let the vendor use five years of Kestrel Falls patient records to train its AI, in exchange for a 10% discount.</span></td>
+<td><textarea id="d6" data-save="eth.6" data-min="15" data-req data-doc="E. Ethics exercise (ACHE Code, Section III)" data-row="Topic 6: Patient data" data-col="Your call (keep, fix, or replace) and why" data-coach style="min-height:70px"></textarea></td></tr></table></div>
+    <label class="lbl" for="e2">2. Write a short <b>AI oversight rule</b> (3 to 5 sentences): who approves an AI feature, what must be checked before it goes live, what is monitored after, and who can turn it off.</label>
+    <textarea id="e2" data-save="e2" data-min="80" data-req data-doc="E. Ethics exercise (ACHE Code, Section III)" data-label="2. Write a short AI oversight rule (3 to 5 sentences): who approves an AI feature, what must be checked before it goes live, what is monitored after, and who can turn it off." data-coach ></textarea>
+    <label class="lbl" for="e3">3. Explain to Doug (60 to 120 words) why the AI draft can't be used as is, tied to Section III item 14 (and Section II item 13 if it helps).</label>
+    <textarea id="e3" data-save="e3" data-min="60" data-req data-doc="E. Ethics exercise (ACHE Code, Section III)" data-label="3. Explain to Doug (60 to 120 words) why the AI draft can&#x27;t be used as is, tied to Section III item 14 (and Section II item 13 if it helps)." data-coach ></textarea>
+  </div>
+</section>
+
+<!-- STEP 8 -->
+<section class="step" data-step="8" aria-labelledby="h8s">
+  <h2 id="h8s">Step 8 · Reflection and submission <span class="time">· 15 min</span></h2>
+  <div class="turn"><span class="tag">Reflection (10 points)</span>
+    <label class="lbl" for="rf1">Compare your Step 2 decisions with your final log. What changed, and what did you learn about customization and about letting examples steer an AI? Where might you, as a healthcare manager, decide whether to buy, build, or go without? (4 to 6 sentences)</label>
+    <textarea id="rf1" data-save="rf1" data-min="120" data-req data-doc="F. Reflection" data-label="Compare your Step 2 decisions with your final log. What changed, and what did you learn about customization and about letting examples steer an AI? Where might you, as a healthcare manager, decide whether to buy, build, or go without? (4 to 6 sentences)" ></textarea>
+  </div>
+  <div class="turn"><span class="tag">AI-use disclosure (5 points)</span>
+    <label class="lbl" for="disc">Which AI tools did you use in this module, for which parts, and how did you check the output? Include Copilot and your coach.</label>
+    <textarea id="disc" data-save="disc" data-min="40" data-req data-doc="G. AI-use disclosure" data-label="Which AI tools did you use in this module, for which parts, and how did you check the output? Include Copilot and your coach." ></textarea>
+  </div>
+  <div class="card">
+    <label class="lbl" for="stuName">Your name (as in Canvas)</label>
+    <input id="stuName" data-save="name" data-req data-min="3" style="width:100%">
+    <label class="lbl" for="attempt">Which attempt is this?</label>
+    <select id="attempt" data-save="attempt" data-req><option value="">Choose one…</option><option>First submission</option><option>Redo 1</option><option>Redo 2</option><option>Redo 3</option></select>
+    <p class="hint">Redos: up to 3, each within 14 days after this assignment's grade posts, and all by Thursday, May 13. A redo needs a new coach conversation. Your highest attempt counts.</p>
+    <p><button class="btn btn-red" type="button" data-download="8">Download my submission (.doc)</button>
+    <a class="btn btn-gold submitLink" href="#" target="_blank" rel="noopener" style="display:none">Submit in Canvas</a></p>
+  </div>
+  <div id="finishBox"></div>
+</section>
+
+<div class="nav">
+  <button class="btn btn-ghost" type="button" id="prev">Back</button>
+  <div class="gate" id="gate" role="status" aria-live="polite"></div>
+  <button class="btn btn-red" type="button" id="next">Next</button>
+</div>
+
+</div></main>
+<footer><div class="wrap">HCM/MIS 4030 · Iowa State University · All people, organizations, and data in this course are fictional. What you type stays in your browser until you upload your submission in Canvas.</div></footer>
+
+<script src="assets/config.js"></script>
+<script src="assets/common.js"></script>
+<script src="assets/module.js"></script>
+</body>
+</html>
