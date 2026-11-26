@@ -6,11 +6,11 @@ Time from signing to go-live: 18 months
 Clinician usability score (fictional survey): 4.0 out of 5
 Reference sites: 3 hospitals of 250 to 400 beds
 Price quote, 5 years:
-- Subscription (year 1 price x 5 years): $35.25 million
-- Implementation: $7.20 million
-- Training: $1.65 million
-- Interface build: $1.50 million
-- Quoted 5-year total: $45.60 million
+- Subscription (year 1 price x 5 years): $23.50 million
+- Implementation: $4.80 million
+- Training: $1.10 million
+- Interface build: $1.00 million
+- Quoted 5-year total: $30.40 million
 Notes:
 - Ambulance charting connects through a partner product; partner fee is not included in this quote.
 - Migrates 7 years of clinical history; older records go to a read-only archive included in the subscription.
@@ -21,7 +21,7 @@ Contract excerpts:
 - Your data: exported in standard formats at no charge within 90 days after the contract ends.
 - Liability cap: 12 months of fees.
 - HIPAA business associate agreement: included and signed with the contract.
-- Partner fee for ambulance charting integration: $255,000 per year (Appendix C).
+- Partner fee for ambulance charting integration: $170,000 per year (Appendix C).
 
 Tessarow EHR
 Hosting: Hosted in Tessarow's own data center (private cloud)
@@ -29,19 +29,19 @@ Time from signing to go-live: 22 months
 Clinician usability score (fictional survey): 4.4 out of 5
 Reference sites: 2 hospitals of similar size and 4 larger systems
 Price quote, 5 years:
-- License and hosting (flat, $6.6 million per year x 5): $33.00 million
-- Implementation: $6.90 million
-- Training: $1.80 million
-- Interface build: $1.20 million
-- Quoted 5-year total: $42.90 million
+- License and hosting (flat, $4.4 million per year x 5): $22.00 million
+- Implementation: $4.60 million
+- Training: $1.20 million
+- Interface build: $800,000
+- Quoted 5-year total: $28.60 million
 Notes:
 - Ambulance charting integration included.
-- Migrates 2 years of clinical history; older records need a separate archive license ($180,000 per year, not in this quote).
+- Migrates 2 years of clinical history; older records need a separate archive license ($120,000 per year, not in this quote).
 - Early-signing discount: 6% off implementation if signed by February 19, 2027.
 Contract excerpts:
 - Term: 5 years; price locked for all 5 years.
 - Uptime: 99.5% each month; no service credits.
-- Your data: exported in standard formats; $45,000 flat fee at exit.
+- Your data: exported in standard formats; $30,000 flat fee at exit.
 - Liability cap: 12 months of fees.
 - HIPAA business associate agreement: included and signed with the contract.
 
@@ -51,15 +51,15 @@ Time from signing to go-live: 15 months
 Clinician usability score (fictional survey): 3.6 out of 5
 Reference sites: 5 hospitals, all under 150 beds
 Price quote, 5 years:
-- Software license (one time): $18.00 million
-- Annual maintenance ($2.7 million x 5): $13.50 million
-- Implementation: $5.70 million
-- Training: $1.50 million
-- Quoted 5-year total: $38.70 million
+- Software license (one time): $12.00 million
+- Annual maintenance ($1.8 million x 5): $9.00 million
+- Implementation: $3.80 million
+- Training: $1.00 million
+- Quoted 5-year total: $25.80 million
 Notes:
 - Ambulance charting integration included.
-- Hospital buys its own servers and storage (Meridune estimate: $3.45 million, not in this quote).
-- Meridune recommends the hospital add 6 IT staff to run the system (about $145,000 per person per year in salary plus benefits, not in this quote).
+- Hospital buys its own servers and storage (Meridune estimate: $2.3 million, not in this quote).
+- Meridune recommends the hospital add 4 IT staff to run the system (about $145,000 per person per year in salary plus benefits, not in this quote).
 - Migrates all clinical history.
 Contract excerpts:
 - Term: 5 years; renews automatically for another 5 years unless the hospital gives 12 months' notice.
@@ -69,6 +69,6 @@ Contract excerpts:
 - HIPAA business associate agreement: "available on request."
 
 Limits from Greg and Doug:
-- Budget (Greg): no more than $48.0 million over 5 years for everything: the new EHR, any extra staff or hardware, and any Extended Support we must buy from Plexmoor ($4.95 million for 2029).
+- Budget (Greg): no more than $32.0 million over 5 years for everything: the new EHR, any extra staff or hardware, and any Extended Support we must buy from Plexmoor ($3.3 million for 2029).
 - Timing (Doug): contract signed by about April 1, 2027. Go-live times in the proposals count from signing. Plexmoor standard support ends December 31, 2028; its regulatory updates end June 30, 2028.
 - IT staffing (Doug): IT cannot add staff this year without a new budget request.
