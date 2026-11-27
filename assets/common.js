@@ -46,11 +46,11 @@ window.KestrelQC=(function(){
   };
   window.store = store;
   /* Reviewer mode: module-N.html?review=1 opens the step bar for that module so evaluators can read every step.
-     Any page with ?review=all opens it for all twelve modules (for the instructor's own checking).
+     Any page with ?review=all opens it for all twelve modules and the final (for the instructor's own checking).
      It asks for a password once per browser. The page is static, so this is a speed bump, not real security.
      While it is on for a module, a gold pill stays on screen with a Turn off button. */
   try{
-    const rm = location.pathname.match(/module-(\d+)\.html$/);
+    const rm = location.pathname.match(/module-(\d+)\.html$/) || location.pathname.match(/(final)\.html$/);
     const rvParam = new URLSearchParams(location.search).get("review");
     if(true){
       const N = rm ? rm[1] : "", FLAG = "sys.rv" + N;
@@ -58,7 +58,7 @@ window.KestrelQC=(function(){
       const sha = async s => Array.from(new Uint8Array(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(s)))).map(x=>x.toString(16).padStart(2,"0")).join("");
       const authed = store.get("sys.reviewOK","")===REVIEW_HASH;
       const wants = (rm && rvParam==="1") || rvParam==="all";
-      const turnOn = () => { (rvParam==="all" ? [1,2,3,4,5,6,7,8,9,10,11,12] : [N]).forEach(n=>{ store.set("m"+n+".max", 8); store.set("sys.rv"+n, true); }); };
+      const turnOn = () => { (rvParam==="all" ? [1,2,3,4,5,6,7,8,9,10,11,12,"final"] : [N]).forEach(n=>{ store.set("m"+n+".max", n==="final"?5:8); store.set("sys.rv"+n, true); }); };
       if(wants && authed){ turnOn(); }
       if(rm && authed && store.get(FLAG,false)){
         document.addEventListener("DOMContentLoaded", ()=>{
@@ -75,7 +75,7 @@ window.KestrelQC=(function(){
           const b = document.createElement("div");
           b.id = "rvPill"; b.setAttribute("role","status");
           b.style.cssText = "position:fixed;right:14px;bottom:14px;z-index:58;background:#F1BE48;color:#000;border:2px solid #c99a2c;border-radius:14px;padding:10px 14px;max-width:min(340px,calc(100vw - 28px));font:600 14px/1.35 system-ui,sans-serif;box-shadow:0 3px 10px rgba(0,0,0,.25)";
-          b.innerHTML = 'REVIEWER MODE IS ON for all twelve modules. Open any module and click any numbered step to read it. <button type="button" style="margin-left:6px;font:inherit;cursor:pointer">Turn off</button>';
+          b.innerHTML = 'REVIEWER MODE IS ON for all twelve modules and the final. Open any module and click any numbered step to read it. <button type="button" style="margin-left:6px;font:inherit;cursor:pointer">Turn off</button>';
           b.querySelector("button").addEventListener("click", ()=>{ [1,2,3,4,5,6,7,8,9,10,11,12].forEach(n=>{ store.set("m"+n+".max",1); store.set("m"+n+".step",1); store.set("sys.rv"+n,false); }); location.href = location.pathname; });
           document.body.appendChild(b);
         });
