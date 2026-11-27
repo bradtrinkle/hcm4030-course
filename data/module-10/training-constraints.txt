@@ -1,0 +1,31 @@
+KESTREL FALLS COMMUNITY HOSPITAL: TRAINING AND GO-LIVE SUPPORT, WHAT WE HAVE TO WORK WITH
+From Kayla Brandt (IT Help Desk Lead) and Jen Sievers, RN (Medical-Surgical, evenings)
+(fictional; April 2027)
+
+THE DATE
+- Go-live: Saturday, October 14, 2028. In every rollout option from March, the hospital, ED, operating rooms, and the ambulance link go live that day. Plan as if all 13 groups go live on October 14. If the board picks a pilot or phases, the same plan shifts to each clinic's own date.
+- Doug's March estimate for a single go-live day: about 150 at-the-elbow helpers for two weeks.
+
+TIME AND ROOMS
+- The practice system (a "training environment" with fake patients) and short online lessons open Monday, July 24, 2028, 12 weeks before go-live.
+- Classroom training runs Monday, August 21, to Friday, October 6, 2028 (7 weeks).
+- Rooms: 3 classrooms with 12 computers each. They are booked 7 a.m. to 5 p.m., Monday to Friday. Evening, night, or weekend sessions are possible, but each extra room-hour costs $85 in trainer overtime.
+- Trainers: 8 (5 from the vendor, 3 of ours).
+- Everyone tests their login the week of October 9.
+
+MONEY
+- Paid training time: $700,000. People are paid for every hour they train, and some units need someone to cover their shift.
+- Outside go-live support: $1.5 million for at-the-elbow help from outside (vendor or agency staff), at about $1,500 per 12-hour shift, travel included.
+
+PEOPLE
+- About 1,415 people will use the EHR (the file lists them by group). The help desk supports about 1,900 people in all.
+- Super users: 90 people have volunteered so far. We want at least one on every unit, every shift, including the clinics and all 3 ambulance bases. Each super user can be released from normal work for 6 twelve-hour shifts in the first two weeks after go-live.
+- Help desk: 12 staff. On a normal day we get about 180 calls. We expect three to four times that in the first two weeks.
+
+WHAT WE HEARD (Module 5 interviews)
+- Jen Sievers: "Training that fits my shift." Late-afternoon or recorded sessions, practice time on the unit, paid time, a super user on every shift (not just days), and updates at the 3:15 huddle.
+- Shawn Hoffmeyer (Ambulance): train at the bases, in short sessions, on the actual tablets; no half-day classes, because a crew in class is an ambulance off the road.
+- Kayla Brandt: the help desk is trained first; a 24-hour command center; super users who answer easy questions on the unit so they never become tickets; no vacations in the two weeks after go-live.
+- Darlene Kuehl (CNA): wants proof the new system helps before she believes it.
+
+All names, numbers, and dates are fictional.
