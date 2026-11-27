@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Module 9: Challenges</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-module="9" data-steps="Problem|Learn|First call|Copilot|Build|Coach|Ethics|Reflect" data-title="Challenges">
+<header class="topbar"><div class="wrap">
+  <a class="brand" href="index.html">HCM/MIS 4030</a>
+  <nav aria-label="Main"><a href="index.html">Home</a><a href="start-here.html">Start Here</a><a href="module-1.html">Module 1</a><a href="module-2.html">Module 2</a><a href="module-3.html">Module 3</a><a href="module-4.html">Module 4</a><a href="module-5.html">Module 5</a><a href="module-6.html">Module 6</a><a href="module-7.html">Module 7</a><a href="module-8.html">Module 8</a><a href="module-9.html" aria-current="page">Module 9</a></nav>
+</div></header>
+
+<div class="progress-wrap"><div class="wrap">
+  <div class="track" aria-hidden="true"><div class="fill" id="fill"></div>
+    <svg class="car" id="marker" viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="#C8102E" stroke="#fff" stroke-width="2"/><path d="M11 7h6v4h4v6h-4v4h-6v-4H7v-6h4z" fill="#fff"/></svg>
+  </div>
+  <div class="steps-dots" id="dots"></div>
+</div></div>
+
+<main><div class="wrap">
+<span class="pill">Module 9 · Week 11 (Apr 5 to 11) · Kestrel Falls Community Hospital</span>
+<h1 style="margin:10px 0 4px">Step 6: Challenges</h1>
+<p class="hint">You will be able to evaluate cybersecurity, privacy, compliance, and implementation risks (course learning objective 3) and interpret data and measures (objective 4). Plan for about 6 hours. Your progress saves in this browser; keep automatic saving on.</p>
+
+<!-- STEP 1 -->
+<section class="step" data-step="1" aria-labelledby="h1s">
+  <h2 id="h1s">Step 1 · The problem lands <span class="time">· 20 min</span></h2>
+  <div class="cfo"><b>From Laura Hemmingsen, Chief of Staff</b><br>Three memos landed on my desk the same morning. Kevin says the move is the most dangerous time for a cyberattack. Ana says our cash will dip after go-live, and we have less of a cushion than most hospitals. Randy says the budget cut we gave Facilities could take the new system down on go-live weekend. Each of them is partly right, and each of them wants money or people.<br><br>The AMA guide's next step is planning for the challenges a transition brings. By April 11, I need a <b>risk register</b>: each risk scored, with an <b>owner</b>, a <b>response</b>, and a <b>warning sign</b> we can watch, plus a short summary I can take to the transition team.</div>
+  <div class="jordan"><div class="face" aria-hidden="true">LH</div><div class="bubble"><b class="who">Laura</b>A risk with no owner is a risk nobody manages. And a scary memo is not the same as a big risk, so score each one on the evidence.</div></div>
+  <p class="hint">All people, numbers, and memos here are fictional, except the published figures they cite.</p>
+  <div class="card">
+    <h3>Your files</h3>
+    <p class="dl-row"><a class="btn btn-ghost btn-sm" href="data/module-9/three-risk-memos.txt" download>Download the three memos (.txt)</a> <a class="btn btn-ghost btn-sm" href="data/module-9/risk-indicators.csv" download>Download the risk measures (.csv)</a></p>
+    <p>The memos are from Kevin Tran (security), Ana Morales (revenue cycle), and Randy Dietrich (facilities). The measures file opens in Excel: eight numbers the hospital tracks, month by month from October 2026 to March 2027.</p>
+  </div>
+  <div class="card">
+    <h3>Module 9 at a glance</h3>
+    <p><b>What you will produce:</b> one Word file that you upload to Canvas: your first call, your Copilot practice, the risk register and summary, your coach feedback record, an ethics exercise, a reflection, and your AI-use disclosure.</p>
+    <p><b>The 8 steps:</b> 1 Problem lands (20 min) · 2 Learn (75) · 3 Your first call, without AI (20) · 4 Copilot practice (60) · 5 Build (85) · 6 Coach feedback and revision (40) · 7 Ethics (40) · 8 Reflection (15). Total: 355 minutes, about 6 hours.</p>
+    <p class="dl-row"><a class="btn btn-ghost btn-sm" href="downloads/module-9-rubric.html" target="_blank" rel="noopener">Open the Module 9 rubric</a></p>
+  </div>
+  <label class="check"><input type="checkbox" data-save="s1.ready" data-req> <span>I read Laura's message, the three memos, and the measures file.</span></label>
+</section>
+
+<!-- STEP 2 -->
+<section class="step" data-step="2" aria-labelledby="h2s">
+  <h2 id="h2s">Step 2 · Learn <span class="time">· 75 min</span></h2>
+  <div class="video" id="videoBox"><div><b>Module 9 lecture video</b><br><span class="hint" style="color:#ddd">The video will appear here. If it does not, tell your instructor and keep going; the reading below covers the key points.</span></div></div>
+  <p class="hint">Lecture videos are presented by your instructor or by an AI-generated avatar of your instructor, and are labeled. Each video has a transcript you can read instead of, or along with, the video.</p>
+
+  <h3>2a. What a risk register is</h3>
+  <p>A <b>risk</b> is something that might happen and would hurt the project if it did. A <b>risk register</b> lists each one with the same fields, so leaders can compare them:</p>
+  <table class="t"><tr><th>Field</th><th>What it means</th></tr>
+  <tr><td><b>Likelihood</b> (1 to 5)</td><td>How likely it is to happen before or soon after go-live. 1 = rare, 5 = almost certain.</td></tr>
+  <tr><td><b>Impact</b> (1 to 5)</td><td>How bad it would be for patients, money, or the schedule. 1 = minor, 5 = severe.</td></tr>
+  <tr><td><b>Score</b></td><td>Likelihood × impact, from 1 to 25. Higher scores get attention first.</td></tr>
+  <tr><td><b>Owner</b></td><td>One named person who watches the risk and acts on it. Not a committee.</td></tr>
+  <tr><td><b>Response</b></td><td><b>Avoid</b> (change the plan so it can't happen), <b>reduce</b> (make it less likely or less harmful), <b>transfer</b> (shift the cost, for example to insurance or a contract), or <b>accept</b> (live with it, on purpose, with a backup plan).</td></tr>
+  <tr><td><b>Warning sign and trigger</b></td><td>A measure you can watch, and the level at which the owner must act.</td></tr></table>
+  <p>Scoring likelihood and impact is a standard way to assess risk (NIST Special Publication 800-30, <i>Guide for Conducting Risk Assessments</i>, 2012). The score is a judgment, so write down the evidence behind it.</p>
+  <div class="turn"><span class="tag">Practice question (not graded)</span>
+    <p>A risk has likelihood 2 and impact 5. Another has likelihood 4 and impact 3. Which scores higher, and what does that tell you?</p>
+    <div class="qc" data-id="q2a" data-h="b67bb51e6c4a3c9938b23d926dfe363a27beba664186fd9298dcfaba07f0fd56" data-req>
+      <div class="choices"><button class="choice" data-i="0">The first (10); rare risks with severe impact always come first</button><button class="choice" data-i="1">The second (12); but the first still needs an owner and a backup plan because its impact is severe</button><button class="choice" data-i="2">They are equal</button><button class="choice" data-i="3">Neither; only impact matters</button></div>
+      <div class="fb" data-ok="Right: 4 × 3 = 12 beats 2 × 5 = 10. The score sets the order, but a severe-impact risk still needs a plan." data-no="Multiply likelihood by impact for each one."></div>
+    </div>
+  </div>
+
+  <h3>2b. Security risk rises during a transition</h3>
+  <p>A move to a new EHR creates extra accounts, vendor connections, copies of data, and unusual emails, which is what attackers look for. Healthcare breaches cost an average of <b>$7.42 million</b> in 2025 and took about <b>279 days</b> to identify and contain, the longest of any industry (IBM, <i>Cost of a Data Breach Report 2025</i>, as reported July 30, 2025). When the claims company Change Healthcare was attacked in 2024, <b>94%</b> of nearly 1,000 hospitals in an American Hospital Association survey reported a financial impact (AHA, March 15, 2024). The Joint Commission tells hospitals to be ready to run with key technology offline for <b>four weeks or longer</b>, with downtime plans, trained teams, and practice drills (Sentinel Event Alert 67, August 2023).</p>
+  <div class="turn"><span class="tag">Practice question (not graded)</span>
+    <p>Which of Kevin's risks does a downtime drill reduce?</p>
+    <div class="qc" data-id="q2b" data-h="a5a866407beb2fdcb44400f0b310e1e083fe3f3f2bf6199fb1e53738a9f8e7a4" data-req>
+      <div class="choices"><button class="choice" data-i="0">Shared administrator logins</button><button class="choice" data-i="1">Phishing clicks</button><button class="choice" data-i="2">The harm from ransomware or a long outage</button><button class="choice" data-i="3">Vendor remote access</button></div>
+      <div class="fb" data-ok="Yes. A drill doesn&#x27;t stop an attack, but it reduces the harm if one happens, because staff know how to keep caring for patients on paper." data-no="Think about which risk is about what happens after systems go down."></div>
+    </div>
+  </div>
+
+  <h3>2c. The cash dip after go-live</h3>
+  <p>Hospitals often feel a money squeeze right after go-live. One large cancer center reported a temporary drop in patient activity in the two months after its February 2025 go-live and an operating loss for the half year, partly from go-live costs (Becker's Hospital Review, Aug. 19, 2025). A 25-bed Iowa hospital reported a one-month loss of $430,135 after its 2025 go-live, including about $500,000 of implementation costs (Becker's, Aug. 14, 2025). Slower claims are usually <b>delayed</b> money, not lost money, but the bills still come due. That is why <b>days of cash on hand</b> matters: the median for not-for-profit acute care providers was about <b>208 days</b> in S&P's preliminary 2025 figures, with a median operating margin of about 1.2% (Becker's, June 15, 2026).</p>
+  <div class="turn"><span class="tag">Practice question (not graded)</span>
+    <p>Kestrel Falls spends about $375 million a year, or about $1.03 million a day. If $29 million arrives late, about how many days of cash does that use up?</p>
+    <div class="qc" data-id="q2c" data-h="21acf14d8cb125b23e196bae17ea338e64c584d973d8c87c68b3b12e88003409" data-req>
+      <div class="choices"><button class="choice" data-i="0">About 3 days</button><button class="choice" data-i="1">About 28 days</button><button class="choice" data-i="2">About 75 days</button><button class="choice" data-i="3">About 150 days</button></div>
+      <div class="fb" data-ok="Right: $29 million ÷ $1.03 million a day is about 28 days, which would take Kestrel Falls from about 150 days of cash toward 122." data-no="Divide the late money by the daily spending."></div>
+    </div>
+  </div>
+
+  <h3>2d. Hidden dependencies</h3>
+  <p>Software runs on power, cooling, network closets, and people's hands. A cut to Facilities, a crew too small to install 180 workstations, or a team that was never asked can stop a go-live as surely as a software bug. Good registers look past the project's own budget for these <b>dependencies</b>.</p>
+
+  <h3>2e. Reading the warning signs</h3>
+  <p>A <b>warning sign</b> (a leading indicator) moves before the harm happens. A <b>lagging</b> measure tells you after. Rising vendor accounts and a growing coding backlog are warning signs; a breach report or a missed payroll is lagging. For each risk, pick a measure that moves early, and a trigger level that makes the owner act.</p>
+  <div class="turn"><span class="tag">Practice question (not graded)</span>
+    <p>In the measures file, the coding backlog went from 4.0 to 6.0 days between October and March. What is the best use of that number?</p>
+    <div class="qc" data-id="q2e" data-h="aa61c1171d87c9eef38079712c458f55448d1cb0523874c340181547d0726b7a" data-req>
+      <div class="choices"><button class="choice" data-i="0">Ignore it; it is only two days</button><button class="choice" data-i="1">Use it as a warning sign for the cash risk, with a trigger (for example, above 5 days at 90 days before go-live means extra coding help)</button><button class="choice" data-i="2">Use it to grade the coders</button><button class="choice" data-i="3">Wait for denials to rise before acting</button></div>
+      <div class="fb" data-ok="Yes. A rising backlog is an early sign that claims will be slow after go-live, so set a trigger that starts action." data-no="Think about which risk this number warns you about, and when."></div>
+    </div>
+  </div>
+  <p class="hint">Sources for this module are listed on the rubric page.</p>
+</section>
+
+<!-- STEP 3 -->
+<section class="step" data-step="3" aria-labelledby="h3s">
+  <h2 id="h3s">Step 3 · Your first call, without AI <span class="time">· 20 min</span></h2>
+  <div class="jordan"><div class="face" aria-hidden="true">LH</div><div class="bubble"><b class="who">Laura</b>Before you open Copilot, pick the one risk in each memo that worries you most and score it yourself. <b>Do not use AI for this step.</b> Keep it quick.</div></div>
+  <div class="turn"><span class="tag">Your turn · no AI</span>
+    <label class="lbl" for="a1">1. Kevin's memo: the risk that worries you most, its likelihood and impact (1 to 5 each), and why.</label>
+    <textarea id="a1" data-save="a1" data-min="40" data-req data-doc="A. First call (without AI)" data-label="1. Kevin&#x27;s memo: the risk that worries you most, its likelihood and impact (1 to 5 each), and why." ></textarea>
+    <label class="lbl" for="a2">2. Ana's memo: the risk that worries you most, its likelihood and impact, and why.</label>
+    <textarea id="a2" data-save="a2" data-min="40" data-req data-doc="A. First call (without AI)" data-label="2. Ana&#x27;s memo: the risk that worries you most, its likelihood and impact, and why." ></textarea>
+    <label class="lbl" for="a3">3. Randy's memo: the risk that worries you most, its likelihood and impact, and why.</label>
+    <textarea id="a3" data-save="a3" data-min="40" data-req data-doc="A. First call (without AI)" data-label="3. Randy&#x27;s memo: the risk that worries you most, its likelihood and impact, and why." ></textarea>
+  </div>
+  <label class="check"><input type="checkbox" data-save="s2.noai" data-req> <span>I did this step without using AI.</span></label>
+</section>
+
+<!-- STEP 4 -->
+<section class="step" data-step="4" aria-labelledby="h4s">
+  <h2 id="h4s">Step 4 · Copilot practice <span class="time">· 60 min</span></h2>
+  <div class="card">
+    <h3>This week's technique: give permission to say "I don't know"</h3>
+    <p>AI tools try to answer every question, so when the facts run out they may <b>guess</b> and sound sure. You can reduce that by telling Copilot, in your prompt, that it is fine to say it doesn't know: for example, to mark any score or fact the files don't support as <b>"not in the source"</b> or <b>"uncertain,"</b> instead of filling the gap. Then you can see where your own judgment is needed.</p>
+    <p class="hint">Sources: Anthropic, "Prompt engineering best practices for 2026" (published November 10, 2025); Microsoft Learn, "Write prompts that get results" (updated October 2026). You write your own prompts in this course; none are provided to copy.</p>
+  </div>
+  <div class="card">
+    <h3>Worked example, on a different made-up case</h3>
+    <p>A clinic manager asked an AI tool to list the risks of moving her lab to a new building and score each one. Her first prompt got a neat table, with a "likelihood 4" for flooding, though nothing in her notes mentioned water. She asked again and added: "Only use my notes. If my notes don't support a score, write 'uncertain' and say what fact you would need." This time, three of the ten scores came back "uncertain," including flooding ("need: the building's flood history"). She looked those up herself, and one turned out to matter.</p>
+  </div>
+  <div class="jordan"><div class="face" aria-hidden="true">LH</div><div class="bubble"><b class="who">Laura</b>Give Copilot the memos and the measures, ask for a scored list of risks, and tell it plainly that it may say it doesn't know. Then check what it marked uncertain, and what it should have.</div></div>
+  <div class="card">
+    <h3>How to do this</h3>
+    <ol class="steps-list">
+      <li>Open <b>Copilot</b>, start a new chat, and attach both files.</li>
+      <li>Write a prompt that asks for the risks in the memos, with a likelihood and impact score and the evidence for each, and that <b>gives Copilot permission to say "uncertain" or "not in the source"</b> instead of guessing.</li>
+      <li><b>Check every row</b> against the files: Is each fact really in the memos or the measures? Did Copilot invent a number? Which scores did it mark uncertain, and which should it have?</li>
+    </ol>
+  </div>
+  <div class="turn"><span class="tag">Your turn</span>
+    <label class="lbl" for="c1">1. Your <b>prompt</b> (paste it). Point out the words that give permission to say "I don't know."</label>
+    <textarea id="c1" data-save="c1" data-min="60" data-req data-doc="B. Copilot practice" data-label="1. Your prompt (paste it). Point out the words that give permission to say &quot;I don&#x27;t know.&quot;" data-coach ></textarea>
+    <label class="lbl" for="c2">2. What did Copilot give you? (paste the table or summarize it)</label>
+    <textarea id="c2" data-save="c2" data-min="20" data-req data-doc="B. Copilot practice" data-label="2. What did Copilot give you? (paste the table or summarize it)" data-coach ></textarea>
+    <label class="lbl" for="c3">3. Your <b>check</b>: which facts or scores were not supported by the files? What did Copilot mark uncertain, and was it right to? Where did you disagree with a score, and why?</label>
+    <textarea id="c3" data-save="c3" data-min="60" data-req data-doc="B. Copilot practice" data-label="3. Your check: which facts or scores were not supported by the files? What did Copilot mark uncertain, and was it right to? Where did you disagree with a score, and why?" data-coach ></textarea>
+  </div>
+</section>
+
+<!-- STEP 5 -->
+<section class="step" data-step="5" aria-labelledby="h5s">
+  <h2 id="h5s">Step 5 · Build the deliverable <span class="time">· 85 min</span></h2>
+  <div class="jordan"><div class="face" aria-hidden="true">LH</div><div class="bubble"><b class="who">Laura</b>Now the register, for me and the transition team. Nine risks come from the memos; add one that none of them named. You may use Copilot; if you do, check its work and say so in your disclosure.</div></div>
+  <div class="card" style="overflow-x:auto">
+    <h3>Part 1 · Risk register</h3>
+    <p class="hint">Owners must be one named person from the cast (for example, Kevin Tran, Ana Morales, Randy Dietrich, Doug Thielen, Greg Oltmanns, Kayla Brandt, Laura Hemmingsen). Responses: avoid, reduce, transfer, or accept. Use the measures file for warning signs where you can.</p>
+    <table class="t"><tr><th>Risk</th><th>Likelihood × impact = score, and the evidence</th><th>Owner and response</th><th>Warning sign and trigger</th></tr><tr><td><b>K1</b> Shared administrator logins and growing vendor remote access<br><span class="hint">From Kevin's memo</span></td><td><textarea id="r_s_K1" data-save="reg.s.K1" data-min="15" data-req data-doc="C. Risk register" data-row="K1: Shared administrator logins and growing vendor remote access" data-col="Likelihood × impact = score, and the evidence" data-coach style="min-height:70px"></textarea></td><td><textarea id="r_o_K1" data-save="reg.o.K1" data-min="15" data-req data-doc="C. Risk register" data-row="K1: Shared administrator logins and growing vendor remote access" data-col="Owner and response" data-coach style="min-height:70px"></textarea></td><td><textarea id="r_w_K1" data-save="reg.w.K1" data-min="10" data-req data-doc="C. Risk register" data-row="K1: Shared administrator logins and growing vendor remote access" data-col="Warning sign and trigger" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>K2</b> Phishing attacks timed to go-live<br><span class="hint">From Kevin's memo</span></td><td><textarea id="r_s_K2" data-save="reg.s.K2" data-min="15" data-req data-doc="C. Risk register" data-row="K2: Phishing attacks timed to go-live" data-col="Likelihood × impact = score, and the evidence" data-coach style="min-height:70px"></textarea></td><td><textarea id="r_o_K2" data-save="reg.o.K2" data-min="15" data-req data-doc="C. Risk register" data-row="K2: Phishing attacks timed to go-live" data-col="Owner and response" data-coach style="min-height:70px"></textarea></td><td><textarea id="r_w_K2" data-save="reg.w.K2" data-min="10" data-req data-doc="C. Risk register" data-row="K2: Phishing attacks timed to go-live" data-col="Warning sign and trigger" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>K3</b> Ransomware or a long outage near go-live<br><span class="hint">From Kevin's memo</span></td><td><textarea id="r_s_K3" data-save="reg.s.K3" data-min="15" data-req data-doc="C. Risk register" data-row="K3: Ransomware or a long outage near go-live" data-col="Likelihood × impact = score, and the evidence" data-coach style="min-height:70px"></textarea></td><td><textarea id="r_o_K3" data-save="reg.o.K3" data-min="15" data-req data-doc="C. Risk register" data-row="K3: Ransomware or a long outage near go-live" data-col="Owner and response" data-coach style="min-height:70px"></textarea></td><td><textarea id="r_w_K3" data-save="reg.w.K3" data-min="10" data-req data-doc="C. Risk register" data-row="K3: Ransomware or a long outage near go-live" data-col="Warning sign and trigger" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>A1</b> Slower claims and a cash dip after go-live<br><span class="hint">From Ana's memo</span></td><td><textarea id="r_s_A1" data-save="reg.s.A1" data-min="15" data-req data-doc="C. Risk register" data-row="A1: Slower claims and a cash dip after go-live" data-col="Likelihood × impact = score, and the evidence" data-coach style="min-height:70px"></textarea></td><td><textarea id="r_o_A1" data-save="reg.o.A1" data-min="15" data-req data-doc="C. Risk register" data-row="A1: Slower claims and a cash dip after go-live" data-col="Owner and response" data-coach style="min-height:70px"></textarea></td><td><textarea id="r_w_A1" data-save="reg.w.A1" data-min="10" data-req data-doc="C. Risk register" data-row="A1: Slower claims and a cash dip after go-live" data-col="Warning sign and trigger" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>A2</b> Coders behind and not trained in time<br><span class="hint">From Ana's memo</span></td><td><textarea id="r_s_A2" data-save="reg.s.A2" data-min="15" data-req data-doc="C. Risk register" data-row="A2: Coders behind and not trained in time" data-col="Likelihood × impact = score, and the evidence" data-coach style="min-height:70px"></textarea></td><td><textarea id="r_o_A2" data-save="reg.o.A2" data-min="15" data-req data-doc="C. Risk register" data-row="A2: Coders behind and not trained in time" data-col="Owner and response" data-coach style="min-height:70px"></textarea></td><td><textarea id="r_w_A2" data-save="reg.w.A2" data-min="10" data-req data-doc="C. Risk register" data-row="A2: Coders behind and not trained in time" data-col="Warning sign and trigger" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>A3</b> More claim denials after go-live<br><span class="hint">From Ana's memo</span></td><td><textarea id="r_s_A3" data-save="reg.s.A3" data-min="15" data-req data-doc="C. Risk register" data-row="A3: More claim denials after go-live" data-col="Likelihood × impact = score, and the evidence" data-coach style="min-height:70px"></textarea></td><td><textarea id="r_o_A3" data-save="reg.o.A3" data-min="15" data-req data-doc="C. Risk register" data-row="A3: More claim denials after go-live" data-col="Owner and response" data-coach style="min-height:70px"></textarea></td><td><textarea id="r_w_A3" data-save="reg.w.A3" data-min="10" data-req data-doc="C. Risk register" data-row="A3: More claim denials after go-live" data-col="Warning sign and trigger" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>F1</b> Power or cooling failure in network closets or the server room<br><span class="hint">From Randy's memo</span></td><td><textarea id="r_s_F1" data-save="reg.s.F1" data-min="15" data-req data-doc="C. Risk register" data-row="F1: Power or cooling failure in network closets or the server room" data-col="Likelihood × impact = score, and the evidence" data-coach style="min-height:70px"></textarea></td><td><textarea id="r_o_F1" data-save="reg.o.F1" data-min="15" data-req data-doc="C. Risk register" data-row="F1: Power or cooling failure in network closets or the server room" data-col="Owner and response" data-coach style="min-height:70px"></textarea></td><td><textarea id="r_w_F1" data-save="reg.w.F1" data-min="10" data-req data-doc="C. Risk register" data-row="F1: Power or cooling failure in network closets or the server room" data-col="Warning sign and trigger" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>F2</b> Not enough hands to install 180 workstations<br><span class="hint">From Randy's memo</span></td><td><textarea id="r_s_F2" data-save="reg.s.F2" data-min="15" data-req data-doc="C. Risk register" data-row="F2: Not enough hands to install 180 workstations" data-col="Likelihood × impact = score, and the evidence" data-coach style="min-height:70px"></textarea></td><td><textarea id="r_o_F2" data-save="reg.o.F2" data-min="15" data-req data-doc="C. Risk register" data-row="F2: Not enough hands to install 180 workstations" data-col="Owner and response" data-coach style="min-height:70px"></textarea></td><td><textarea id="r_w_F2" data-save="reg.w.F2" data-min="10" data-req data-doc="C. Risk register" data-row="F2: Not enough hands to install 180 workstations" data-col="Warning sign and trigger" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>F3</b> Facilities left out of go-live planning<br><span class="hint">From Randy's memo</span></td><td><textarea id="r_s_F3" data-save="reg.s.F3" data-min="15" data-req data-doc="C. Risk register" data-row="F3: Facilities left out of go-live planning" data-col="Likelihood × impact = score, and the evidence" data-coach style="min-height:70px"></textarea></td><td><textarea id="r_o_F3" data-save="reg.o.F3" data-min="15" data-req data-doc="C. Risk register" data-row="F3: Facilities left out of go-live planning" data-col="Owner and response" data-coach style="min-height:70px"></textarea></td><td><textarea id="r_w_F3" data-save="reg.w.F3" data-min="10" data-req data-doc="C. Risk register" data-row="F3: Facilities left out of go-live planning" data-col="Warning sign and trigger" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>X1</b> A risk none of the memos named<br><textarea id="r_x_name" data-save="reg.x.name" data-min="10" data-req data-doc="C. Risk register" data-row="X1: A risk none of the memos named" data-col="The risk (your own)" data-coach style="min-height:60px" placeholder="Name the risk"></textarea></td><td><textarea id="r_s_X1" data-save="reg.s.X1" data-min="15" data-req data-doc="C. Risk register" data-row="X1: A risk none of the memos named" data-col="Likelihood × impact = score, and the evidence" data-coach style="min-height:70px"></textarea></td><td><textarea id="r_o_X1" data-save="reg.o.X1" data-min="15" data-req data-doc="C. Risk register" data-row="X1: A risk none of the memos named" data-col="Owner and response" data-coach style="min-height:70px"></textarea></td><td><textarea id="r_w_X1" data-save="reg.w.X1" data-min="10" data-req data-doc="C. Risk register" data-row="X1: A risk none of the memos named" data-col="Warning sign and trigger" data-coach style="min-height:70px"></textarea></td></tr></table></div>
+  <div class="turn"><span class="tag">Part 2 · Summary for Laura</span>
+    <label class="lbl" for="s1">1. Your <b>top three risks</b> by score, and why they rank above the others. Use at least two numbers from the measures file and say what each trend tells you.</label>
+    <textarea id="s1" data-save="s1" data-min="100" data-req data-doc="C. Risk register" data-label="1. Your top three risks by score, and why they rank above the others. Use at least two numbers from the measures file and say what each trend tells you." data-coach ></textarea>
+    <label class="lbl" for="s2">2. <b>Money</b>: what would you fund no matter what from Randy's $1.1 million cut, and how big a cash cushion should Ana's plan cover? Show the arithmetic.</label>
+    <textarea id="s2" data-save="s2" data-min="80" data-req data-doc="C. Risk register" data-label="2. Money: what would you fund no matter what from Randy&#x27;s $1.1 million cut, and how big a cash cushion should Ana&#x27;s plan cover? Show the arithmetic." data-coach ></textarea>
+    <label class="lbl" for="s3">3. One risk you would <b>accept</b> on purpose, and the backup plan that makes that safe.</label>
+    <textarea id="s3" data-save="s3" data-min="40" data-req data-doc="C. Risk register" data-label="3. One risk you would accept on purpose, and the backup plan that makes that safe." data-coach ></textarea>
+  </div>
+</section>
+
+<!-- STEP 6 -->
+<section class="step" data-step="6" aria-labelledby="h6s">
+  <h2 id="h6s">Step 6 · Coach feedback and revision <span class="time">· 40 min</span></h2>
+  <div class="card">
+    <ol class="steps-list">
+      <li>Open Copilot and start a <b>new chat</b>. Paste your <b>coach instructions</b> (from the Start Here page) and send.</li>
+      <li>Open the <a href="downloads/module-9-rubric.html" target="_blank" rel="noopener">Module 9 rubric</a>, copy it, and paste it into the chat.</li>
+      <li>Click <b>Copy my draft for the coach</b>, paste it into the chat, and ask for feedback.<br><button class="btn btn-gold btn-sm" type="button" data-copy-draft>Copy my draft for the coach</button></li>
+      <li><b>Revise your work in Steps 4 and 5</b> on this page (use Back). You may send the revision to the coach again.</li>
+      <li>Copy the <b>whole coach conversation</b> and paste it below. You may delete repeated copies of your own draft, but keep all of the coach's feedback and your replies.</li>
+    </ol>
+  </div>
+  <div class="turn"><span class="tag">Your feedback record (15 points)</span>
+    <label class="lbl" for="fb1">1. The full coach conversation (paste it).</label>
+    <textarea id="fb1" data-save="fb1" data-min="200" data-req data-doc="D. Coach feedback record" data-label="1. The full coach conversation (paste it)." ></textarea>
+    <label class="lbl" for="fb2">2. What did you <b>change</b> after the feedback, and why?</label>
+    <textarea id="fb2" data-save="fb2" data-min="40" data-req data-doc="D. Coach feedback record" data-label="2. What did you change after the feedback, and why?" ></textarea>
+    <label class="lbl" for="fb3">3. What feedback did you <b>keep as is</b> or reject, and why? (Write none if there was none.)</label>
+    <textarea id="fb3" data-save="fb3" data-min="4" data-req data-doc="D. Coach feedback record" data-label="3. What feedback did you keep as is or reject, and why? (Write none if there was none.)" ></textarea>
+  </div>
+</section>
+
+<!-- STEP 7 -->
+<section class="step" data-step="7" aria-labelledby="h7s">
+  <h2 id="h7s">Step 7 · Ethics exercise <span class="time">· 40 min</span></h2>
+  <div class="card">
+    <h3>ACHE Code of Ethics, Section VI: The Healthcare Executive's Responsibility to Report Violations of the Code</h3>
+    <p>Read Section VI of the <a href="https://www.ache.org/About-Us/Our-Commitments/Ethics/Code-of-Ethics" target="_blank" rel="noopener">ACHE Code of Ethics</a> (as amended Dec. 8, 2025). It says that an ACHE member who has <b>reasonable grounds</b> to believe another member has violated the Code must report the facts to ACHE's Ethics Committee in a timely way. Section I (responsibilities to the profession), which asks leaders to be honest and to avoid misleading others, also applies.</p>
+  </div>
+  <div class="cfo"><b>The case</b><br>Doug Thielen, the CIO, is an ACHE member. He is drafting the risk summary for the board. He tells you: "Leave out the phishing result and the downtime drill. And write that the drill was done this spring; we'll do it before anyone checks. If the board panics, they'll delay the project." You know no drill is scheduled. You asked an AI tool what to do, and it suggested six steps:
+  <div style="overflow-x:auto"><table class="t"><tr><th>Step</th><th>AI draft</th></tr><tr><td><b>1.</b> Your first move</td><td><i>Do what Doug says. He is the CIO, and it is his report.</i></td></tr><tr><td><b>2.</b> Talking to Doug</td><td><i>Don't raise it with Doug; it will only make him angry.</i></td></tr><tr><td><b>3.</b> The board summary</td><td><i>Write that the drill was done; it will be soon, so it is basically true.</i></td></tr><tr><td><b>4.</b> Inside the hospital</td><td><i>Tell your coworkers in the break room so everyone knows what Doug did.</i></td></tr><tr><td><b>5.</b> Reporting to ACHE</td><td><i>Report Doug to ACHE's Ethics Committee today, before talking to anyone at Kestrel Falls.</i></td></tr><tr><td><b>6.</b> Your records</td><td><i>Don't write anything down, so there is no record if this goes badly.</i></td></tr></table></div></div>
+  <div class="turn"><span class="tag">Your turn (15 points)</span>
+    <div class="card" style="overflow-x:auto"><table class="t"><tr><th>Step and AI draft</th><th>Your call (keep, fix, or replace) and why</th></tr><tr><td><b>1.</b> Your first move<br><span class="hint">AI draft: Do what Doug says. He is the CIO, and it is his report.</span></td>
+<td><textarea id="d1" data-save="eth.1" data-min="15" data-req data-doc="E. Ethics exercise (ACHE Code, Section VI)" data-row="Step 1: Your first move" data-col="Your call (keep, fix, or replace) and why" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>2.</b> Talking to Doug<br><span class="hint">AI draft: Don't raise it with Doug; it will only make him angry.</span></td>
+<td><textarea id="d2" data-save="eth.2" data-min="15" data-req data-doc="E. Ethics exercise (ACHE Code, Section VI)" data-row="Step 2: Talking to Doug" data-col="Your call (keep, fix, or replace) and why" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>3.</b> The board summary<br><span class="hint">AI draft: Write that the drill was done; it will be soon, so it is basically true.</span></td>
+<td><textarea id="d3" data-save="eth.3" data-min="15" data-req data-doc="E. Ethics exercise (ACHE Code, Section VI)" data-row="Step 3: The board summary" data-col="Your call (keep, fix, or replace) and why" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>4.</b> Inside the hospital<br><span class="hint">AI draft: Tell your coworkers in the break room so everyone knows what Doug did.</span></td>
+<td><textarea id="d4" data-save="eth.4" data-min="15" data-req data-doc="E. Ethics exercise (ACHE Code, Section VI)" data-row="Step 4: Inside the hospital" data-col="Your call (keep, fix, or replace) and why" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>5.</b> Reporting to ACHE<br><span class="hint">AI draft: Report Doug to ACHE's Ethics Committee today, before talking to anyone at Kestrel Falls.</span></td>
+<td><textarea id="d5" data-save="eth.5" data-min="15" data-req data-doc="E. Ethics exercise (ACHE Code, Section VI)" data-row="Step 5: Reporting to ACHE" data-col="Your call (keep, fix, or replace) and why" data-coach style="min-height:70px"></textarea></td></tr><tr><td><b>6.</b> Your records<br><span class="hint">AI draft: Don't write anything down, so there is no record if this goes badly.</span></td>
+<td><textarea id="d6" data-save="eth.6" data-min="15" data-req data-doc="E. Ethics exercise (ACHE Code, Section VI)" data-row="Step 6: Your records" data-col="Your call (keep, fix, or replace) and why" data-coach style="min-height:70px"></textarea></td></tr></table></div>
+    <label class="lbl" for="e2">2. Write the <b>two sentences</b> about phishing and the downtime drill that you think belong in the board summary. Make them honest without causing panic.</label>
+    <textarea id="e2" data-save="e2" data-min="60" data-req data-doc="E. Ethics exercise (ACHE Code, Section VI)" data-label="2. Write the two sentences about phishing and the downtime drill that you think belong in the board summary. Make them honest without causing panic." data-coach ></textarea>
+    <label class="lbl" for="e3">3. In 80 to 150 words: when, if ever, would Section VI require a report to ACHE in this case? What should happen first inside Kestrel Falls, and why?</label>
+    <textarea id="e3" data-save="e3" data-min="80" data-req data-doc="E. Ethics exercise (ACHE Code, Section VI)" data-label="3. In 80 to 150 words: when, if ever, would Section VI require a report to ACHE in this case? What should happen first inside Kestrel Falls, and why?" data-coach ></textarea>
+  </div>
+</section>
+
+<!-- STEP 8 -->
+<section class="step" data-step="8" aria-labelledby="h8s">
+  <h2 id="h8s">Step 8 · Reflection and submission <span class="time">· 15 min</span></h2>
+  <div class="turn"><span class="tag">Reflection (10 points)</span>
+    <label class="lbl" for="rf1">Compare your Step 3 scores with your final register. What changed, and why? What did you learn when you let Copilot say "I don't know"? Where might you, as a healthcare manager, need to rank risks that are hard to compare, like money, safety, and trust? (4 to 6 sentences)</label>
+    <textarea id="rf1" data-save="rf1" data-min="120" data-req data-doc="F. Reflection" data-label="Compare your Step 3 scores with your final register. What changed, and why? What did you learn when you let Copilot say &quot;I don&#x27;t know&quot;? Where might you, as a healthcare manager, need to rank risks that are hard to compare, like money, safety, and trust? (4 to 6 sentences)" ></textarea>
+  </div>
+  <div class="turn"><span class="tag">AI-use disclosure (5 points)</span>
+    <label class="lbl" for="disc">Which AI tools did you use in this module, for which parts, and how did you check the output? Include Copilot and your coach.</label>
+    <textarea id="disc" data-save="disc" data-min="40" data-req data-doc="G. AI-use disclosure" data-label="Which AI tools did you use in this module, for which parts, and how did you check the output? Include Copilot and your coach." ></textarea>
+  </div>
+  <div class="card">
+    <label class="lbl" for="stuName">Your name (as in Canvas)</label>
+    <input id="stuName" data-save="name" data-req data-min="3" style="width:100%">
+    <label class="lbl" for="attempt">Which attempt is this?</label>
+    <select id="attempt" data-save="attempt" data-req><option value="">Choose one…</option><option>First submission</option><option>Redo 1</option><option>Redo 2</option><option>Redo 3</option></select>
+    <p class="hint">Redos: up to 3, each within 14 days after this assignment's grade posts, and all by Thursday, May 13. A redo needs a new coach conversation. Your highest attempt counts.</p>
+    <p><button class="btn btn-red" type="button" data-download="8">Download my submission (.doc)</button>
+    <a class="btn btn-gold submitLink" href="#" target="_blank" rel="noopener" style="display:none">Submit in Canvas</a></p>
+  </div>
+  <div id="finishBox"></div>
+</section>
+
+<div class="nav">
+  <button class="btn btn-ghost" type="button" id="prev">Back</button>
+  <div class="gate" id="gate" role="status" aria-live="polite"></div>
+  <button class="btn btn-red" type="button" id="next">Next</button>
+</div>
+
+</div></main>
+<footer><div class="wrap">HCM/MIS 4030 · Iowa State University · All people, organizations, and data in this course are fictional. What you type stays in your browser until you upload your submission in Canvas.</div></footer>
+
+<script src="assets/config.js"></script>
+<script src="assets/common.js"></script>
+<script src="assets/module.js"></script>
+</body>
+</html>
