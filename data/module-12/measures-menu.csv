@@ -1,0 +1,19 @@
+ID,Measure,Area,Current value at Kestrel Falls (April 2027),Where it comes from,Earlier module
+M01,Days of cash on hand,Finance,150 days,Finance monthly report,Module 9
+M02,Claims sent per day compared with normal,Finance,About 1450 claims a day (100%),Revenue cycle system,Module 9
+M03,First-pass claim denial rate,Finance,11.9%,Revenue cycle system,Module 9
+M04,Coding backlog (days of work not yet coded),Finance,6.0 days,Coding work queue,Module 9
+M05,Help desk calls per day and average wait,Technical,About 180 calls a day; about 4 minutes,Help desk phone system,Module 10
+M06,Training completion by group and shift,Staff,Not started,Training records,Module 10
+M07,Proficiency check pass rate before go-live,Staff,Not started,Training records,Module 10
+M08,Staff burnout (pulse survey),Staff,Inpatient RNs 52%; physicians 41%,Pulse survey every 6 months,Module 11
+M09,Nurse turnover (last 12 months),Staff,16%,HR system,Module 11
+M10,Physician time in the EHR after clinic hours,Staff,About 1.3 hours a day (self-reported),Survey now; EHR usage logs after go-live,Module 11
+M11,Medications scanned at the bedside before giving,Patient safety,91%,eMAR scanning report,Module 5
+M12,Ambulance records that reach the ED without errors,Patient safety,97.13% (2.87% error rate),Interface error log,Module 7
+M13,Unplanned EHR downtime (hours per month),Technical,3.5 hours,IT incident log,Module 9
+M14,Staff who click a phishing test link,Technical,9%,Quarterly phishing test,Module 9
+M15,SAFER Guides High Priority Practices fully in place,Patient safety,Not yet assessed with the 2025 guides,Yearly self-assessment,Module 12
+M16,Patients actively using the portal,Patient experience,38% of patients seen in the last year,Portal reports,Module 1
+M17,Patient complaints that mention the EHR change,Patient experience,0 (no change yet),Patient relations log,Module 12
+M18,Surgical cases per week compared with normal,Operations,About 120 cases a week (100%),Operating room schedule,Module 6

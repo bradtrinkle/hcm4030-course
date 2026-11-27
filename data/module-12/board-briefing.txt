@@ -1,0 +1,37 @@
+KESTREL FALLS COMMUNITY HOSPITAL: BOARD BRIEFING FOR THE EHR RECOMMENDATION
+From Laura Hemmingsen, Chief of Staff (fictional; April 2027)
+
+THE MEETING
+- Board of Trustees, Thursday, May 13, 2027, 6:00 p.m.
+- Your time: 20 minutes. Plan about 12 minutes to present and 8 minutes for questions.
+- Your deck: 8 to 10 slides. Put details the board might ask about in an appendix (appendix slides don't count toward the 10).
+- The board packet goes out one week ahead, so the slides must make sense without you in the room.
+
+WHO IS ON THE BOARD (11 members)
+- The chair, a retired bank president; a family physician from Prairie Bend; a farm co-op manager; the school superintendent; a retired nurse; a small-business owner; a pastor; two county residents who are patients here; the hospital president (Laura's boss, who doesn't vote); and the chief of the medical staff.
+- Most are not health IT experts. Several read every number. The retired nurse will ask about night shift.
+
+WHAT THEY ASKED TO HEAR ABOUT (sent by the chair)
+1. What are we being asked to approve, and what does it cost?
+2. How will patients be kept safe on go-live day and the weeks after?
+3. Will our staff stay with us through this?
+4. How will we know in the first 90 days whether it's working?
+5. What happens if it goes wrong?
+
+THE MONEY SO FAR (Greg Oltmanns, CFO)
+- EHR five-year budget limit: $47.0 million (Module 4). It covers the vendor contract and the costs in the true-cost comparison.
+- Change reserve for custom work and add-ons: $2.4 million over five years (Module 8).
+- Paid training time: $700,000 (Module 10).
+- Outside go-live support: $1.5 million (Module 10).
+- Stress-reduction plan: $600,000 (Module 11).
+- Plexmoor Extended Support: $3.3 million for 2029, only if any site is still on Plexmoor after December 31, 2028 (Module 6).
+- A line of credit of about $30 million to cover slower claims after go-live (Module 9). This is borrowing, not spending.
+- For scale: the operating budget is about $375 million a year, the operating margin about 1.2%, and cash on hand about 150 days.
+
+WHAT I NEED FROM YOU
+- A recommendation the board can approve or reject, with the decisions spelled out.
+- A measures dashboard plan: the 8 measures the board will see after go-live, with targets, warning levels, owners, and how often.
+- How staff and patients will give feedback after go-live, and how the board will hear it.
+- Honest answers to the chair's five questions.
+
+All names, numbers, and dates are fictional except published figures cited in the course.
