@@ -1,4 +1,4 @@
-Kestrel Falls EHR fact sheet (fictional, from Doug Thielen, CIO, and Greg Oltmanns, CFO)
+KFCH EHR fact sheet (fictional, from Doug Thielen, CIO, and Greg Oltmanns, CFO)
 - In use since: 2012 (15 years)
 - Users: About 1,900 staff and providers in the hospital, 10 clinics, and the ambulance service
 - Patient records: About 410,000

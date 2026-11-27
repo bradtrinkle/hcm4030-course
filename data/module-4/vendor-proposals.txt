@@ -1,4 +1,4 @@
-Kestrel Falls EHR replacement: vendor proposal summaries (fictional). Dollar figures are 5-year totals unless noted.
+KFCH EHR replacement: vendor proposal summaries (fictional). Dollar figures are 5-year totals unless noted.
 
 Orivane Health
 Hosting: Cloud software as a service (Orivane runs it in its cloud)
