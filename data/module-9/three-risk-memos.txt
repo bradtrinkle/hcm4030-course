@@ -1,0 +1,40 @@
+KESTREL FALLS COMMUNITY HOSPITAL: THREE RISK MEMOS FOR THE TRANSITION TEAM
+(fictional; April 2027)
+
+Hospital context (fictional): operating budget about $375 million a year; total revenue about $380 million; operating margin about 1.2% (about $4.5 million a year); about 150 days of cash on hand; first go-live planning date Saturday, October 14, 2028.
+
+=====================================================================
+MEMO 1. From Kevin Tran, Chief Information Security Officer
+Subject: Security risks during the move
+
+1. Shared administrator logins. Plexmoor still has 12 administrator accounts shared by several people. If one is misused, we cannot tell who did it. These accounts will exist on both systems during the move.
+2. Vendor remote access. About 140 vendor and contractor accounts can reach our network remotely, up from 118 in October. During implementation the new vendor will add more. We have no single list of who has access to what.
+3. Phishing. In our last phishing test (January 2027), 9% of staff clicked the fake link. Attackers often target hospitals during big changes, when staff expect unusual emails ("Click here to set up your new EHR login").
+4. Data in motion. During migration, copies of patient records will sit in temporary files and test systems. Test systems often have weaker controls.
+5. Ransomware. If an attacker locks our systems near go-live, we could be on paper for days or weeks. Our downtime procedures were last practiced in 2025.
+For scale: healthcare breaches cost an average of $7.42 million in 2025 and took about 279 days to identify and contain (IBM, Cost of a Data Breach Report 2025). After the 2024 Change Healthcare attack, 94% of hospitals in an American Hospital Association survey reported a financial impact.
+What I need: single, named accounts for every administrator before migration; a vendor access review every month; phishing training timed to go-live; test systems secured like production; a downtime drill before go-live.
+
+=====================================================================
+MEMO 2. From Ana Morales, Revenue Cycle Manager
+Subject: The cash dip after go-live
+
+1. Claims slow down. After go-live, charges, coding, and claims all run in a new system with new staff habits. Other hospitals have felt it. A large cancer center reported a temporary drop in patient activity in the two months after its February 2025 go-live and an operating loss for the half year, partly from go-live costs. A 25-bed Iowa hospital reported a $430,135 loss for its first full month after go-live, which included about $500,000 of implementation costs.
+2. Our numbers: we bill about $32 million a month. If 30% of claims are delayed for three months, about $29 million arrives late. That money is not lost, but it is not in the bank when payroll is due. (The 30% is my planning assumption, not a measured number.)
+3. Denials. New codes, new forms, and new payer rules can raise claim denials. Every denied claim needs rework. Our first-pass denial rate has crept up from 10.8% to 11.9% since October.
+4. Coders. Our 14 coders must learn the new system before go-live, but they are already behind by about 6 days of work.
+5. Our cushion: about 150 days of cash on hand, below the 208-day median for not-for-profit acute care providers (S&P Global Ratings, preliminary 2025 medians). Our operating margin is about the same as the median, 1.2%, which is thin.
+What I need: end-to-end billing tests with every major payer; coders trained and caught up before go-live; a cash plan (for example, a line of credit) approved before go-live; daily claims numbers for the first 90 days.
+
+=====================================================================
+MEMO 3. From Randy Dietrich, Facilities and Maintenance Director
+Subject: My budget cut is your go-live risk
+
+1. The cut. To help fund the EHR, Facilities' budget for next year drops by $1.1 million (from $14.0 million to $12.9 million).
+2. What I would defer to fit it: the yearly full-load test of the emergency generators ($25,000); replacing batteries in the backup power units (UPS) in 41 network closets ($95,000; 29 have batteries more than 5 years old); upgrading cooling in the main server room, which ran hot twice last summer ($310,000); and $670,000 of other work (repainting, parking-lot repairs, and replacing older lobby furniture and lighting).
+3. Why it matters for the EHR: every workstation, scanner, and wireless access point depends on those network closets. If power or cooling fails on go-live weekend, the new system goes down even if the software works perfectly.
+4. Device placement. The new system needs about 180 more wall-mounted workstations and charging stations. My crew installs them. With a smaller budget, I have fewer hands.
+5. Left out. I asked to stay off the core team in February because I had no hours to give. That did not mean Facilities should be left out of planning. Nobody has asked my crew about the install schedule, and I learned about the cut from a spreadsheet.
+What I need: the generator test and UPS batteries funded no matter what; my crew's install work planned into the project schedule; a named contact on the transition team for go-live planning.
+
+All names, numbers, and dates are fictional except the cited published figures.
