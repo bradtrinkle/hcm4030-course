@@ -12,15 +12,18 @@
   const $ = (s,r=document)=>r.querySelector(s), $$ = (s,r=document)=>Array.from(r.querySelectorAll(s));
   const esc = s => String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
   const words = s => (String(s).trim().match(/\S+/g)||[]).length;
-  const N = Number(document.body.dataset.module);
+  const MOD = document.body.dataset.module;
+  const N = isNaN(Number(MOD)) ? MOD : Number(MOD);
+  const LABEL = isNaN(Number(MOD)) ? MOD.charAt(0).toUpperCase()+MOD.slice(1) : "Module "+N;
+  const REDO = document.body.dataset.redo !== "no";
   const P = "m"+N+".";
   const STEP_NAMES = (document.body.dataset.steps||"").split("|");
   const TOTAL = STEP_NAMES.length;
-  const TITLE = document.body.dataset.title || ("Module "+N);
+  const TITLE = document.body.dataset.title || (LABEL);
   const C = window.COURSE || {};
 
   /* ---------- config-driven links (Canvas integration) ---------- */
-  if(C.videoUrl && C.videoUrl[N] && $("#videoBox")) $("#videoBox").innerHTML = videoHtml(C.videoUrl[N], "Module "+N+" video");
+  if(C.videoUrl && C.videoUrl[N] && $("#videoBox")) $("#videoBox").innerHTML = videoHtml(C.videoUrl[N], LABEL+" video");
   $$("[data-video]").forEach(box=>{ const k = box.dataset.video; if(C.extraVideos && C.extraVideos[k]) box.innerHTML = videoHtml(C.extraVideos[k], k); });
   if(C.submitUrl && C.submitUrl[N]) $$(".submitLink").forEach(a=>{ a.href = C.submitUrl[N]; a.style.display = "inline-block"; });
 
@@ -75,7 +78,7 @@
     const pct = store.get(P+"done",false) ? 100 : Math.max(3,Math.min(97,((cur-1)/TOTAL)*100+3));
     $("#fill").style.width = pct+"%"; const mk = $("#marker"); if(mk) mk.style.left = pct+"%";
     $("#prev").style.visibility = cur===1?"hidden":"visible";
-    const nx = $("#next"); nx.textContent = cur===TOTAL?("Finish Module "+N):"Next";
+    const nx = $("#next"); nx.textContent = cur===TOTAL?("Finish "+LABEL):"Next";
     nx.style.display = (cur===TOTAL && store.get(P+"done",false)) ? "none" : "inline-block";
     updateGate();
     store.set(P+"step",cur); store.set(P+"max",maxReached);
@@ -144,9 +147,9 @@
     }).join("\n");
     const name = (($("#stuName")||{}).value||"").trim();
     const attempt = (($("#attempt")||{}).value||"First submission");
-    return `<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head><meta charset="utf-8"><title>Module ${N} Submission</title>
+    return `<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head><meta charset="utf-8"><title>${LABEL} Submission</title>
 <style>body{font-family:Calibri,Arial,sans-serif;font-size:11pt}h1{color:#C8102E}h2{color:#C8102E;border-bottom:2px solid #F1BE48}table{border-collapse:collapse;width:100%}td,th{border:1px solid #999;padding:4px;vertical-align:top}th{background:#F3E3E6}</style></head><body>
-<h1>HCM 4030 Module ${N}: ${esc(TITLE)}</h1>
+<h1>HCM 4030 ${LABEL}: ${esc(TITLE)}</h1>
 <p><b>Student:</b> ${esc(name)} &nbsp; <b>Attempt:</b> ${esc(attempt)} &nbsp; <b>Date:</b> ${new Date().toLocaleDateString()}</p>
 ${body}
 </body></html>`;
@@ -155,7 +158,7 @@ ${body}
     const name = (($("#stuName")||{}).value||"").trim();
     const blob = new Blob(["﻿"+asDoc()],{type:"application/msword"});
     const a = document.createElement("a"); a.href = URL.createObjectURL(blob);
-    a.download = "HCM4030_Module"+N+"_"+(name.replace(/[^A-Za-z0-9]+/g,"_")||"student")+".doc";
+    a.download = "HCM4030_"+LABEL.replace(/ /g,"")+"_"+(name.replace(/[^A-Za-z0-9]+/g,"_")||"student")+".doc";
     document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(a.href),2000);
     toast("Downloaded. Upload it to Canvas.");
   }
@@ -169,13 +172,13 @@ ${body}
 
   /* ---------- finish ---------- */
   function finishCard(){
-    $("#finishBox").innerHTML = `<div class="card done-card"><h2>Module ${N} complete!</h2>
+    $("#finishBox").innerHTML = `<div class="card done-card"><h2>${LABEL} complete!</h2>
       <p>Download your submission, then upload it to Canvas.</p>
       <p><button class="btn btn-red" id="dl2" type="button">Download my submission (.doc)</button></p>
-      <p class="hint">You may redo this assignment up to 3 times, within 14 days after its grade posts (all redos by May 13). Your highest attempt counts.</p>
+      ${REDO?`<p class="hint">You may redo this assignment up to 3 times, within 14 days after its grade posts (all redos by May 13). Your highest attempt counts.</p>`:`<p class="hint">The final has one attempt, so check every file before you submit.</p>`}
       <p><button class="btn btn-ghost btn-sm" id="reset" type="button">Clear my saved answers on this device</button></p></div>`;
     $("#dl2").addEventListener("click",download);
-    $("#reset").addEventListener("click",()=>{ if(confirm("This erases everything you typed in Module "+N+" on this device. Continue?")){ Object.keys(localStorage).filter(k=>k.startsWith("hcm4030."+P)).forEach(k=>localStorage.removeItem(k)); location.reload(); }});
+    $("#reset").addEventListener("click",()=>{ if(confirm("This erases everything you typed in "+LABEL+" on this device. Continue?")){ Object.keys(localStorage).filter(k=>k.startsWith("hcm4030."+P)).forEach(k=>localStorage.removeItem(k)); location.reload(); }});
   }
   function finish(){ store.set(P+"done",true); finishCard(); if(window.confetti) confetti(); render(); window.scrollTo({top:document.body.scrollHeight,behavior:"smooth"}); }
   if(store.get(P+"done",false)) finishCard();
