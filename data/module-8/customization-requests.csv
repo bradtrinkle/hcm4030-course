@@ -1,0 +1,17 @@
+ID,Requested by,Department,Request,Type,One-time cost ($),Yearly cost ($),What the new EHR offers as standard,Reason given
+R01,Dr. Richard Halvorsen,Surgery,Rebuild the operative note screen to look exactly like Plexmoor's,Custom build,85000,12000,Vendor's standard surgical note templates; surgeons can set their own favorites,Surgeons already know the old layout
+R02,Dr. Alan Rasmussen (CMO),Medical staff,Ambient AI scribe for 40 physicians in clinics and the hospital,AI feature (add-on),30000,192000,None; typing or dictation,Fewer hours charting at night; 40 physicians x $400 a month x 12
+R03,Joan Haverkamp (CNO),Nursing,Turn on the vendor's AI sepsis early-warning alerts,AI feature (included),0,40000,Standard sepsis screening checklist,Yearly cost is staff time to review alerts and monitor accuracy
+R04,Riverside Pediatrics,Clinics,Custom dosing calculator for children's medicines,Custom build,60000,9000,Vendor's standard weight-based dosing with pediatric rules,Pharmacy wants to keep the calculator it built in Plexmoor
+R05,Shawn Hoffmeyer,Ambulance Service,Offline charting that syncs when crews get signal,Add-on product,120000,36000,None; standard charting needs a connection,Rural routes with no signal (Modules 5 to 7)
+R06,Ana Morales,Revenue Cycle,Claim-checking rules for our top 5 payers,Configuration,0,0,Configurable in the standard billing module,Fewer denied claims
+R07,Behavioral Health clinic,Clinics,Extra privacy limits on therapy notes,Configuration,0,0,Configurable note-sharing restrictions,Required by hospital privacy policy
+R08,Randy Dietrich,Facilities,A button in the EHR that opens a facilities work order,Custom build,40000,8000,Staff call or email facilities; separate work-order system,Faster repairs of patient-room equipment
+R09,Marketing,Administration,Animated logo and custom colors on the patient portal,Custom build,25000,4000,Standard portal branding (logo and colors) is included,Brand look
+R10,Darlene Kuehl and the CNAs,Nursing,Enter vital signs on handheld devices at the bedside,Add-on product,90000,30000,Vitals entry on workstations only,Stops paper vitals (Module 7: 4 of 6 units)
+R11,Women's Health,Clinics,Rebuild the paper prenatal form as a custom screen,Custom build,50000,7500,Vendor's standard prenatal module,Staff like the paper form
+R12,Mai Vang,Patient Services,Show preferred language and interpreter need at the top of every chart,Configuration,0,0,Configurable patient banner,"90,200 records missing language (Module 7)"
+R13,Hannah Dvorak,Clinics,AI assistant that drafts replies to patient portal messages,AI feature (add-on),15000,150000,Staff write replies,Clinic inboxes are overloaded
+R14,Kayla Brandt,IT,Training copy of the system with fake patients,Included,0,0,Vendor provides a training environment,Practice before go-live (Module 5)
+R15,Greg Oltmanns (CFO),Finance,Custom executive dashboard built from scratch,Custom build,70000,15000,"Standard reporting dashboards, configurable",Board wants monthly numbers
+R16,Dr. Megan Vosberg,Clinics,Keep the current telehealth platform linked to the new EHR,Custom build,55000,10000,Vendor's built-in video visits,Patients know the current app
