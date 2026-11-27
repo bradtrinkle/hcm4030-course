@@ -1,5 +1,5 @@
 KESTREL FALLS COMMUNITY HOSPITAL: ROLLOUT OPTIONS FOR THE NEW EHR
-(fictional, from Doug Thielen, CIO, and Marcus Schaefer, IT Architect; for the transition team)
+(fictional, from Doug Thielen, CIO, and Michele Schaefer, IT Architect; for the transition team)
 
 The hospital at a glance
 - About 300 beds, an emergency department (ED), operating rooms, 10 clinics, and a hospital-run ambulance service.
@@ -29,7 +29,7 @@ Option B: Phased by site (three waves)
 - Wave 2, Saturday, December 9, 2028: West Family Medicine, North Family Medicine, Riverside Pediatrics, Women's Health, Orthopedics and Sports Medicine.
 - Wave 3, Saturday, February 10, 2029: Heart and Vascular, Behavioral Health, Prairie Bend, Cedar Hollow.
 - Plexmoor must keep running for Wave 3 clinics into 2029, so the hospital must buy Extended Support ($3.3 million).
-- Between waves, clinics on Plexmoor and the hospital on the new EHR must share data. Marcus estimates 6 temporary interfaces (orders, results, appointments, referrals, medication lists, and documents), each about 6 weeks of build and testing for his team.
+- Between waves, clinics on Plexmoor and the hospital on the new EHR must share data. Michele estimates 6 temporary interfaces (orders, results, appointments, referrals, medication lists, and documents), each about 6 weeks of build and testing for her team.
 - Staff who work in both a clinic and the hospital (for example, orthopedic surgeons and heart doctors) would use two systems for up to four months.
 - Support: about 60 helpers per wave, three times.
 
