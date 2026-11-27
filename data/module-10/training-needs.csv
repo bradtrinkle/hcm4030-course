@@ -1,0 +1,14 @@
+Group,People,Shifts,Vendor-recommended classroom hours per person,Paid cost of one training hour (wages + benefits),On duty at the busiest daytime hour,On duty overnight (11 p.m. to 7 a.m.),Go-live support ratio (support people : users on duty),Notes
+Physicians (hospital and clinics),140,Days; call nights and weekends,8,$160,70,12,1:4,Many see clinic patients and operate or round in the hospital the same day
+Advanced practice providers (NPs and PAs),60,Days; some evenings,8,$80,35,6,1:4,
+"Registered nurses, inpatient",420,"Days, evenings, and nights (8- and 12-hour shifts); about 40% days, 30% evenings, 30% nights",12,$52,95,80,1:6,Evening nurses say every past training was at 9 a.m.
+"Registered nurses, clinics",80,Days,8,$52,70,0,1:6,10 clinics; the two rural clinics are 28 and 35 miles away
+Certified nursing assistants,210,"Days, evenings, and nights",6,$27,50,40,1:6,Vital signs on paper on 4 of 6 inpatient units today
+Paramedics and EMTs,48,24-hour shifts at 3 bases (Kestrel Falls; Prairie Bend; Cedar Hollow),6,$35,16,16,1:6,Can't pull a crew off the road for a class; chart offline on tablets
+Pharmacy (pharmacists and technicians),45,"Days, evenings, and nights",12,$75,14,4,1:6,
+Lab and imaging,110,Around the clock,8,$45,40,12,1:6,
+Registration and scheduling,120,"Days and evenings; ED registration at night",8,$30,70,8,1:6,
+Coding and billing,60,Days,16,$38,55,0,1:8,14 coders already about 6 days behind
+Unit clerks,40,"Days, evenings, and nights",6,$28,14,8,1:6,
+"Therapy, social work, and dietitians",70,Days,6,$48,55,0,1:6,
+Help desk,12,Around the clock,24,$45,4,2,(they are the support team),Must be trained first and deeper than everyone else
