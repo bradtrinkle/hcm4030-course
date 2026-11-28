@@ -176,7 +176,7 @@ ${body}
     $("#finishBox").innerHTML = `<div class="card done-card"><h2>${LABEL} complete!</h2>
       <p>Download your submission, then upload it to Canvas.</p>
       <p><button class="btn btn-red" id="dl2" type="button">Download my submission (.doc)</button></p>
-      ${REDO?`<p class="hint">You may redo this assignment up to 3 times, within 14 days after its grade posts (all redos by May 13). Your highest attempt counts.</p>`:`<p class="hint">The final has one attempt, so check every file before you submit.</p>`}
+      ${REDO?`<p class="hint">If you submitted this by its original due date, you may redo it <b>once</b>, within 14 days after its grade posts (and by May 13). Your higher score counts.</p>`:`<p class="hint">The final has one attempt, so check every file before you submit.</p>`}
       <p><button class="btn btn-ghost btn-sm" id="reset" type="button">Clear my saved answers on this device</button></p></div>`;
     $("#dl2").addEventListener("click",download);
     $("#reset").addEventListener("click",()=>{ if(confirm("This erases everything you typed in "+LABEL+" on this device. Continue?")){ Object.keys(localStorage).filter(k=>k.startsWith("hcm4030."+P)).forEach(k=>localStorage.removeItem(k)); location.reload(); }});
