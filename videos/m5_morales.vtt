@@ -1,0 +1,322 @@
+WEBVTT
+
+1
+00:00:01.157 --> 00:00:01.757
+Hello.
+
+2
+00:00:01.617 --> 00:00:06.306
+I'm Ana Morales, the revenue cycle manager at
+Kestrel Falls Community Hospital.
+
+3
+00:00:06.306 --> 00:00:09.407
+Laura Hemmingsen asked me to
+explain what my team does,
+
+4
+00:00:09.407 --> 00:00:13.553
+for people who don't work in finance, and
+what the new EHR means for us.
+
+5
+00:00:13.553 --> 00:00:14.153
+My world is claims.
+
+6
+00:00:13.553 --> 00:00:17.907
+Every visit, every procedure, every lab
+test turns into a charge,
+
+7
+00:00:17.907 --> 00:00:20.769
+the coders assign the codes, and we
+send the claim to the payer.
+
+8
+00:00:20.769 --> 00:00:23.966
+That's Medicare, Medicaid, and the
+commercial insurers.
+
+9
+00:00:23.966 --> 00:00:26.375
+Then we post the payments and
+follow up on denials.
+
+10
+00:00:26.375 --> 00:00:29.302
+If that chain breaks anywhere,
+the money stops.
+
+11
+00:00:29.302 --> 00:00:30.996
+And it doesn't stop for a day.
+
+12
+00:00:30.996 --> 00:00:35.303
+It stops for weeks, while we find the
+problem, fix it, and resend.
+
+13
+00:00:35.303 --> 00:00:37.749
+How big is that flow of money?
+
+14
+00:00:37.749 --> 00:00:41.276
+We bill more than thirty million dollars a month
+across the hospital, the clinics,
+
+15
+00:00:41.276 --> 00:00:42.438
+and the ambulance service.
+
+16
+00:00:42.438 --> 00:00:44.805
+That's what pays salaries and
+buys supplies.
+
+17
+00:00:44.805 --> 00:00:47.294
+So even a few weeks of delay is a lot of
+cash that isn't coming in.
+
+18
+00:00:47.294 --> 00:00:52.549
+My biggest concern is simple: claims stall and
+revenue drops right after go-live.
+
+19
+00:00:52.549 --> 00:00:55.860
+I've talked with revenue managers
+at other hospitals,
+
+20
+00:00:55.860 --> 00:00:58.421
+and many of them saw a cash dip
+after their EHR switch.
+
+21
+00:00:58.421 --> 00:00:59.673
+Some took months to recover.
+
+22
+00:00:59.673 --> 00:01:03.373
+The bills go out late, or they go
+out wrong and get denied,
+
+23
+00:01:03.373 --> 00:01:06.725
+and you're fixing the past while
+the present piles up.
+
+24
+00:01:06.725 --> 00:01:09.429
+The chain usually breaks in a few places.
+
+25
+00:01:09.429 --> 00:01:11.802
+Registration, if insurance information
+doesn't come over right.
+
+26
+00:01:11.802 --> 00:01:16.025
+Charges, if a department's services aren't
+built correctly in the new system,
+
+27
+00:01:16.025 --> 00:01:18.978
+so nothing drops to the bill.
+
+28
+00:01:18.978 --> 00:01:21.454
+Coding, if my coders are slow because
+they're learning new screens.
+
+29
+00:01:21.454 --> 00:01:25.952
+And the connection to the payers, if the
+claim format has an error.
+
+30
+00:01:25.952 --> 00:01:27.930
+Any one of those stops claims.
+
+31
+00:01:27.930 --> 00:01:28.530
+About my coders.
+
+32
+00:01:27.930 --> 00:01:32.577
+We have fourteen coders, and right now
+they're about six days behind.
+
+33
+00:01:32.577 --> 00:01:34.711
+That's before any change.
+
+34
+00:01:34.711 --> 00:01:38.346
+If they hit go-live already behind and
+then slow down while they learn,
+
+35
+00:01:38.346 --> 00:01:39.779
+the backlog grows fast.
+
+36
+00:01:39.779 --> 00:01:42.919
+I need them trained early, and I need the
+backlog down before we switch,
+
+37
+00:01:42.919 --> 00:01:47.916
+because their work depends on what
+the clinicians document.
+
+38
+00:01:47.916 --> 00:01:50.030
+If the doctors' notes change format,
+
+39
+00:01:50.030 --> 00:01:52.843
+my coders have to learn to find
+things in a new place.
+
+40
+00:01:52.843 --> 00:01:56.183
+What I need from the project is billing tested
+before go-live, from start to finish.
+
+41
+00:01:56.183 --> 00:02:02.266
+Not just "the screen loads." I mean: register
+a test patient, document a visit,
+
+42
+00:02:02.266 --> 00:02:05.334
+code it, build the claim, and send
+it to a test payer,
+
+43
+00:02:05.334 --> 00:02:06.882
+for every major payer we work with.
+
+44
+00:02:06.882 --> 00:02:10.585
+If one payer rejects it, we
+find out in testing,
+
+45
+00:02:10.585 --> 00:02:14.416
+not in December when the money
+doesn't come in.
+
+46
+00:02:14.416 --> 00:02:16.451
+I also need something from
+leadership, not just IT.
+
+47
+00:02:16.451 --> 00:02:17.669
+A cash plan.
+
+48
+00:02:17.669 --> 00:02:20.673
+I'd like Greg and the board to
+agree, before go-live,
+
+49
+00:02:20.673 --> 00:02:21.757
+on how we cover a slow few months.
+
+50
+00:02:21.757 --> 00:02:25.359
+Maybe a line of credit, maybe
+timing of big purchases.
+
+51
+00:02:25.359 --> 00:02:29.140
+And I want daily claims numbers for
+the first ninety days,
+
+52
+00:02:29.140 --> 00:02:31.197
+so we see a problem in days,
+not at month end.
+
+53
+00:02:31.197 --> 00:02:33.050
+So where do I stand overall?
+
+54
+00:02:33.050 --> 00:02:34.928
+I'm cautious, not against it.
+
+55
+00:02:34.928 --> 00:02:38.878
+Plexmoor isn't an option much
+longer, I understand that.
+
+56
+00:02:38.878 --> 00:02:43.358
+I just want our finance people treated as
+part of the clinical system,
+
+57
+00:02:43.358 --> 00:02:43.958
+because we are.
+
+58
+00:02:43.358 --> 00:02:46.161
+If we're in the room from the start,
+
+59
+00:02:46.161 --> 00:02:48.609
+I think we can do this without the
+hospital feeling it.
+
+60
+00:02:48.609 --> 00:02:52.896
+The areas I'm especially worried about are the
+ambulance billing and the clinics.
+
+61
+00:02:52.896 --> 00:02:54.983
+Ambulance claims have their own rules,
+
+62
+00:02:54.983 --> 00:02:57.118
+and the clinics bill differently
+from the hospital.
+
+63
+00:02:57.118 --> 00:03:01.581
+Those are the places where a small build mistake
+can stop a whole stream of claims
+
+64
+00:03:01.581 --> 00:03:02.786
+and nobody notices for weeks.
+
+65
+00:03:02.786 --> 00:03:04.639
+I'd want those tested twice.
+
+66
+00:03:04.639 --> 00:03:09.320
+And on my team, my senior coder and my billing
+supervisor should be involved in the
+
+67
+00:03:09.320 --> 00:03:11.617
+build, at least half time, starting early.
+
+68
+00:03:11.617 --> 00:03:13.441
+They know where the problems hide.
+
+69
+00:03:13.441 --> 00:03:18.160
+If they're only brought in at testing, it's
+too late to fix the design cheaply.
+

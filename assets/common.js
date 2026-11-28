@@ -102,7 +102,12 @@ window.KestrelQC=(function(){
   }catch(e){}
   window.videoHtml = function(url, title){
     const u = String(url).replace(/&/g,"&amp;").replace(/"/g,"&quot;");
-    if(/\.mp4(\?|$)/i.test(url)) return `<video controls playsinline preload="metadata" title="${title}"><source src="${u}" type="video/mp4">Your browser cannot play this video. Use the transcript button below instead.</video>`;
+    if(/\.mp4(\?|$)/i.test(url)){
+      // Cast and welcome videos have a captions file next to them (same name, .vtt). Lecture videos have captions built into the picture.
+      const m = String(url).match(/^videos\/([\w-]+)\.mp4$/); let tr = "";
+      if(m && !/^lecture-/.test(m[1])) tr = `<track kind="captions" src="videos/${m[1]}.vtt" srclang="en" label="English"${/^m5_/.test(m[1]) ? "" : " default"}>`;
+      return `<video controls playsinline preload="metadata" title="${title}"><source src="${u}" type="video/mp4">${tr}Your browser cannot play this video. Use the transcript instead.</video>`;
+    }
     return `<iframe src="${u}" title="${title}" allowfullscreen></iframe>`;
   };
   window.toast = function(msg){

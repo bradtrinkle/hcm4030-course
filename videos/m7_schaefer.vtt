@@ -1,0 +1,194 @@
+WEBVTT
+
+1
+00:00:01.136 --> 00:00:02.736
+Hi, I'm Michele Schaefer.
+
+2
+00:00:02.736 --> 00:00:06.134
+I'm the IT architect at Kestrel
+Falls Community Hospital.
+
+3
+00:00:06.134 --> 00:00:10.922
+I look after imaging, the ambulance
+connections, and the third-party interfaces,
+
+4
+00:00:10.922 --> 00:00:13.864
+all the places where Plexmoor
+talks to another system.
+
+5
+00:00:13.864 --> 00:00:18.154
+Sarah Wendt from Health Information Management
+and I built the workbook you're
+
+6
+00:00:18.154 --> 00:00:19.598
+about to open, so let me walk
+you through it.
+
+7
+00:00:19.598 --> 00:00:21.173
+Start with the Read me sheet.
+
+8
+00:00:21.173 --> 00:00:23.796
+It explains every sheet and every column.
+
+9
+00:00:23.796 --> 00:00:25.686
+Then there are four data sheets.
+
+10
+00:00:25.686 --> 00:00:30.894
+Interfaces lists all thirty-eight connections
+between Plexmoor and other systems.
+
+11
+00:00:30.894 --> 00:00:33.917
+For each one you'll see which
+way the data flows,
+
+12
+00:00:33.917 --> 00:00:36.265
+about how many messages it sends a day,
+
+13
+00:00:36.265 --> 00:00:40.807
+how many messages failed in the last ninety
+days and needed a person to fix them,
+
+14
+00:00:40.807 --> 00:00:43.436
+who owns it, and whether we'd rebuild it
+or retire it with the new EHR.
+
+15
+00:00:43.436 --> 00:00:49.721
+Data quality shows checks Sarah's team ran in
+January on our patient records.
+
+16
+00:00:49.721 --> 00:00:52.498
+Things like duplicates and
+missing information,
+
+17
+00:00:52.498 --> 00:00:56.788
+and what happens if we move those
+records as they are.
+
+18
+00:00:56.788 --> 00:01:00.896
+Monthly trends covers the last twelve months:
+help desk tickets, interface errors,
+
+19
+00:01:00.896 --> 00:01:03.605
+unplanned downtime, and
+workaround reports.
+
+20
+00:01:03.605 --> 00:01:06.929
+A workaround is when staff do
+something outside the system,
+
+21
+00:01:06.929 --> 00:01:08.303
+like writing vital signs on paper.
+
+22
+00:01:08.303 --> 00:01:13.453
+And Workflows is what my team saw on
+walk-throughs of units and clinics: how the
+
+23
+00:01:13.453 --> 00:01:16.510
+work really gets done, and how
+much it bothers people.
+
+24
+00:01:16.510 --> 00:01:18.191
+Now, my worry.
+
+25
+00:01:18.191 --> 00:01:19.872
+Interfaces break at go-live.
+
+26
+00:01:19.872 --> 00:01:23.618
+And when an interface fails, nobody gets a
+big red error on their screen.
+
+27
+00:01:23.618 --> 00:01:26.261
+A lab result just doesn't show up.
+
+28
+00:01:26.261 --> 00:01:28.254
+An image doesn't land in the chart.
+
+29
+00:01:28.254 --> 00:01:32.041
+Somebody notices hours later, if
+they notice at all.
+
+30
+00:01:32.041 --> 00:01:34.866
+The other thing I've learned is
+that bad data moves.
+
+31
+00:01:34.866 --> 00:01:40.667
+If a record is a duplicate in Plexmoor, it'll be
+a duplicate in the new system too,
+
+32
+00:01:40.667 --> 00:01:42.490
+unless somebody cleans it up first.
+
+33
+00:01:42.490 --> 00:01:44.256
+So here's what I'm asking for.
+
+34
+00:01:44.256 --> 00:01:45.767
+An honest map.
+
+35
+00:01:45.767 --> 00:01:48.562
+Don't make our current state look
+prettier than it is,
+
+36
+00:01:48.562 --> 00:01:50.420
+and don't make it look scarier either.
+
+37
+00:01:50.420 --> 00:01:51.803
+Use the numbers.
+
+38
+00:01:51.803 --> 00:01:53.631
+And when you put a number on a chart,
+
+39
+00:01:53.631 --> 00:01:56.868
+tell Laura what it means for
+patients and for the project.
+
+40
+00:01:56.868 --> 00:01:59.132
+All of this data is fictional, by the way,
+
+41
+00:01:59.132 --> 00:02:04.249
+but it's built to look like what a
+hospital our size would really find.
+
+42
+00:02:04.249 --> 00:02:05.160
+Treat it like it's real.
+
