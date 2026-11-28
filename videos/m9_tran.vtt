@@ -1,0 +1,156 @@
+WEBVTT
+
+1
+00:00:01.072 --> 00:00:05.813
+I'm Kevin Tran, Chief Information Security
+Officer at Kestrel Falls Community
+
+2
+00:00:05.813 --> 00:00:06.413
+Hospital.
+
+3
+00:00:05.813 --> 00:00:07.555
+My memo is in your files.
+
+4
+00:00:07.555 --> 00:00:08.909
+Here's the short version.
+
+5
+00:00:08.909 --> 00:00:13.094
+The move to a new EHR is the most
+dangerous time for a cyberattack.
+
+6
+00:00:13.094 --> 00:00:14.760
+Five risks worry me.
+
+7
+00:00:14.760 --> 00:00:15.360
+One.
+
+8
+00:00:14.760 --> 00:00:17.575
+Shared administrator logins.
+
+9
+00:00:17.575 --> 00:00:21.398
+Plexmoor still has twelve administrator
+accounts shared by several people.
+
+10
+00:00:21.398 --> 00:00:24.907
+If one is misused, we can't
+tell who did it.
+
+11
+00:00:24.907 --> 00:00:25.507
+Two.
+
+12
+00:00:24.907 --> 00:00:26.638
+Vendor remote access.
+
+13
+00:00:26.638 --> 00:00:30.509
+About one hundred forty vendor and contractor
+accounts can reach our network,
+
+14
+00:00:30.509 --> 00:00:34.520
+up from one hundred eighteen in October.
+
+15
+00:00:34.520 --> 00:00:39.238
+The new vendor will add more, and we have no
+single list of who can reach what.
+
+16
+00:00:39.238 --> 00:00:40.586
+Three.
+
+17
+00:00:40.586 --> 00:00:41.186
+Phishing.
+
+18
+00:00:41.051 --> 00:00:45.023
+In our January test, nine percent of
+staff clicked the fake link.
+
+19
+00:00:45.023 --> 00:00:50.173
+Attackers like big changes, when people expect
+strange emails about new logins.
+
+20
+00:00:50.173 --> 00:00:51.467
+Four.
+
+21
+00:00:51.467 --> 00:00:52.067
+Data in motion.
+
+22
+00:00:51.467 --> 00:00:56.633
+During migration, copies of patient
+records sit in test systems,
+
+23
+00:00:56.633 --> 00:00:58.473
+and test systems usually have
+weaker protection.
+
+24
+00:00:58.473 --> 00:00:59.073
+Five.
+
+25
+00:00:58.473 --> 00:01:00.082
+Ransomware.
+
+26
+00:01:00.082 --> 00:01:04.805
+If someone locks our systems near go-live, we
+could be on paper for days or weeks.
+
+27
+00:01:04.805 --> 00:01:06.705
+We last practiced our downtime
+procedures in 2025.
+
+28
+00:01:06.705 --> 00:01:11.828
+For scale, IBM's 2025 Cost of a Data Breach
+report puts the average healthcare
+
+29
+00:01:11.828 --> 00:01:14.746
+breach at seven point four two
+million dollars.
+
+30
+00:01:14.746 --> 00:01:17.832
+What I need: a named account for
+every administrator,
+
+31
+00:01:17.832 --> 00:01:21.717
+monthly vendor access reviews, phishing
+training timed to go-live,
+
+32
+00:01:21.717 --> 00:01:26.163
+test systems protected like the real one, and
+a downtime drill before go-live.
+
+33
+00:01:26.163 --> 00:01:27.657
+I support this project.
+
+34
+00:01:27.657 --> 00:01:30.840
+I just want us to get there
+without a breach.
+

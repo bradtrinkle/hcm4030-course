@@ -1,0 +1,387 @@
+WEBVTT
+
+1
+00:00:01.149 --> 00:00:03.940
+Hello, and welcome to Healthcare
+Information Systems.
+
+2
+00:00:03.940 --> 00:00:05.439
+I'm Dr.
+
+3
+00:00:05.439 --> 00:00:07.412
+Brad Trinkle, and I'll be your
+instructor this semester.
+
+4
+00:00:07.412 --> 00:00:11.847
+This course is about the decisions healthcare
+leaders make about information
+
+5
+00:00:11.847 --> 00:00:13.068
+systems.
+
+6
+00:00:13.068 --> 00:00:18.239
+The technical background you need is what you
+learned in your prerequisite MIS
+
+7
+00:00:18.239 --> 00:00:18.839
+course, MIS 3010.
+
+8
+00:00:18.239 --> 00:00:22.953
+You will learn how information systems
+support patient care and hospital
+
+9
+00:00:22.953 --> 00:00:26.123
+operations, and how to lead people
+through a major system change.
+
+10
+00:00:26.123 --> 00:00:29.586
+You will also learn to use AI the way a
+healthcare leader should: to work faster
+
+11
+00:00:29.586 --> 00:00:34.831
+and think more clearly, while you check what
+it gives you and keep the judgment
+
+12
+00:00:34.831 --> 00:00:36.542
+calls your own.
+
+13
+00:00:36.542 --> 00:00:37.974
+Here is how the course works.
+
+14
+00:00:37.974 --> 00:00:42.598
+It is online and asynchronous, so there
+are no live class meetings.
+
+15
+00:00:42.598 --> 00:00:44.034
+The whole course is one story.
+
+16
+00:00:44.034 --> 00:00:48.542
+You are the new Assistant to the Chief of
+Staff at Kestrel Falls Community
+
+17
+00:00:48.542 --> 00:00:52.064
+Hospital, or KFCH, a fictional
+community hospital in Iowa.
+
+18
+00:00:52.064 --> 00:00:56.874
+KFCH has just learned that the company behind
+its electronic health record will
+
+19
+00:00:56.874 --> 00:00:59.830
+stop supporting it in about two years.
+
+20
+00:00:59.830 --> 00:01:01.435
+Your mentor, Laura Hemmingsen,
+the Chief of Staff,
+
+21
+00:01:01.435 --> 00:01:06.441
+brings you onto the team that will choose a
+new EHR and plan the switch.
+
+22
+00:01:06.441 --> 00:01:10.191
+Along the way you will hear from doctors,
+nurses, IT staff, patients, and families,
+
+23
+00:01:10.191 --> 00:01:13.640
+each with their own worries
+about the change.
+
+24
+00:01:13.640 --> 00:01:18.346
+At the end of the semester, you present your
+recommendation to the KFCH board.
+
+25
+00:01:18.346 --> 00:01:19.682
+A quick note about the videos.
+
+26
+00:01:19.682 --> 00:01:23.547
+The weekly lectures are presented by an
+AI-generated avatar of me,
+
+27
+00:01:23.547 --> 00:01:26.512
+and the KFCH people you interview are
+AI-generated avatars too.
+
+28
+00:01:26.512 --> 00:01:28.177
+Every one of them is labeled.
+
+29
+00:01:28.177 --> 00:01:31.564
+I developed the course with the
+assistance of my AI team,
+
+30
+00:01:31.564 --> 00:01:36.257
+and the real-world facts in each lecture come
+from the sources listed in its
+
+31
+00:01:36.257 --> 00:01:37.459
+transcript.
+
+32
+00:01:37.459 --> 00:01:40.107
+Each module follows the same eight
+steps: the problem lands,
+
+33
+00:01:40.107 --> 00:01:44.717
+you learn from a video lecture, you make
+your own first call without AI,
+
+34
+00:01:44.717 --> 00:01:47.138
+you practice with Copilot, you
+build the deliverable,
+
+35
+00:01:47.138 --> 00:01:50.493
+you get feedback from your AI
+coach and revise,
+
+36
+00:01:50.493 --> 00:01:56.474
+you work through an ethics exercise, and
+you write a short reflection.
+
+37
+00:01:56.474 --> 00:01:59.191
+Most modules take one week; Modules
+4, 5, and 12 take two.
+
+38
+00:01:59.191 --> 00:02:01.886
+Expect about six hours of work a week.
+
+39
+00:02:01.886 --> 00:02:05.651
+AI is part of the course, about a
+fifth of the hands-on work,
+
+40
+00:02:05.651 --> 00:02:08.566
+but the focus is your judgment as
+a healthcare leader.
+
+41
+00:02:08.566 --> 00:02:12.688
+For AI, you use Microsoft Copilot through a
+Microsoft 365 Personal plan,
+
+42
+00:02:12.688 --> 00:02:16.262
+which Microsoft discounts for
+college students.
+
+43
+00:02:16.262 --> 00:02:20.058
+You set it up, along with your AI coach,
+in the Start Here module.
+
+44
+00:02:20.058 --> 00:02:23.602
+Please read the Course Technology page
+before the semester starts.
+
+45
+00:02:23.602 --> 00:02:28.190
+The step-by-step walkthroughs, data files, and
+videos are on the course website.
+
+46
+00:02:28.190 --> 00:02:31.978
+You will find the link on each module's
+overview page in Canvas.
+
+47
+00:02:31.978 --> 00:02:35.434
+When you finish a module, the website
+builds your Word document,
+
+48
+00:02:35.434 --> 00:02:37.272
+and you upload it in Canvas.
+
+49
+00:02:37.272 --> 00:02:39.056
+There is no final exam.
+
+50
+00:02:39.056 --> 00:02:43.656
+In the final week, you record your board
+presentation in Canvas Studio instead.
+
+51
+00:02:43.656 --> 00:02:45.405
+One important thing about the website.
+
+52
+00:02:45.405 --> 00:02:49.401
+Use Google Chrome or Microsoft Edge on a
+computer for this course.
+
+53
+00:02:49.401 --> 00:02:52.019
+What you type on the website is
+kept in that browser,
+
+54
+00:02:52.019 --> 00:02:53.996
+so the first time you open a module,
+
+55
+00:02:53.996 --> 00:02:59.810
+click the button at the bottom left of the page
+that says Turn on automatic saving.
+
+56
+00:02:59.810 --> 00:03:02.963
+Pick a folder you will not
+delete, and click Save.
+
+57
+00:03:02.963 --> 00:03:04.112
+At the top of every module page,
+
+58
+00:03:04.112 --> 00:03:09.409
+a bar must say Auto-save is ON in green
+each time you sit down to work.
+
+59
+00:03:09.409 --> 00:03:13.495
+If it is red, click the button on the bar
+to fix it before you start.
+
+60
+00:03:13.495 --> 00:03:17.379
+Do not clear your browser data until you
+have uploaded your Word file.
+
+61
+00:03:17.379 --> 00:03:18.957
+Now, deadlines.
+
+62
+00:03:18.957 --> 00:03:22.686
+Module work is due at 11:59 pm Central on
+the Sunday after the module ends.
+
+63
+00:03:22.686 --> 00:03:25.971
+The final board presentation is
+due Thursday, May 13.
+
+64
+00:03:25.971 --> 00:03:28.833
+Late work is not accepted, so
+please plan ahead.
+
+65
+00:03:28.833 --> 00:03:32.269
+You are welcome to work ahead of schedule.
+
+66
+00:03:32.269 --> 00:03:36.286
+If you want to raise a grade, you may redo any
+assignment you turned in on time,
+
+67
+00:03:36.286 --> 00:03:38.486
+up to three times.
+
+68
+00:03:38.486 --> 00:03:39.703
+A word about AI and your grades.
+
+69
+00:03:39.703 --> 00:03:42.355
+To be transparent, your work is
+graded with AI assistance.
+
+70
+00:03:42.355 --> 00:03:48.163
+It is done by a system my AI team and I
+designed that grades against the rubric,
+
+71
+00:03:48.163 --> 00:03:50.324
+and I review the results.
+
+72
+00:03:50.324 --> 00:03:50.924
+The AI never posts grades.
+
+73
+00:03:50.324 --> 00:03:52.765
+If you ever want to discuss a
+grade, just ask.
+
+74
+00:03:52.765 --> 00:03:55.866
+Ethics runs through every module.
+
+75
+00:03:55.866 --> 00:04:00.665
+We use the American College of Healthcare
+Executives Code of Ethics.
+
+76
+00:04:00.665 --> 00:04:05.436
+Everything in this course is fictional, and
+you should never put real patient,
+
+77
+00:04:05.436 --> 00:04:08.184
+employee, or organization
+information into an AI tool.
+
+78
+00:04:08.184 --> 00:04:11.889
+If you have questions, email me at
+trinkle at iastate dot edu.
+
+79
+00:04:11.889 --> 00:04:15.881
+My student hours are Tuesdays from 9:30 to
+10:30 in the morning, online,
+
+80
+00:04:15.881 --> 00:04:18.464
+and the link is in the syllabus.
+
+81
+00:04:18.464 --> 00:04:22.626
+To get started, open the Start Here
+module, and then Module 1.
+
+82
+00:04:22.626 --> 00:04:25.400
+I am looking forward to working with you.
+
