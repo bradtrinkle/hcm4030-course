@@ -137,3 +137,9 @@ body{padding-bottom:56px}
 .bk-bar .bk-bar-txt{flex:1 1 280px}
 .bk-modal{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:9998;display:flex;align-items:center;justify-content:center;padding:16px}
 .bk-modal-box{background:#fff;color:#222;border-radius:16px;max-width:520px;width:100%;padding:22px 24px;border:3px solid var(--cardinal)}
+
+/* AI rule line under each step heading */
+.ai-rule{border-radius:10px;padding:8px 12px;margin:0 0 14px;font-size:15px}
+.ai-rule.no{background:#FBE9EC;border-left:6px solid var(--cardinal)}
+.ai-rule.yes{background:var(--gold-soft);border-left:6px solid var(--gold)}
+.btn-note{font-size:14px;color:#555;margin:6px 0 0}

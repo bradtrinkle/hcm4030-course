@@ -114,6 +114,7 @@
     const out = [], by = {};
     $$("[data-doc]").forEach(el=>{
       if(onlyCoach && !el.hasAttribute("data-coach")) return;
+      if(onlyCoach && el.type!=="checkbox" && !el.value.trim()) return; // leave blank answers out of the coach copy
       const s = el.dataset.doc;
       if(!by[s]){ by[s] = {title:s, items:[], rows:{}, cols:[], rowOrder:[]}; out.push(by[s]); }
       const v = el.type==="checkbox" ? (el.checked?"Yes":"No") : el.value.trim();
